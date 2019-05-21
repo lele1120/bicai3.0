@@ -1,0 +1,1 @@
+# BICAI_API_Manager3_Autotest
