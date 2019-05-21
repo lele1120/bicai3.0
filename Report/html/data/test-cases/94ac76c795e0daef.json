@@ -1,0 +1,283 @@
+{
+  "uid" : "94ac76c795e0daef",
+  "name" : "test_admin.test_post_dept_22",
+  "fullName" : "TestCase.test_admin.test_post_dept_22",
+  "historyId" : "701a193ed98de2a639a9ae5fbdf89d5d",
+  "time" : {
+    "start" : 1558403285270,
+    "stop" : 1558403285934,
+    "duration" : 664
+  },
+  "description" : "\n    添加新部门\n    :param login:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>添加新部门\n:param login:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加部门",
+      "time" : {
+        "start" : 1558403285271,
+        "stop" : 1558403285838,
+        "duration" : 567
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "请求内容",
+        "time" : {
+          "start" : 1558403285293,
+          "stop" : 1558403285838,
+          "duration" : 545
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "method:POST",
+          "time" : {
+            "start" : 1558403285294,
+            "stop" : 1558403285294,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "url:http://gateway.bicai365.com/admin/dept",
+          "time" : {
+            "start" : 1558403285294,
+            "stop" : 1558403285294,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "headers:{\"authorization\": \"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoibWFkZSBieSBiaWNhaSIsInVzZXJfbmFtZSI6ImFkbWluIiwic2NvcGUiOlsic2VydmVyIl0sImV4cCI6MTU1ODQ0NjMyOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJqdGkiOiIxYjJjYzljMi0wZGFkLTRhYjgtODdiZC0zZTE5MTU5ZjYzODMiLCJjbGllbnRfaWQiOiJiaWNhaSJ9.e_z5XuWeMSGGEn2xuZmFmc9HGiroJmAooCxW2KSXeWA\", \"origin\": \"http://manager.bicai365.com\", \"user-agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36\", \"content-type\": \"application/json\", \"accept\": \"*/*\"}",
+          "time" : {
+            "start" : 1558403285505,
+            "stop" : 1558403285505,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "payload:{'parentId': 4, 'name': '自动化测试', 'code': 'auto_test', 'orderNum': '1'}",
+          "time" : {
+            "start" : 1558403285505,
+            "stop" : 1558403285838,
+            "duration" : 333
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "响应报文:",
+        "time" : {
+          "start" : 1558403285838,
+          "stop" : 1558403285838,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "act_results:{\"success\":true}",
+          "time" : {
+            "start" : 1558403285838,
+            "stop" : 1558403285838,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "断言success对比",
+      "time" : {
+        "start" : 1558403285838,
+        "stop" : 1558403285862,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "预期结果:True与实际结果True做对比",
+        "time" : {
+          "start" : 1558403285862,
+          "stop" : 1558403285862,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "删除角色后查询数据库,断言是否查询出数据，是否del——flag为:0",
+      "time" : {
+        "start" : 1558403285862,
+        "stop" : 1558403285934,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "预期结果:auto_test与实际结果auto_test做对比",
+        "time" : {
+          "start" : 1558403285915,
+          "stop" : 1558403285915,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "预期结果:0与实际结果0做对比",
+        "time" : {
+          "start" : 1558403285934,
+          "stop" : 1558403285934,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c52ccbd61041338c",
+      "name" : "Captured stdout setup",
+      "source" : "c52ccbd61041338c.txt",
+      "type" : "text/plain",
+      "size" : 108
+    }, {
+      "uid" : "af52ca4fc7eae198",
+      "name" : "Captured log call",
+      "source" : "af52ca4fc7eae198.txt",
+      "type" : "text/plain",
+      "size" : 1701
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Admin_Dept"
+  }, {
+    "name" : "feature",
+    "value" : "添加部门"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "xuchendeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "2510-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_admin.test_post_dept_22"
+  }, {
+    "name" : "package",
+    "value" : "TestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94ac76c795e0daef.json",
+  "parameterValues" : [ ]
+}

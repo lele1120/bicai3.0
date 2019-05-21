@@ -1,0 +1,238 @@
+{
+  "uid" : "b25bdaf346e31acb",
+  "name" : "test_admin.test_get_admin_menu_all_tree_09",
+  "fullName" : "TestCase.test_admin.test_get_admin_menu_all_tree_09",
+  "historyId" : "5aaa6cb6e91573caebe3f2914a49ba61",
+  "time" : {
+    "start" : 1558403277287,
+    "stop" : 1558403277900,
+    "duration" : 613
+  },
+  "description" : "\n    获取查看菜单\n    :param login:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>获取查看菜单\n:param login:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取查看菜单树",
+      "time" : {
+        "start" : 1558403277288,
+        "stop" : 1558403277886,
+        "duration" : 598
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "请求内容",
+        "time" : {
+          "start" : 1558403277299,
+          "stop" : 1558403277884,
+          "duration" : 585
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "method:GET",
+          "time" : {
+            "start" : 1558403277299,
+            "stop" : 1558403277299,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "url:http://gateway.bicai365.com/admin/menu/allTree",
+          "time" : {
+            "start" : 1558403277299,
+            "stop" : 1558403277299,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "headers:{'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoibWFkZSBieSBiaWNhaSIsInVzZXJfbmFtZSI6ImFkbWluIiwic2NvcGUiOlsic2VydmVyIl0sImV4cCI6MTU1ODQ0NjMyOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJqdGkiOiIxYjJjYzljMi0wZGFkLTRhYjgtODdiZC0zZTE5MTU5ZjYzODMiLCJjbGllbnRfaWQiOiJiaWNhaSJ9.e_z5XuWeMSGGEn2xuZmFmc9HGiroJmAooCxW2KSXeWA', 'origin': 'http://manager.bicai365.com', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36', 'content-type': 'application/json', 'accept': '*/*'}",
+          "time" : {
+            "start" : 1558403277529,
+            "stop" : 1558403277529,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "payload为空",
+          "time" : {
+            "start" : 1558403277529,
+            "stop" : 1558403277884,
+            "duration" : 355
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "响应报文:",
+        "time" : {
+          "start" : 1558403277885,
+          "stop" : 1558403277885,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "act_results:{\"data\":[{\"id\":1,\"parentId\":-1,\"children\":[{\"id\":2,\"parentId\":1,\"children\":[{\"id\":21,\"parentId\":2,\"children\":[],\"name\":\"test123\",\"url\":\"/admin/user/**\",\"code\":\"\",\"label\":\"test123\"},{\"id\":22,\"parentId\":2,\"children\":[],\"name\":\"用户新增\",\"url\":\"/admin/user/*\",\"code\":\"sys_user_add\",\"label\":\"用户新增\"},{\"id\":23,\"parentId\":2,\"children\":[],\"name\":\"用户修改\",\"url\":\"/admin/user/**\",\"code\":\"sys_user_upd\",\"label\":\"用户修改\"},{\"id\":24,\"parentId\":2,\"children\":[],\"name\":\"用户删除\",\"url\":\"/admin/user/*\",\"code\":\"sys_user_del\",\"label\":\"用户删除\"}],\"icon\":\"icon-yonghuguanli\",\"name\":\"用户管理\",\"path\":\"/admin/user\",\"label\":\"用户管理\"},{\"id\":3,\"parentId\":1,\"children\":[{\"id\":31,\"parentId\":3,\"children\":[],\"name\":\"菜单查看\",\"url\":\"/admin/menu/**\",\"label\":\"菜单查看\"},{\"id\":32,\"parentId\":3,\"children\":[],\"name\":\"菜单新增\",\"url\":\"/admin/menu/*\",\"code\":\"sys_menu_add\",\"label\":\"菜单新增\"},{\"id\":33,\"parentId\":3,\"children\":[],\"name\":\"菜单修改\",\"url\":\"/admin/menu/*\",\"code\":\"sys_menu_edit\",\"label\":\"菜单修改\"},{\"id\":34,\"parentId\":3,\"children\":[],\"name\":\"菜单删除\",\"url\":\"/admin/menu/*\",\"code\":\"sys_menu_del\",\"label\":\"菜单删除\"}],\"icon\":\"icon-caidanguanli\",\"name\":\"菜单管理\",\"path\":\"/admin/menu\",\"label\":\"菜单管理\"},{\"id\":4,\"parentId\":1,\"children\":[{\"id\":41,\"parentId\":4,\"children\":[],\"name\":\"角色查看\",\"url\":\"/admin/role/**\",\"label\":\"角色查看\"},{\"id\":42,\"parentId\":4,\"children\":[],\"name\":\"角色新增\",\"url\":\"/admin/role/*\",\"code\":\"sys_role_add\",\"label\":\"角色新增\"},{\"id\":43,\"parentId\":4,\"children\":[],\"name\":\"角色修改\",\"url\":\"/admin/role/*\",\"code\":\"sys_role_edit\",\"label\":\"角色修改\"},{\"id\":44,\"parentId\":4,\"children\":[],\"name\":\"角色删除\",\"url\":\"/admin/role/*\",\"code\":\"sys_role_del\",\"label\":\"角色删除\"},{\"id\":45,\"parentId\":4,\"children\":[],\"name\":\"分配权限\",\"url\":\"/admin/role/*\",\"code\":\"sys_role_perm\",\"label\":\"分配权限\"}],\"icon\":\"icon-jiaoseguanli\",\"name\":\"角色管理\",\"path\":\"/admin/role\",\"label\":\"角色管理\"},{\"id\":7,\"parentId\":1,\"children\":[{\"id\":71,\"parentId\":7,\"children\":[],\"name\":\"部门查看\",\"url\":\"/admin/dept/**\",\"code\":\"\",\"label\":\"部门查看\"},{\"id\":72,\"parentId\":7,\"children\":[],\"name\":\"部门新增\",\"url\":\"/admin/dept/**\",\"code\":\"sys_dept_add\",\"label\":\"部门新增\"},{\"id\":73,\"parentId\":7,\"children\":[],\"name\":\"部门修改\",\"url\":\"/admin/dept/**\",\"code\":\"sys_dept_edit\",\"label\":\"部门修改\"},{\"id\":74,\"parentId\":7,\"children\":[],\"name\":\"部门删除\",\"url\":\"/admin/dept/**\",\"code\":\"sys_dept_del\",\"label\":\"部门删除\"}],\"icon\":\"icon-iconbmgl\",\"name\":\"部门管理\",\"path\":\"/admin/department\",\"label\":\"部门管理\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"系统管理\",\"path\":\"/admin\",\"label\":\"系统管理\"},{\"id\":140,\"parentId\":-1,\"children\":[{\"id\":150,\"parentId\":140,\"children\":[{\"id\":151,\"parentId\":150,\"children\":[],\"name\":\"列表导出\",\"url\":\"/channel/exportExcel/v1.0/exportUserAccountInfo\",\"path\":\"\",\"code\":\"export_user_account\",\"label\":\"列表导出\"},{\"id\":152,\"parentId\":150,\"children\":[],\"name\":\"银行下拉框初始化\",\"url\":\"/channel/userPurchase/v1.0/findAllOrgList\",\"path\":\"\",\"code\":\"user_account_org_list\",\"label\":\"银行下拉框初始化\"}],\"icon\":\"credit-card\",\"name\":\"开户管理\",\"url\":\"/channel/openAccountManager/v1.0/getUserAccountInfo\",\"path\":\"/channel/opening\",\"code\":\"user_account_list\",\"label\":\"开户管理\"},{\"id\":153,\"parentId\":140,\"children\":[{\"id\":154,\"parentId\":153,\"children\":[],\"name\":\"列表导出\",\"url\":\"/channel/exportExcel/v1.0/exportUserPurchaseInfo\",\"path\":\"\",\"code\":\"export_user_purchase\",\"label\":\"列表导出\"},{\"id\":155,\"parentId\":153,\"children\":[],\"name\":\"银行下拉框初始化\",\"url\":\"/channel/userPurchase/v1.0/findAllOrgList\",\"path\":\"\",\"code\":\"user_purchase_org_list\",\"label\":\"银行下拉框初始化\"},{\"id\":156,\"parentId\":153,\"children\":[],\"name\":\"产品下拉框初始化\",\"url\":\"/channel/userPurchase/v1.0/findPrdInfoByAppIdList\",\"path\":\"\",\"code\":\"user_purchase_prd_list\",\"label\":\"产品下拉框初始化\"},{\"id\":157,\"parentId\":153,\"children\":[],\"name\":\"渠道方式加载\",\"url\":\"/channel/homePage/v1.0/getChannel\",\"path\":\"\",\"code\":\"channelType_info\",\"label\":\"渠道方式加载\"},{\"id\":220,\"parentId\":153,\"children\":[],\"name\":\"获取用户权限\",\"url\":\"/channel/homePage/v1.0/getChannel\",\"path\":\"\",\"code\":\"user_channel\",\"label\":\"获取用户权限\"}],\"icon\":\"money\",\"name\":\"交易管理\",\"url\":\"/channel/userPurchase/v1.0/getUserPurchaseInfo\",\"path\":\"/channel/transaction\",\"label\":\"交易管理\"},{\"id\":158,\"parentId\":140,\"children\":[{\"id\":159,\"parentId\":158,\"children\":[],\"name\":\"开户统计\",\"url\":\"/channel/homePage/v1.0/getOpenAccountNum\",\"path\":\"\",\"code\":\"account_num\",\"label\":\"开户统计\"},{\"id\":160,\"parentId\":158,\"children\":[],\"name\":\"交易统计\",\"url\":\"/channel/homePage/v1.0/getPurchaseNum\",\"path\":\"\",\"code\":\"purchase_num\",\"label\":\"交易统计\"},{\"id\":161,\"parentId\":158,\"children\":[],\"name\":\"时间段统计\",\"url\":\"/channel/homePage/v1.0/getOpenAccountStatisticByDate\",\"path\":\"\",\"code\":\"account_statistic_date\",\"label\":\"时间段统计\"}],\"icon\":\"home\",\"name\":\"首页\",\"url\":\"\",\"path\":\"/channel/index\",\"code\":\"channe_index\",\"label\":\"首页\"},{\"id\":221,\"parentId\":140,\"children\":[{\"id\":223,\"parentId\":221,\"children\":[],\"name\":\"列表导出\",\"url\":\"/channel/exportExcel/v1.0/exportAum\",\"path\":\"\",\"code\":\"export_aum\",\"label\":\"列表导出\"},{\"id\":224,\"parentId\":221,\"children\":[],\"name\":\"银行下拉框初始化\",\"url\":\"/channel/userPurchase/v1.0/findAllOrgList\",\"path\":\"\",\"code\":\"user_purchase_org_list\",\"label\":\"银行下拉框初始化\"},{\"id\":225,\"parentId\":221,\"children\":[],\"name\":\"产品下拉框初始化\",\"url\":\"/channel/userPurchase/v1.0/findPrdInfoByAppIdList\",\"path\":\"\",\"code\":\"user_purchase_prd_list\",\"label\":\"产品下拉框初始化\"}],\"icon\":\"calculator\",\"name\":\"AUM计算\",\"url\":\"/channel/aum/v1.0/getAumList\",\"path\":\"/channel/aum\",\"code\":\"aum_list\",\"label\":\"AUM计算\"},{\"id\":226,\"parentId\":140,\"children\":[{\"id\":227,\"parentId\":226,\"children\":[],\"icon\":\"sort-numeric-asc\",\"name\":\"导入\",\"url\":\"/channel/exportExcel/v1.0/importPurchaseInfo\",\"code\":\"import_purchase_info\",\"label\":\"导入\"}],\"icon\":\"sort-numeric-asc\",\"name\":\"H5线下数据导入\",\"path\":\"/channel/import\",\"code\":\"\",\"label\":\"H5线下数据导入\"}],\"name\":\"异业后端管理\",\"path\":\"/channel\",\"label\":\"异业后端管理\"},{\"id\":167,\"parentId\":-1,\"children\":[{\"id\":168,\"parentId\":167,\"children\":[{\"id\":183,\"parentId\":168,\"children\":[{\"id\":184,\"parentId\":183,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"等级新增\",\"url\":\"/member/manager/level\",\"path\":\"/member/level/create\",\"code\":\"member_level_create\",\"label\":\"等级新增\"},{\"id\":185,\"parentId\":183,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"等级列表\",\"url\":\"/member/manager/level\",\"path\":\"/member/level/list\",\"code\":\"member_level_list\",\"label\":\"等级列表\"},{\"id\":186,\"parentId\":183,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"等级详情\",\"url\":\"/member/manager/level\",\"path\":\"/member/level/detail\",\"code\":\"member_level_detail\",\"label\":\"等级详情\"},{\"id\":187,\"parentId\":183,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"等级更新\",\"url\":\"/member/manager/level\",\"path\":\"/member/level/update\",\"code\":\"member_level_update\",\"label\":\"等级更新\"},{\"id\":188,\"parentId\":183,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"等级删除\",\"url\":\"/member/manager/level\",\"path\":\"/member/level/delete\",\"code\":\"member_level_delete\",\"label\":\"等级删除\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"会员等级\",\"path\":\"/member/level\",\"code\":\"member_level\",\"label\":\"会员等级\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"设置\",\"path\":\"/member/setting\",\"code\":\"member_setting\",\"label\":\"设置\"},{\"id\":169,\"parentId\":167,\"children\":[{\"id\":170,\"parentId\":169,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"会员列表\",\"url\":\"/member/manager/member/select\",\"path\":\"/member/manager/list\",\"code\":\"member_manager_list\",\"label\":\"会员列表\"},{\"id\":171,\"parentId\":169,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"会员详情\",\"url\":\"/member/manager/member\",\"path\":\"/member/manager/detail\",\"code\":\"member_manager_detail\",\"label\":\"会员详情\"},{\"id\":172,\"parentId\":169,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"会员变更状态\",\"url\":\"/member/manager/member/status\",\"path\":\"/member/manager/status\",\"code\":\"member_manager_update_status\",\"label\":\"会员变更状态\"},{\"id\":173,\"parentId\":169,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"会员标签删除\",\"url\":\"/member/manager/member-label\",\"path\":\"/member/manager/label/delete\",\"code\":\"member_manager_delete_label\",\"label\":\"会员标签删除\"},{\"id\":174,\"parentId\":169,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"会员标签新增\",\"url\":\"/member/manager/member-label\",\"path\":\"/member/manager/label/create\",\"code\":\"member_manager_create_label\",\"label\":\"会员标签新增\"},{\"id\":175,\"parentId\":169,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"会员标签批量新增\",\"url\":\"/member/manager/member-label/batch\",\"path\":\"/member/manager/label/batch/create\",\"code\":\"batch_create_label\",\"label\":\"会员标签批量新增\"},{\"id\":176,\"parentId\":169,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"会员批量更新等级状态\",\"url\":\"/member/manager/member/batch/level-status\",\"path\":\"/member/manager/label/batch/update/status/level\",\"code\":\"batch_update_level_status\",\"label\":\"会员批量更新等级状态\"},{\"id\":177,\"parentId\":169,\"children\":[{\"id\":178,\"parentId\":177,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"标签新增\",\"url\":\"/member/manager/label\",\"path\":\"/member/label/create\",\"code\":\"member_label_create\",\"label\":\"标签新增\"},{\"id\":179,\"parentId\":177,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"标签列表\",\"url\":\"/member/manager/label\",\"path\":\"/member/label/list\",\"code\":\"member_label_list\",\"label\":\"标签列表\"},{\"id\":180,\"parentId\":177,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"标签详情\",\"url\":\"/member/manager/label\",\"path\":\"/member/label/detail\",\"code\":\"member_label_detail\",\"label\":\"标签详情\"},{\"id\":181,\"parentId\":177,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"标签更新\",\"url\":\"/member/manager/label\",\"path\":\"/member/label/update\",\"code\":\"member_label_update\",\"label\":\"标签更新\"},{\"id\":182,\"parentId\":177,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"标签删除\",\"url\":\"/member/manager/label\",\"path\":\"/member/label/delete\",\"code\":\"member_label_delete\",\"label\":\"标签删除\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"标签管理\",\"path\":\"/member/label\",\"code\":\"member_label\",\"label\":\"标签管理\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"会员管理\",\"path\":\"/member/manager\",\"code\":\"member_manager\",\"label\":\"会员管理\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"会员中心\",\"path\":\"/member\",\"code\":\"sys_member\",\"label\":\"会员中心\"},{\"id\":192,\"parentId\":-1,\"children\":[{\"id\":193,\"parentId\":192,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"图片上传\",\"url\":\"/marketing/manager/image/up\",\"path\":\"/marketing/image/up\",\"code\":\"market_image_up\",\"label\":\"图片上传\"},{\"id\":194,\"parentId\":192,\"children\":[{\"id\":198,\"parentId\":194,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"创建活动\",\"url\":\"/marketing/manager/activity/create\",\"path\":\"/marketing/activity/create\",\"code\":\"market_activity_add\",\"label\":\"创建活动\"},{\"id\":199,\"parentId\":194,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"活动列表\",\"url\":\"/marketing/manager/activity/select\",\"path\":\"/marketing/activity/list\",\"code\":\"market_activity_list\",\"label\":\"活动列表\"},{\"id\":200,\"parentId\":194,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"活动详情\",\"url\":\"/marketing/manager/activity/detail/*\",\"path\":\"/marketing/activity/detail\",\"code\":\"market_activity_detail\",\"label\":\"活动详情\"},{\"id\":201,\"parentId\":194,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"活动删除\",\"url\":\"/marketing/manager/activity/delete/*\",\"path\":\"/marketing/activity/delete\",\"code\":\"market_activity_del\",\"label\":\"活动删除\"},{\"id\":202,\"parentId\":194,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"活动更新\",\"url\":\"/marketing/manager/activity/update\",\"path\":\"/marketing/activity/update\",\"code\":\"market_activity_upd\",\"label\":\"活动更新\"},{\"id\":203,\"parentId\":194,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"活动状态更新\",\"url\":\"/marketing/manager/activity/update/status\",\"path\":\"/marketing/activity/update/status\",\"code\":\"market_activity_upd_status\",\"label\":\"活动状态更新\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"活动管理\",\"path\":\"/marketing/activity\",\"code\":\"market_activity\",\"label\":\"活动管理\"},{\"id\":195,\"parentId\":192,\"children\":[{\"id\":196,\"parentId\":195,\"children\":[{\"id\":204,\"parentId\":196,\"children\":[{\"id\":205,\"parentId\":204,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"查询所有产品\",\"url\":\"/finsuit/finsuit/finsuit/product\",\"path\":\"/marketing/product\",\"code\":\"market_product\",\"label\":\"查询所有产品\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"创建卡券\",\"url\":\"/marketing/manager/welfare-coupon/create\",\"path\":\"/marketing/coupon/add\",\"code\":\"market_coupon_add\",\"label\":\"创建卡券\"},{\"id\":206,\"parentId\":196,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"卡券列表\",\"url\":\"/marketing/manager/welfare-coupon/select\",\"path\":\"/marketing/coupon/list\",\"code\":\"market_coupon_list\",\"label\":\"卡券列表\"},{\"id\":207,\"parentId\":196,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"卡券详情\",\"url\":\"/marketing/manager/welfare-coupon/detail/*\",\"path\":\"/marketing/coupon/detail\",\"code\":\"market_coupon_detail\",\"label\":\"卡券详情\"},{\"id\":208,\"parentId\":196,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"卡券更新\",\"url\":\"/marketing/manager/welfare-coupon/update\",\"path\":\"/marketing/coupon/update\",\"code\":\"market_coupon_upd\",\"label\":\"卡券更新\"},{\"id\":209,\"parentId\":196,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"卡券状态更新\",\"url\":\"/marketing/manager/welfare-coupon/update/status\",\"path\":\"/marketing/coupon/update/status\",\"code\":\"market_coupon_upd_status\",\"label\":\"卡券状态更新\"},{\"id\":210,\"parentId\":196,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"增加发放券总数\",\"url\":\"/marketing/manager/welfare-coupon/add-num\",\"path\":\"/marketing/coupon/update/num\",\"code\":\"market_coupon_upd_num\",\"label\":\"增加发放券总数\"},{\"id\":211,\"parentId\":196,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"卡券删除\",\"url\":\"/marketing/manager/welfare-coupon/delete/*\",\"path\":\"/marketing/coupon/delete\",\"code\":\"market_coupon_del\",\"label\":\"卡券删除\"},{\"id\":212,\"parentId\":196,\"children\":[{\"id\":213,\"parentId\":212,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"卡券领取记录导出\",\"url\":\"/marketing/manager/welfare-coupon/receive-export\",\"path\":\"/marketing/coupon/recevie/exp\",\"code\":\"market_coupon_recevie_exp\",\"label\":\"卡券领取记录导出\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"卡券领取记录列表\",\"url\":\"/marketing/manager/welfare-coupon/receive-select\",\"path\":\"/marketing/coupon/recevie/list\",\"code\":\"market_coupon_recevie_list\",\"label\":\"卡券领取记录列表\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"卡券\",\"path\":\"/marketing/welfare/coupon\",\"code\":\"market_welfare_coupon\",\"label\":\"卡券\"},{\"id\":197,\"parentId\":195,\"children\":[{\"id\":214,\"parentId\":197,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"创建红包\",\"url\":\"/marketing/manager/welfare-packet/create\",\"path\":\"/marketing/packet/add\",\"code\":\"market_packet_add\",\"label\":\"创建红包\"},{\"id\":215,\"parentId\":197,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"红包列表\",\"url\":\"/marketing/manager/welfare-packet/select\",\"path\":\"/marketing/packet/list\",\"code\":\"market_packet_list\",\"label\":\"红包列表\"},{\"id\":216,\"parentId\":197,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"红包详情\",\"url\":\"/marketing/manager/welfare-packet/detail/*\",\"path\":\"/marketing/packet/detail\",\"code\":\"market_packet_detail\",\"label\":\"红包详情\"},{\"id\":217,\"parentId\":197,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"红包更新\",\"url\":\"/marketing/manager/welfare-packet/update\",\"path\":\"/marketing/packet/update\",\"code\":\"market_packet_upd\",\"label\":\"红包更新\"},{\"id\":218,\"parentId\":197,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"红包删除\",\"url\":\"/marketing/manager/welfare-packet/delete/*\",\"path\":\"/marketing/packet/delete\",\"code\":\"market_packet_del\",\"label\":\"红包删除\"},{\"id\":219,\"parentId\":197,\"children\":[],\"icon\":\"icon-xitongguanli\",\"name\":\"红包状态更新\",\"url\":\"/marketing/manager/welfare-packet/update/status\",\"path\":\"/marketing/packet/upd/status\",\"code\":\"market_packet_upd_status\",\"label\":\"红包状态更新\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"红包\",\"path\":\"/marketing/welfare/packet\",\"code\":\"market_welfare_packet\",\"label\":\"红包\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"福利管理\",\"path\":\"/marketing/welfare\",\"code\":\"market_welfare\",\"label\":\"福利管理\"}],\"icon\":\"icon-xitongguanli\",\"name\":\"营销管理\",\"path\":\"/marketing\",\"code\":\"sys_market\",\"label\":\"营销管理\"}],\"success\":true}",
+          "time" : {
+            "start" : 1558403277885,
+            "stop" : 1558403277885,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "断言success对比",
+      "time" : {
+        "start" : 1558403277886,
+        "stop" : 1558403277900,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "预期结果:True与实际结果True做对比",
+        "time" : {
+          "start" : 1558403277900,
+          "stop" : 1558403277900,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "31aeebcd240a1432",
+      "name" : "Captured stdout setup",
+      "source" : "31aeebcd240a1432.txt",
+      "type" : "text/plain",
+      "size" : 122
+    }, {
+      "uid" : "2ea4729b52c5ee97",
+      "name" : "Captured log call",
+      "source" : "2ea4729b52c5ee97.txt",
+      "type" : "text/plain",
+      "size" : 1280
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Admin_Menu"
+  }, {
+    "name" : "feature",
+    "value" : "获取查看菜单树"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "xuchendeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "2510-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_admin.test_get_admin_menu_all_tree_09"
+  }, {
+    "name" : "package",
+    "value" : "TestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b25bdaf346e31acb.json",
+  "parameterValues" : [ ]
+}

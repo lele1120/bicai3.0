@@ -1,0 +1,1753 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Admin_User",
+    "children" : [ {
+      "name" : "test_admin.test_get_admin_user_info_01",
+      "uid" : "f7c0a5c63106943a",
+      "parentUid" : "2f94c18ac1f62987f440e0f98ecedc46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403272320,
+        "stop" : 1558403272883,
+        "duration" : 563
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_get_admin_user_page_02",
+      "uid" : "5626cbe44e544f41",
+      "parentUid" : "2f94c18ac1f62987f440e0f98ecedc46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403272890,
+        "stop" : 1558403273445,
+        "duration" : 555
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_post_add_admin_user_03",
+      "uid" : "c7fbb53e6642fc83",
+      "parentUid" : "2f94c18ac1f62987f440e0f98ecedc46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403273447,
+        "stop" : 1558403274133,
+        "duration" : 686
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_post_add_admin_user_again_04",
+      "uid" : "2464c2971009ed75",
+      "parentUid" : "2f94c18ac1f62987f440e0f98ecedc46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403274135,
+        "stop" : 1558403274805,
+        "duration" : 670
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_get_admin_user_page_by_username_05",
+      "uid" : "13b81acd5ad09d80",
+      "parentUid" : "2f94c18ac1f62987f440e0f98ecedc46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403274806,
+        "stop" : 1558403275365,
+        "duration" : 559
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_put_admin_user_modify_phone_06",
+      "uid" : "3a6d4bc77425b1bb",
+      "parentUid" : "2f94c18ac1f62987f440e0f98ecedc46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403275366,
+        "stop" : 1558403275961,
+        "duration" : 595
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_put_admin_user_modify_userinfo_07",
+      "uid" : "7ee48932964b0b5a",
+      "parentUid" : "2f94c18ac1f62987f440e0f98ecedc46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403275964,
+        "stop" : 1558403276718,
+        "duration" : 754
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_get_role_list_08",
+      "uid" : "fc26439978473b65",
+      "parentUid" : "2f94c18ac1f62987f440e0f98ecedc46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403276720,
+        "stop" : 1558403277286,
+        "duration" : 566
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_get_admin_user_delete",
+      "uid" : "515fb4d4381dcd4f",
+      "parentUid" : "2f94c18ac1f62987f440e0f98ecedc46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403289927,
+        "stop" : 1558403290835,
+        "duration" : 908
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2f94c18ac1f62987f440e0f98ecedc46"
+  }, {
+    "name" : "获取用户权限列表",
+    "children" : [ {
+      "name" : "test_admin.test_get_admin_user_info_01",
+      "uid" : "f7c0a5c63106943a",
+      "parentUid" : "1bed4a1ca61a891b6a67c60a019edfa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403272320,
+        "stop" : 1558403272883,
+        "duration" : 563
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1bed4a1ca61a891b6a67c60a019edfa6"
+  }, {
+    "name" : "获取用户管理页面",
+    "children" : [ {
+      "name" : "test_admin.test_get_admin_user_page_02",
+      "uid" : "5626cbe44e544f41",
+      "parentUid" : "5308aff355d2dd5f021b441e47b68915",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403272890,
+        "stop" : 1558403273445,
+        "duration" : 555
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5308aff355d2dd5f021b441e47b68915"
+  }, {
+    "name" : "添加新用户",
+    "children" : [ {
+      "name" : "test_admin.test_post_add_admin_user_03",
+      "uid" : "c7fbb53e6642fc83",
+      "parentUid" : "a1d39ccb5e46361b497a27be0949afd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403273447,
+        "stop" : 1558403274133,
+        "duration" : 686
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a1d39ccb5e46361b497a27be0949afd4"
+  }, {
+    "name" : "添加已有用户",
+    "children" : [ {
+      "name" : "test_admin.test_post_add_admin_user_again_04",
+      "uid" : "2464c2971009ed75",
+      "parentUid" : "82db3ecd2da1eb54f8c5ac2093bbc21f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403274135,
+        "stop" : 1558403274805,
+        "duration" : 670
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "82db3ecd2da1eb54f8c5ac2093bbc21f"
+  }, {
+    "name" : "根据新创建用户test1查询用户管理页面",
+    "children" : [ {
+      "name" : "test_admin.test_get_admin_user_page_by_username_05",
+      "uid" : "13b81acd5ad09d80",
+      "parentUid" : "af5756b7d3696684040c56f93c0f3b03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403274806,
+        "stop" : 1558403275365,
+        "duration" : 559
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "af5756b7d3696684040c56f93c0f3b03"
+  }, {
+    "name" : "修改用户test1手机号并查询数据库",
+    "children" : [ {
+      "name" : "test_admin.test_put_admin_user_modify_phone_06",
+      "uid" : "3a6d4bc77425b1bb",
+      "parentUid" : "1cbf9a075825679cb2acd616843351c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403275366,
+        "stop" : 1558403275961,
+        "duration" : 595
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1cbf9a075825679cb2acd616843351c5"
+  }, {
+    "name" : "修改用户test1密码",
+    "children" : [ {
+      "name" : "test_admin.test_put_admin_user_modify_userinfo_07",
+      "uid" : "7ee48932964b0b5a",
+      "parentUid" : "e1ebb922483dc115e3759aa6fa7a583b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403275964,
+        "stop" : 1558403276718,
+        "duration" : 754
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e1ebb922483dc115e3759aa6fa7a583b"
+  }, {
+    "name" : "根据部门获取角色列表",
+    "children" : [ {
+      "name" : "test_admin.test_get_role_list_08",
+      "uid" : "fc26439978473b65",
+      "parentUid" : "7f17e4f243574a089cb2c600ea6d44f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403276720,
+        "stop" : 1558403277286,
+        "duration" : 566
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7f17e4f243574a089cb2c600ea6d44f3"
+  }, {
+    "name" : "Admin_Menu",
+    "children" : [ {
+      "name" : "test_admin.test_get_admin_menu_all_tree_09",
+      "uid" : "b25bdaf346e31acb",
+      "parentUid" : "d22cca461fe80a2db4944347742e8a27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403277287,
+        "stop" : 1558403277900,
+        "duration" : 613
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_post_add_menu_10",
+      "uid" : "c6e4306dc24b7822",
+      "parentUid" : "d22cca461fe80a2db4944347742e8a27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403277902,
+        "stop" : 1558403278512,
+        "duration" : 610
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_get_admin_menu_by_id_11",
+      "uid" : "d588e4b3a5850268",
+      "parentUid" : "d22cca461fe80a2db4944347742e8a27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403278515,
+        "stop" : 1558403279088,
+        "duration" : 573
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_put_modify_menu_12",
+      "uid" : "28696088d9cd9254",
+      "parentUid" : "d22cca461fe80a2db4944347742e8a27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403279089,
+        "stop" : 1558403279697,
+        "duration" : 608
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_delete_del_menu_13",
+      "uid" : "2e1960a7fc3cc939",
+      "parentUid" : "d22cca461fe80a2db4944347742e8a27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403279699,
+        "stop" : 1558403280318,
+        "duration" : 619
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d22cca461fe80a2db4944347742e8a27"
+  }, {
+    "name" : "获取查看菜单树",
+    "children" : [ {
+      "name" : "test_admin.test_get_admin_menu_all_tree_09",
+      "uid" : "b25bdaf346e31acb",
+      "parentUid" : "0e11d52abf8758c964cb8923e3f91a4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403277287,
+        "stop" : 1558403277900,
+        "duration" : 613
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0e11d52abf8758c964cb8923e3f91a4e"
+  }, {
+    "name" : "添加菜单",
+    "children" : [ {
+      "name" : "test_admin.test_post_add_menu_10",
+      "uid" : "c6e4306dc24b7822",
+      "parentUid" : "6f4221e5771e01e29856911b025baa95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403277902,
+        "stop" : 1558403278512,
+        "duration" : 610
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6f4221e5771e01e29856911b025baa95"
+  }, {
+    "name" : "获取查看菜单",
+    "children" : [ {
+      "name" : "test_admin.test_get_admin_menu_by_id_11",
+      "uid" : "d588e4b3a5850268",
+      "parentUid" : "fe09476cd00c2ca702654fe23977e526",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403278515,
+        "stop" : 1558403279088,
+        "duration" : 573
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fe09476cd00c2ca702654fe23977e526"
+  }, {
+    "name" : "修改菜单",
+    "children" : [ {
+      "name" : "test_admin.test_put_modify_menu_12",
+      "uid" : "28696088d9cd9254",
+      "parentUid" : "5a290aa6e0d3276d88809486156578df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403279089,
+        "stop" : 1558403279697,
+        "duration" : 608
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5a290aa6e0d3276d88809486156578df"
+  }, {
+    "name" : "删除菜单",
+    "children" : [ {
+      "name" : "test_admin.test_delete_del_menu_13",
+      "uid" : "2e1960a7fc3cc939",
+      "parentUid" : "b7f9ed2bcffb8ecfeac5f89c8d186315",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403279699,
+        "stop" : 1558403280318,
+        "duration" : 619
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b7f9ed2bcffb8ecfeac5f89c8d186315"
+  }, {
+    "name" : "Admin_Role",
+    "children" : [ {
+      "name" : "test_admin.test_post_add_role_14",
+      "uid" : "b9d623737743790f",
+      "parentUid" : "110f112e48023ded66cde05a0ee462e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403280320,
+        "stop" : 1558403280944,
+        "duration" : 624
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_get_role_role_page_15",
+      "uid" : "7aeefdd17a3f8426",
+      "parentUid" : "110f112e48023ded66cde05a0ee462e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403280946,
+        "stop" : 1558403281530,
+        "duration" : 584
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_put_modify_role_16",
+      "uid" : "55d6b5c006cd2f56",
+      "parentUid" : "110f112e48023ded66cde05a0ee462e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403281531,
+        "stop" : 1558403282221,
+        "duration" : 690
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_get_role_tree_17",
+      "uid" : "47634963c47e9a2",
+      "parentUid" : "110f112e48023ded66cde05a0ee462e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403282222,
+        "stop" : 1558403282838,
+        "duration" : 616
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_put_role_menu_18",
+      "uid" : "758ffd9ade56a811",
+      "parentUid" : "110f112e48023ded66cde05a0ee462e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403282841,
+        "stop" : 1558403283439,
+        "duration" : 598
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_get_role_tree_again_19",
+      "uid" : "c38a67fccfd7274f",
+      "parentUid" : "110f112e48023ded66cde05a0ee462e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403283440,
+        "stop" : 1558403284029,
+        "duration" : 589
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_delete_role_20",
+      "uid" : "9cdf26ab40f53cb2",
+      "parentUid" : "110f112e48023ded66cde05a0ee462e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403284031,
+        "stop" : 1558403284672,
+        "duration" : 641
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "110f112e48023ded66cde05a0ee462e2"
+  }, {
+    "name" : "添加角色",
+    "children" : [ {
+      "name" : "test_admin.test_post_add_role_14",
+      "uid" : "b9d623737743790f",
+      "parentUid" : "4a8356cbc897b07fe55498d79eefa75b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403280320,
+        "stop" : 1558403280944,
+        "duration" : 624
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4a8356cbc897b07fe55498d79eefa75b"
+  }, {
+    "name" : "获取角色列表",
+    "children" : [ {
+      "name" : "test_admin.test_get_role_role_page_15",
+      "uid" : "7aeefdd17a3f8426",
+      "parentUid" : "3240652b4b31349fa27e5e3a29f29140",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403280946,
+        "stop" : 1558403281530,
+        "duration" : 584
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3240652b4b31349fa27e5e3a29f29140"
+  }, {
+    "name" : "修改角色信息",
+    "children" : [ {
+      "name" : "test_admin.test_put_modify_role_16",
+      "uid" : "55d6b5c006cd2f56",
+      "parentUid" : "7e8dee04d7635499f064c8b96fa44921",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403281531,
+        "stop" : 1558403282221,
+        "duration" : 690
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7e8dee04d7635499f064c8b96fa44921"
+  }, {
+    "name" : "根据角色获取权限",
+    "children" : [ {
+      "name" : "test_admin.test_get_role_tree_17",
+      "uid" : "47634963c47e9a2",
+      "parentUid" : "912e79225f47eb0f3f6858fdb0e57311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403282222,
+        "stop" : 1558403282838,
+        "duration" : 616
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_get_role_tree_again_19",
+      "uid" : "c38a67fccfd7274f",
+      "parentUid" : "912e79225f47eb0f3f6858fdb0e57311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403283440,
+        "stop" : 1558403284029,
+        "duration" : 589
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "912e79225f47eb0f3f6858fdb0e57311"
+  }, {
+    "name" : "更新角色权限",
+    "children" : [ {
+      "name" : "test_admin.test_put_role_menu_18",
+      "uid" : "758ffd9ade56a811",
+      "parentUid" : "f007ee1aff2bceda83076555c86073f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403282841,
+        "stop" : 1558403283439,
+        "duration" : 598
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f007ee1aff2bceda83076555c86073f5"
+  }, {
+    "name" : "删除角色信息",
+    "children" : [ {
+      "name" : "test_admin.test_delete_role_20",
+      "uid" : "9cdf26ab40f53cb2",
+      "parentUid" : "936055346736dcf2f115a5c10d2ba32c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403284031,
+        "stop" : 1558403284672,
+        "duration" : 641
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "936055346736dcf2f115a5c10d2ba32c"
+  }, {
+    "name" : "Admin_Dept",
+    "children" : [ {
+      "name" : "test_admin.test_get_dept_tree_21",
+      "uid" : "3c72343b49fb0f8b",
+      "parentUid" : "f3ae58490b5e4c7e8e8630514f4805f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403284673,
+        "stop" : 1558403285269,
+        "duration" : 596
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_post_dept_22",
+      "uid" : "94ac76c795e0daef",
+      "parentUid" : "f3ae58490b5e4c7e8e8630514f4805f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403285270,
+        "stop" : 1558403285934,
+        "duration" : 664
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_put_dept_23",
+      "uid" : "3bd353396f460d0",
+      "parentUid" : "f3ae58490b5e4c7e8e8630514f4805f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403285935,
+        "stop" : 1558403286637,
+        "duration" : 702
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_del_dept_24",
+      "uid" : "929b4bfd15f0d270",
+      "parentUid" : "f3ae58490b5e4c7e8e8630514f4805f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403286638,
+        "stop" : 1558403287291,
+        "duration" : 653
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f3ae58490b5e4c7e8e8630514f4805f7"
+  }, {
+    "name" : "获取部门树",
+    "children" : [ {
+      "name" : "test_admin.test_get_dept_tree_21",
+      "uid" : "3c72343b49fb0f8b",
+      "parentUid" : "12dfe2ab6c4a63ed6c59727862e2c400",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403284673,
+        "stop" : 1558403285269,
+        "duration" : 596
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "12dfe2ab6c4a63ed6c59727862e2c400"
+  }, {
+    "name" : "添加部门",
+    "children" : [ {
+      "name" : "test_admin.test_post_dept_22",
+      "uid" : "94ac76c795e0daef",
+      "parentUid" : "fef5f2b46676a79f60be979cd281de1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403285270,
+        "stop" : 1558403285934,
+        "duration" : 664
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fef5f2b46676a79f60be979cd281de1f"
+  }, {
+    "name" : "修改部门信息",
+    "children" : [ {
+      "name" : "test_admin.test_put_dept_23",
+      "uid" : "3bd353396f460d0",
+      "parentUid" : "71ccf7e81ab26998925c7524b4fe1cfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403285935,
+        "stop" : 1558403286637,
+        "duration" : 702
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "71ccf7e81ab26998925c7524b4fe1cfa"
+  }, {
+    "name" : "删除部门",
+    "children" : [ {
+      "name" : "test_admin.test_del_dept_24",
+      "uid" : "929b4bfd15f0d270",
+      "parentUid" : "d7c77759b6f976fbea970cb5a8acf4c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403286638,
+        "stop" : 1558403287291,
+        "duration" : 653
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d7c77759b6f976fbea970cb5a8acf4c0"
+  }, {
+    "name" : "Admin_Dict",
+    "children" : [ {
+      "name" : "test_admin.test_get_dict_page_25",
+      "uid" : "1b0103f81e904f3b",
+      "parentUid" : "075dea29d047968a8132a57e615b4ab4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403287292,
+        "stop" : 1558403287890,
+        "duration" : 598
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_post_dict_26",
+      "uid" : "e91a1231e7fdf175",
+      "parentUid" : "075dea29d047968a8132a57e615b4ab4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403287891,
+        "stop" : 1558403288582,
+        "duration" : 691
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_put_dict_27",
+      "uid" : "3613487682c50399",
+      "parentUid" : "075dea29d047968a8132a57e615b4ab4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403288583,
+        "stop" : 1558403289268,
+        "duration" : 685
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_admin.test_del_dict_28",
+      "uid" : "51f8d3e9a70219bd",
+      "parentUid" : "075dea29d047968a8132a57e615b4ab4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403289269,
+        "stop" : 1558403289926,
+        "duration" : 657
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "075dea29d047968a8132a57e615b4ab4"
+  }, {
+    "name" : "获取字典列表",
+    "children" : [ {
+      "name" : "test_admin.test_get_dict_page_25",
+      "uid" : "1b0103f81e904f3b",
+      "parentUid" : "541651a7b4c0ebf297418bf7eef0663f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403287292,
+        "stop" : 1558403287890,
+        "duration" : 598
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "541651a7b4c0ebf297418bf7eef0663f"
+  }, {
+    "name" : "添加字典",
+    "children" : [ {
+      "name" : "test_admin.test_post_dict_26",
+      "uid" : "e91a1231e7fdf175",
+      "parentUid" : "14c771bf98da3e10730d7f305c962065",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403287891,
+        "stop" : 1558403288582,
+        "duration" : 691
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14c771bf98da3e10730d7f305c962065"
+  }, {
+    "name" : "修改字典",
+    "children" : [ {
+      "name" : "test_admin.test_put_dict_27",
+      "uid" : "3613487682c50399",
+      "parentUid" : "33d1df61e4f0b29cae6a66e6bf24d104",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403288583,
+        "stop" : 1558403289268,
+        "duration" : 685
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "33d1df61e4f0b29cae6a66e6bf24d104"
+  }, {
+    "name" : "删除字典",
+    "children" : [ {
+      "name" : "test_admin.test_del_dict_28",
+      "uid" : "51f8d3e9a70219bd",
+      "parentUid" : "ff3645c3d995299d248c676f046b745c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403289269,
+        "stop" : 1558403289926,
+        "duration" : 657
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ff3645c3d995299d248c676f046b745c"
+  }, {
+    "name" : "根据user_id删除用户",
+    "children" : [ {
+      "name" : "test_admin.test_get_admin_user_delete",
+      "uid" : "515fb4d4381dcd4f",
+      "parentUid" : "b12c76288cdf0f7a510cc24446cbb69b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403289927,
+        "stop" : 1558403290835,
+        "duration" : 908
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b12c76288cdf0f7a510cc24446cbb69b"
+  }, {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "test_login.TestLogin.test_login[xiaohuang]",
+      "uid" : "c7529f05a5687b76",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290838,
+        "stop" : 1558403290839,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaohong]",
+      "uid" : "17449acf9e80132a",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290840,
+        "stop" : 1558403290841,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaolv]",
+      "uid" : "93f80ebdeeaa2ac7",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290842,
+        "stop" : 1558403290843,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaozi]",
+      "uid" : "e768304766068763",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290843,
+        "stop" : 1558403290844,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaohei]",
+      "uid" : "d90ada713d13dc25",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290845,
+        "stop" : 1558403290846,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaobai]",
+      "uid" : "79dffb26cb63c1c1",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290847,
+        "stop" : 1558403290847,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaocheng]",
+      "uid" : "cfe0f88316a3cabe",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290848,
+        "stop" : 1558403290849,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14102d61eef2af473312d4f91dec531b"
+  }, {
+    "name" : "登录",
+    "children" : [ {
+      "name" : "test_login.TestLogin.test_login[xiaohuang]",
+      "uid" : "c7529f05a5687b76",
+      "parentUid" : "6e12e06fb17fec92464fd1fd24bca881",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290838,
+        "stop" : 1558403290839,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaohong]",
+      "uid" : "17449acf9e80132a",
+      "parentUid" : "6e12e06fb17fec92464fd1fd24bca881",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290840,
+        "stop" : 1558403290841,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaolv]",
+      "uid" : "93f80ebdeeaa2ac7",
+      "parentUid" : "6e12e06fb17fec92464fd1fd24bca881",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290842,
+        "stop" : 1558403290843,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaozi]",
+      "uid" : "e768304766068763",
+      "parentUid" : "6e12e06fb17fec92464fd1fd24bca881",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290843,
+        "stop" : 1558403290844,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaohei]",
+      "uid" : "d90ada713d13dc25",
+      "parentUid" : "6e12e06fb17fec92464fd1fd24bca881",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290845,
+        "stop" : 1558403290846,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaobai]",
+      "uid" : "79dffb26cb63c1c1",
+      "parentUid" : "6e12e06fb17fec92464fd1fd24bca881",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290847,
+        "stop" : 1558403290847,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login.TestLogin.test_login[xiaocheng]",
+      "uid" : "cfe0f88316a3cabe",
+      "parentUid" : "6e12e06fb17fec92464fd1fd24bca881",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290848,
+        "stop" : 1558403290849,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6e12e06fb17fec92464fd1fd24bca881"
+  }, {
+    "name" : "Admin_Member",
+    "children" : [ {
+      "name" : "test_member.test_post_member_select_01",
+      "uid" : "2dd1244748869dbe",
+      "parentUid" : "ca53da587df93fb4a091a93189cfbcf3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290850,
+        "stop" : 1558403290850,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_get_member_by_id_02",
+      "uid" : "1e9e8c0cc0057006",
+      "parentUid" : "ca53da587df93fb4a091a93189cfbcf3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290851,
+        "stop" : 1558403290852,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_put_member_status_03",
+      "uid" : "18ccdaa355a7c1c9",
+      "parentUid" : "ca53da587df93fb4a091a93189cfbcf3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290853,
+        "stop" : 1558403290853,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_post_member_label_04",
+      "uid" : "bf06fc3cff6d36e2",
+      "parentUid" : "ca53da587df93fb4a091a93189cfbcf3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290854,
+        "stop" : 1558403290855,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_post_member_batch_05",
+      "uid" : "89b60fc5b32f255c",
+      "parentUid" : "ca53da587df93fb4a091a93189cfbcf3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290856,
+        "stop" : 1558403290856,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_post_member_batch_level_06",
+      "uid" : "b0b72e1393d50ab1",
+      "parentUid" : "ca53da587df93fb4a091a93189cfbcf3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290857,
+        "stop" : 1558403290858,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_post_member_batch_status_07",
+      "uid" : "df66b453e616a230",
+      "parentUid" : "ca53da587df93fb4a091a93189cfbcf3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290858,
+        "stop" : 1558403290859,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ca53da587df93fb4a091a93189cfbcf3"
+  }, {
+    "name" : "查询会员列表",
+    "children" : [ {
+      "name" : "test_member.test_post_member_select_01",
+      "uid" : "2dd1244748869dbe",
+      "parentUid" : "48b68b22409e683883d9c748fb9c4a77",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290850,
+        "stop" : 1558403290850,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "48b68b22409e683883d9c748fb9c4a77"
+  }, {
+    "name" : "根据id查询会员",
+    "children" : [ {
+      "name" : "test_member.test_get_member_by_id_02",
+      "uid" : "1e9e8c0cc0057006",
+      "parentUid" : "b701c564efd8665fe4a90ac32efb1c33",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290851,
+        "stop" : 1558403290852,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b701c564efd8665fe4a90ac32efb1c33"
+  }, {
+    "name" : "变更会员状态",
+    "children" : [ {
+      "name" : "test_member.test_put_member_status_03",
+      "uid" : "18ccdaa355a7c1c9",
+      "parentUid" : "f2a172ab6791ec03501e3a22a0ccfeaf",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290853,
+        "stop" : 1558403290853,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f2a172ab6791ec03501e3a22a0ccfeaf"
+  }, {
+    "name" : "单次给会员打标签",
+    "children" : [ {
+      "name" : "test_member.test_post_member_label_04",
+      "uid" : "bf06fc3cff6d36e2",
+      "parentUid" : "85df1174ff3f753884a40d7acc558050",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290854,
+        "stop" : 1558403290855,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "85df1174ff3f753884a40d7acc558050"
+  }, {
+    "name" : "批量给会员打标签",
+    "children" : [ {
+      "name" : "test_member.test_post_member_batch_05",
+      "uid" : "89b60fc5b32f255c",
+      "parentUid" : "949ecb7558f9e96f3e1c13e1b48da187",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290856,
+        "stop" : 1558403290856,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "949ecb7558f9e96f3e1c13e1b48da187"
+  }, {
+    "name" : "批量更新会员等级",
+    "children" : [ {
+      "name" : "test_member.test_post_member_batch_level_06",
+      "uid" : "b0b72e1393d50ab1",
+      "parentUid" : "6962ffdf066c10acfe1f5bb89aa000eb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290857,
+        "stop" : 1558403290858,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6962ffdf066c10acfe1f5bb89aa000eb"
+  }, {
+    "name" : "批量更新会员状态",
+    "children" : [ {
+      "name" : "test_member.test_post_member_batch_status_07",
+      "uid" : "df66b453e616a230",
+      "parentUid" : "3cf43f67c8ca1dbcb644116221fe9e4c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290858,
+        "stop" : 1558403290859,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3cf43f67c8ca1dbcb644116221fe9e4c"
+  }, {
+    "name" : "Admin_Member_Label1",
+    "children" : [ {
+      "name" : "test_member.test_post_manager_label_08",
+      "uid" : "8d667ebe18022a58",
+      "parentUid" : "4f58d4652971213bbec7445dc9bcac06",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290860,
+        "stop" : 1558403290861,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4f58d4652971213bbec7445dc9bcac06"
+  }, {
+    "name" : "创建标签信息",
+    "children" : [ {
+      "name" : "test_member.test_post_manager_label_08",
+      "uid" : "8d667ebe18022a58",
+      "parentUid" : "84b3dd184af43dc44731bf110a264c23",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290860,
+        "stop" : 1558403290861,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "84b3dd184af43dc44731bf110a264c23"
+  }, {
+    "name" : "Admin_Member_Label",
+    "children" : [ {
+      "name" : "test_member.test_get_manager_label_09",
+      "uid" : "947e7b00698569b1",
+      "parentUid" : "b19ff9f18a930051f3d7010852603a88",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290862,
+        "stop" : 1558403290862,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_get_manager_label_by_id_10",
+      "uid" : "a39f2f433ffc164d",
+      "parentUid" : "b19ff9f18a930051f3d7010852603a88",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290863,
+        "stop" : 1558403290864,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_put_manager_label_11",
+      "uid" : "77d67f84a0be302f",
+      "parentUid" : "b19ff9f18a930051f3d7010852603a88",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290864,
+        "stop" : 1558403290865,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_del_manager_label_by_id_12",
+      "uid" : "8ff2cd50f56a3b10",
+      "parentUid" : "b19ff9f18a930051f3d7010852603a88",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290866,
+        "stop" : 1558403290866,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_put_manager_label_status_13",
+      "uid" : "8b0ae53882dbaea5",
+      "parentUid" : "b19ff9f18a930051f3d7010852603a88",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290867,
+        "stop" : 1558403290868,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_del_manager_label_by_id_14",
+      "uid" : "cfd2f5ccb83b794d",
+      "parentUid" : "b19ff9f18a930051f3d7010852603a88",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290868,
+        "stop" : 1558403290869,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b19ff9f18a930051f3d7010852603a88"
+  }, {
+    "name" : "查询标签列表",
+    "children" : [ {
+      "name" : "test_member.test_get_manager_label_09",
+      "uid" : "947e7b00698569b1",
+      "parentUid" : "13f62f97277e7077492aaaed6ce30bca",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290862,
+        "stop" : 1558403290862,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "13f62f97277e7077492aaaed6ce30bca"
+  }, {
+    "name" : "查询标签详情",
+    "children" : [ {
+      "name" : "test_member.test_get_manager_label_by_id_10",
+      "uid" : "a39f2f433ffc164d",
+      "parentUid" : "3d29d970cb55048835e9a2569c74051f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290863,
+        "stop" : 1558403290864,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3d29d970cb55048835e9a2569c74051f"
+  }, {
+    "name" : "更新标签信息",
+    "children" : [ {
+      "name" : "test_member.test_put_manager_label_11",
+      "uid" : "77d67f84a0be302f",
+      "parentUid" : "9703795dceffbed8a764d76066d9eb66",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290864,
+        "stop" : 1558403290865,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9703795dceffbed8a764d76066d9eb66"
+  }, {
+    "name" : "删除标签信息(逻辑删除)",
+    "children" : [ {
+      "name" : "test_member.test_del_manager_label_by_id_12",
+      "uid" : "8ff2cd50f56a3b10",
+      "parentUid" : "e27aa6eb2ab3793c9359ecf1ff10bbff",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290866,
+        "stop" : 1558403290866,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_del_manager_label_by_id_14",
+      "uid" : "cfd2f5ccb83b794d",
+      "parentUid" : "e27aa6eb2ab3793c9359ecf1ff10bbff",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290868,
+        "stop" : 1558403290869,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e27aa6eb2ab3793c9359ecf1ff10bbff"
+  }, {
+    "name" : "变更标签状态",
+    "children" : [ {
+      "name" : "test_member.test_put_manager_label_status_13",
+      "uid" : "8b0ae53882dbaea5",
+      "parentUid" : "c5aeed06fdca26db4bc5deab3788475e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290867,
+        "stop" : 1558403290868,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c5aeed06fdca26db4bc5deab3788475e"
+  }, {
+    "name" : "Admin_Member_Level",
+    "children" : [ {
+      "name" : "test_member.test_get_manager_level_15",
+      "uid" : "f854bbc3c7162239",
+      "parentUid" : "02bf3cf70719de258bfd2f81d8e44c36",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290870,
+        "stop" : 1558403290870,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_post_manager_level_16",
+      "uid" : "2edf83f440349783",
+      "parentUid" : "02bf3cf70719de258bfd2f81d8e44c36",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290871,
+        "stop" : 1558403290872,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "02bf3cf70719de258bfd2f81d8e44c36"
+  }, {
+    "name" : "查询等级列表接口",
+    "children" : [ {
+      "name" : "test_member.test_get_manager_level_15",
+      "uid" : "f854bbc3c7162239",
+      "parentUid" : "a732c4e94ac865d59334cb1c4e4c9ce3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290870,
+        "stop" : 1558403290870,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_get_manager_level_17",
+      "uid" : "acddfabfc4b0494d",
+      "parentUid" : "a732c4e94ac865d59334cb1c4e4c9ce3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290872,
+        "stop" : 1558403290873,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a732c4e94ac865d59334cb1c4e4c9ce3"
+  }, {
+    "name" : "创建等级信息",
+    "children" : [ {
+      "name" : "test_member.test_post_manager_level_16",
+      "uid" : "2edf83f440349783",
+      "parentUid" : "625c22f4fe15d2538ade6cdb9b9d3d00",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290871,
+        "stop" : 1558403290872,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "625c22f4fe15d2538ade6cdb9b9d3d00"
+  }, {
+    "name" : "Admin_Member_Level1",
+    "children" : [ {
+      "name" : "test_member.test_get_manager_level_17",
+      "uid" : "acddfabfc4b0494d",
+      "parentUid" : "2df60dc22c0f76593172d50d384773b8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290872,
+        "stop" : 1558403290873,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_get_manager_level_by_id_18",
+      "uid" : "3849f0c8606f59c0",
+      "parentUid" : "2df60dc22c0f76593172d50d384773b8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290874,
+        "stop" : 1558403290874,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_member.test_put_manager_level_19",
+      "uid" : "73b8343e79ed7aa2",
+      "parentUid" : "2df60dc22c0f76593172d50d384773b8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290875,
+        "stop" : 1558403290876,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2df60dc22c0f76593172d50d384773b8"
+  }, {
+    "name" : "根据id查询等级详情接口",
+    "children" : [ {
+      "name" : "test_member.test_get_manager_level_by_id_18",
+      "uid" : "3849f0c8606f59c0",
+      "parentUid" : "d3858322482d6ccfcda2513193b0ab11",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290874,
+        "stop" : 1558403290874,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d3858322482d6ccfcda2513193b0ab11"
+  }, {
+    "name" : "更新等级信息",
+    "children" : [ {
+      "name" : "test_member.test_put_manager_level_19",
+      "uid" : "73b8343e79ed7aa2",
+      "parentUid" : "ad8e7f5e3c741eca0953318fdfbe9263",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290875,
+        "stop" : 1558403290876,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ad8e7f5e3c741eca0953318fdfbe9263"
+  }, {
+    "name" : "Admin_Product_Service",
+    "children" : [ {
+      "name" : "test_product_service.test_get_admin_dict_info_01[monetary_unit]",
+      "uid" : "41805e00608f1bf",
+      "parentUid" : "da38da48ee63527090987c1eb148e590",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290876,
+        "stop" : 1558403290877,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[rule_symbol]",
+      "uid" : "87dc6a314b19c8a6",
+      "parentUid" : "da38da48ee63527090987c1eb148e590",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290877,
+        "stop" : 1558403290878,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[transaction_state]",
+      "uid" : "c2d73495465506b3",
+      "parentUid" : "da38da48ee63527090987c1eb148e590",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290879,
+        "stop" : 1558403290879,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[surplus_quota]",
+      "uid" : "96a77b34c2e1edb3",
+      "parentUid" : "da38da48ee63527090987c1eb148e590",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290880,
+        "stop" : 1558403290880,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[risk_level]",
+      "uid" : "18f39056ee02ccec",
+      "parentUid" : "da38da48ee63527090987c1eb148e590",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290881,
+        "stop" : 1558403290882,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[deposit_type]",
+      "uid" : "d78040dab2e742c4",
+      "parentUid" : "da38da48ee63527090987c1eb148e590",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290882,
+        "stop" : 1558403290883,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[interest_mode]",
+      "uid" : "1d66ead9529b4476",
+      "parentUid" : "da38da48ee63527090987c1eb148e590",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290883,
+        "stop" : 1558403290884,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[pay_time]",
+      "uid" : "a990eb2c30cb18ae",
+      "parentUid" : "da38da48ee63527090987c1eb148e590",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290884,
+        "stop" : 1558403290885,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "da38da48ee63527090987c1eb148e590"
+  }, {
+    "name" : "获取数据字典信息",
+    "children" : [ {
+      "name" : "test_product_service.test_get_admin_dict_info_01[monetary_unit]",
+      "uid" : "41805e00608f1bf",
+      "parentUid" : "5f0a6440f66b0ca9d4b2d061b6acd673",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290876,
+        "stop" : 1558403290877,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[rule_symbol]",
+      "uid" : "87dc6a314b19c8a6",
+      "parentUid" : "5f0a6440f66b0ca9d4b2d061b6acd673",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290877,
+        "stop" : 1558403290878,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[transaction_state]",
+      "uid" : "c2d73495465506b3",
+      "parentUid" : "5f0a6440f66b0ca9d4b2d061b6acd673",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290879,
+        "stop" : 1558403290879,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[surplus_quota]",
+      "uid" : "96a77b34c2e1edb3",
+      "parentUid" : "5f0a6440f66b0ca9d4b2d061b6acd673",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290880,
+        "stop" : 1558403290880,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[risk_level]",
+      "uid" : "18f39056ee02ccec",
+      "parentUid" : "5f0a6440f66b0ca9d4b2d061b6acd673",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290881,
+        "stop" : 1558403290882,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[deposit_type]",
+      "uid" : "d78040dab2e742c4",
+      "parentUid" : "5f0a6440f66b0ca9d4b2d061b6acd673",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290882,
+        "stop" : 1558403290883,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[interest_mode]",
+      "uid" : "1d66ead9529b4476",
+      "parentUid" : "5f0a6440f66b0ca9d4b2d061b6acd673",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290883,
+        "stop" : 1558403290884,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_product_service.test_get_admin_dict_info_01[pay_time]",
+      "uid" : "a990eb2c30cb18ae",
+      "parentUid" : "5f0a6440f66b0ca9d4b2d061b6acd673",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1558403290884,
+        "stop" : 1558403290885,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5f0a6440f66b0ca9d4b2d061b6acd673"
+  } ]
+}

@@ -1,0 +1,238 @@
+{
+  "uid" : "5626cbe44e544f41",
+  "name" : "test_admin.test_get_admin_user_page_02",
+  "fullName" : "TestCase.test_admin.test_get_admin_user_page_02",
+  "historyId" : "92e4484bbf02e49f7e1b07055629b391",
+  "time" : {
+    "start" : 1558403272890,
+    "stop" : 1558403273445,
+    "duration" : 555
+  },
+  "description" : "\n    获取用户管理页面信息\n    :param login 预制登录信息 获取授权authorization:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>获取用户管理页面信息\n:param login 预制登录信息 获取授权authorization:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取用户管理页面",
+      "time" : {
+        "start" : 1558403272891,
+        "stop" : 1558403273441,
+        "duration" : 550
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "请求内容",
+        "time" : {
+          "start" : 1558403272896,
+          "stop" : 1558403273441,
+          "duration" : 545
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "method:GET",
+          "time" : {
+            "start" : 1558403272896,
+            "stop" : 1558403272896,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "url:http://gateway.bicai365.com/admin/user/userPage",
+          "time" : {
+            "start" : 1558403272896,
+            "stop" : 1558403272896,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "headers:{'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoibWFkZSBieSBiaWNhaSIsInVzZXJfbmFtZSI6ImFkbWluIiwic2NvcGUiOlsic2VydmVyIl0sImV4cCI6MTU1ODQ0NjMyOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJqdGkiOiIxYjJjYzljMi0wZGFkLTRhYjgtODdiZC0zZTE5MTU5ZjYzODMiLCJjbGllbnRfaWQiOiJiaWNhaSJ9.e_z5XuWeMSGGEn2xuZmFmc9HGiroJmAooCxW2KSXeWA', 'origin': 'http://manager.bicai365.com', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36', 'content-type': 'application/json', 'accept': '*/*'}",
+          "time" : {
+            "start" : 1558403273108,
+            "stop" : 1558403273108,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "payload:{'pageSize': '10', 'pageNum': '1'}",
+          "time" : {
+            "start" : 1558403273108,
+            "stop" : 1558403273441,
+            "duration" : 333
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "响应报文:",
+        "time" : {
+          "start" : 1558403273441,
+          "stop" : 1558403273441,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "act_results:{\"data\":{\"total\":13,\"list\":[{\"userId\":163,\"username\":\"百兑通\",\"createTime\":\"2018-12-28 16:42:58\",\"updateTime\":\"2019-01-02 14:21:14\",\"delFlag\":\"0\",\"phone\":\"13900000010\",\"deptId\":44,\"deptName\":\"百兑通\",\"roleList\":[{\"roleId\":46,\"roleName\":\"百兑通渠道\",\"roleCode\":\"ROLE _BAIDUITONG\",\"roleDesc\":\"百兑通渠道角色\"}]},{\"userId\":162,\"username\":\"神马金融\",\"createTime\":\"2018-12-07 10:21:44\",\"delFlag\":\"0\",\"phone\":\"13000000009\",\"deptId\":43,\"deptName\":\"神马金融\",\"roleList\":[{\"roleId\":45,\"roleName\":\"神马金融渠道商\",\"roleCode\":\"ROLE_SHENMA\",\"roleDesc\":\"神马金融渠道商角色\"}]},{\"userId\":161,\"username\":\"在意财富\",\"createTime\":\"2018-12-06 18:09:51\",\"delFlag\":\"0\",\"phone\":\"13000000008\",\"deptId\":42,\"deptName\":\"在意财富\",\"roleList\":[{\"roleId\":44,\"roleName\":\"在意财富渠道商\",\"roleCode\":\"ROLE_ZAIYI\",\"roleDesc\":\"在意财富渠道商角色\"}]},{\"userId\":160,\"username\":\"彬彬有理\",\"createTime\":\"2018-12-06 18:09:29\",\"delFlag\":\"0\",\"phone\":\"13000000007\",\"deptId\":41,\"deptName\":\"彬彬有理\",\"roleList\":[{\"roleId\":43,\"roleName\":\"彬彬有理渠道商\",\"roleCode\":\"ROLE_BINBIN\",\"roleDesc\":\"彬彬有理渠道商角色\"}]},{\"userId\":159,\"username\":\"琥珀纷钛\",\"createTime\":\"2018-12-06 18:09:06\",\"updateTime\":\"2018-12-20 09:47:44\",\"delFlag\":\"0\",\"phone\":\"13000000006\",\"deptId\":40,\"deptName\":\"琥珀纷钛\",\"roleList\":[{\"roleId\":42,\"roleName\":\"琥珀玢钛渠道商\",\"roleCode\":\"ROLE_HUPO\",\"roleDesc\":\"琥珀玢钛渠道商角色\"}]},{\"userId\":158,\"username\":\"车主无忧\",\"createTime\":\"2018-12-06 18:08:27\",\"delFlag\":\"0\",\"phone\":\"13000000005\",\"deptId\":39,\"deptName\":\"车主无忧\",\"roleList\":[{\"roleId\":41,\"roleName\":\"车主无忧渠道商\",\"roleCode\":\"ROLE_CHEZHU\",\"roleDesc\":\"车主无忧渠道商角色\"}]},{\"userId\":156,\"username\":\"诚壹\",\"createTime\":\"2018-11-22 14:44:48\",\"delFlag\":\"0\",\"phone\":\"13000000004\",\"deptId\":37,\"deptName\":\"诚壹\",\"roleList\":[{\"roleId\":40,\"roleName\":\"诚壹渠道商\",\"roleCode\":\"ROLE_CHENGYI\",\"roleDesc\":\"诚壹渠道商角色\"}]},{\"userId\":155,\"username\":\"银讯\",\"createTime\":\"2018-11-20 13:45:18\",\"updateTime\":\"2018-11-20 14:50:18\",\"delFlag\":\"0\",\"phone\":\"13000000002\",\"deptId\":36,\"deptName\":\"银讯支付\",\"roleList\":[{\"roleId\":39,\"roleName\":\"银讯渠道商\",\"roleCode\":\"ROLE_YINXUN\",\"roleDesc\":\"银讯渠道商系统角色\"}]},{\"userId\":154,\"username\":\"徐坤\",\"createTime\":\"2018-11-07 15:13:29\",\"updateTime\":\"2018-11-07 16:15:40\",\"delFlag\":\"0\",\"phone\":\"13910000000\",\"deptId\":1,\"deptName\":\"比财\",\"roleList\":[{\"roleId\":2,\"roleName\":\"渠道管理员\",\"roleCode\":\"CHANNEL_ADMIN\",\"roleDesc\":\"渠道管理员\"}]},{\"userId\":2,\"username\":\"渠道管理员\",\"createTime\":\"2018-09-07 10:04:14\",\"updateTime\":\"2018-09-18 17:13:29\",\"delFlag\":\"0\",\"phone\":\"13911190482\",\"deptId\":35,\"deptName\":\"渠道商\",\"roleList\":[{\"roleId\":2,\"roleName\":\"渠道管理员\",\"roleCode\":\"CHANNEL_ADMIN\",\"roleDesc\":\"渠道管理员\"}]}],\"pageNum\":1,\"pageSize\":10,\"size\":10,\"startRow\":1,\"endRow\":10,\"pages\":2,\"prePage\":0,\"nextPage\":2,\"isFirstPage\":true,\"isLastPage\":false,\"hasPreviousPage\":false,\"hasNextPage\":true,\"navigatePages\":8,\"navigatepageNums\":[1,2],\"navigateFirstPage\":1,\"navigateLastPage\":2,\"firstPage\":1,\"lastPage\":2},\"success\":true}",
+          "time" : {
+            "start" : 1558403273441,
+            "stop" : 1558403273441,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "断言success对比",
+      "time" : {
+        "start" : 1558403273441,
+        "stop" : 1558403273445,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "预期结果:True与实际结果True做对比",
+        "time" : {
+          "start" : 1558403273445,
+          "stop" : 1558403273445,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2ad3466188faeb7d",
+      "name" : "Captured stdout setup",
+      "source" : "2ad3466188faeb7d.txt",
+      "type" : "text/plain",
+      "size" : 118
+    }, {
+      "uid" : "a1d9fefb09f4f657",
+      "name" : "Captured log call",
+      "source" : "a1d9fefb09f4f657.txt",
+      "type" : "text/plain",
+      "size" : 1303
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Admin_User"
+  }, {
+    "name" : "feature",
+    "value" : "获取用户管理页面"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "xuchendeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "2510-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_admin.test_get_admin_user_page_02"
+  }, {
+    "name" : "package",
+    "value" : "TestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5626cbe44e544f41.json",
+  "parameterValues" : [ ]
+}

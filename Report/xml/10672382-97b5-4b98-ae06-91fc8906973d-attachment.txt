@@ -1,0 +1,10 @@
+log_module.py               74 INFO     [INFO 2019-05-21 09:47:52]解析yaml, Path:/Users/xuchen/PycharmProjects/BICAI_API_Manager3_Autotest/Params/Param/Basics
+log_module.py               74 INFO     [INFO 2019-05-21 09:47:52]解析yaml, Path:/Users/xuchen/PycharmProjects/BICAI_API_Manager3_Autotest/Params/Param/Basics
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): gateway.bicai365.com:80
+connectionpool.py          393 DEBUG    http://gateway.bicai365.com:80 "POST /auth/oauth/token HTTP/1.1" 200 None
+log_module.py               74 INFO     [INFO 2019-05-21 09:47:52]解析yaml, Path:/Users/xuchen/PycharmProjects/BICAI_API_Manager3_Autotest/Params/Param/Basics
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): gateway.bicai365.com:80
+connectionpool.py          393 DEBUG    http://gateway.bicai365.com:80 "POST /auth/oauth/token HTTP/1.1" 200 None
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): gateway.bicai365.com:80
+connectionpool.py          393 DEBUG    http://gateway.bicai365.com:80 "GET /admin/user/info HTTP/1.1" 200 None
+log_module.py               74 INFO     [INFO 2019-05-21 09:47:52]解析yaml, Path:/Users/xuchen/PycharmProjects/BICAI_API_Manager3_Autotest/Params/Param/Basics

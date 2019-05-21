@@ -1,0 +1,268 @@
+{
+  "uid" : "2e1960a7fc3cc939",
+  "name" : "test_admin.test_delete_del_menu_13",
+  "fullName" : "TestCase.test_admin.test_delete_del_menu_13",
+  "historyId" : "7ca137c915022ec0d39d27e90ba90a33",
+  "time" : {
+    "start" : 1558403279699,
+    "stop" : 1558403280318,
+    "duration" : 619
+  },
+  "description" : "\n    删除菜单\n    :param login:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>删除菜单\n:param login:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "删除菜单",
+      "time" : {
+        "start" : 1558403279701,
+        "stop" : 1558403280269,
+        "duration" : 568
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "请求内容",
+        "time" : {
+          "start" : 1558403279716,
+          "stop" : 1558403280269,
+          "duration" : 553
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "method:DELETE",
+          "time" : {
+            "start" : 1558403279716,
+            "stop" : 1558403279716,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "url:http://gateway.bicai365.com/admin/menu/870",
+          "time" : {
+            "start" : 1558403279716,
+            "stop" : 1558403279716,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "headers:{'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoibWFkZSBieSBiaWNhaSIsInVzZXJfbmFtZSI6ImFkbWluIiwic2NvcGUiOlsic2VydmVyIl0sImV4cCI6MTU1ODQ0NjMyOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJqdGkiOiIxYjJjYzljMi0wZGFkLTRhYjgtODdiZC0zZTE5MTU5ZjYzODMiLCJjbGllbnRfaWQiOiJiaWNhaSJ9.e_z5XuWeMSGGEn2xuZmFmc9HGiroJmAooCxW2KSXeWA', 'origin': 'http://manager.bicai365.com', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36', 'content-type': 'application/json', 'accept': '*/*'}",
+          "time" : {
+            "start" : 1558403279928,
+            "stop" : 1558403279928,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "payload为空",
+          "time" : {
+            "start" : 1558403279928,
+            "stop" : 1558403280269,
+            "duration" : 341
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "响应报文:",
+        "time" : {
+          "start" : 1558403280269,
+          "stop" : 1558403280269,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "act_results:{\"data\":1,\"success\":true}",
+          "time" : {
+            "start" : 1558403280269,
+            "stop" : 1558403280269,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "断言success对比",
+      "time" : {
+        "start" : 1558403280269,
+        "stop" : 1558403280286,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "预期结果:True与实际结果True做对比",
+        "time" : {
+          "start" : 1558403280286,
+          "stop" : 1558403280286,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "修改菜单后查询数据库,断言del_flag是否正确",
+      "time" : {
+        "start" : 1558403280286,
+        "stop" : 1558403280317,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "预期结果:1与实际结果1做对比",
+        "time" : {
+          "start" : 1558403280317,
+          "stop" : 1558403280317,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7e2c836d44698883",
+      "name" : "Captured stdout setup",
+      "source" : "7e2c836d44698883.txt",
+      "type" : "text/plain",
+      "size" : 114
+    }, {
+      "uid" : "846c75ed706dc741",
+      "name" : "Captured log call",
+      "source" : "846c75ed706dc741.txt",
+      "type" : "text/plain",
+      "size" : 1385
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Admin_Menu"
+  }, {
+    "name" : "feature",
+    "value" : "删除菜单"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "xuchendeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "2510-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_admin.test_delete_del_menu_13"
+  }, {
+    "name" : "package",
+    "value" : "TestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e1960a7fc3cc939.json",
+  "parameterValues" : [ ]
+}

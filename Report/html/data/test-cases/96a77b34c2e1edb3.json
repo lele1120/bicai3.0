@@ -1,0 +1,68 @@
+{
+  "uid" : "96a77b34c2e1edb3",
+  "name" : "test_product_service.test_get_admin_dict_info_01[surplus_quota]",
+  "fullName" : "TestCase.test_product_service.test_get_admin_dict_info_01[surplus_quota]",
+  "historyId" : "fdb3c2e091d136404cf8f0df1e6dbfb6",
+  "time" : {
+    "start" : 1558403290880,
+    "stop" : 1558403290880,
+    "duration" : 0
+  },
+  "description" : "\n    获取数据字典信息\n    :param\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>获取数据字典信息\n:param\n:return:\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+  "statusTrace" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin_Dict'), ('feature', 'Admin_Menu'), ('feature', 'Admin_Role'), ('feature', 'Admin_User').",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Admin_Product_Service"
+  }, {
+    "name" : "feature",
+    "value" : "获取数据字典信息"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "xuchendeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "2510-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_product_service.test_get_admin_dict_info_01[surplus_quota]"
+  }, {
+    "name" : "package",
+    "value" : "TestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96a77b34c2e1edb3.json",
+  "parameterValues" : [ ]
+}

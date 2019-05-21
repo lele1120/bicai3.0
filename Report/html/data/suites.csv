@@ -1,0 +1,302 @@
+"Status","Name","Duration in ms","Description"
+"skipped","TestCase.test_member.test_post_member_label_04","1","
+    单次给会员打标签
+    :param
+    :return:
+    "
+"skipped","TestCase.test_member.test_put_manager_level_19","1","
+    更新等级信息
+    :param
+    :return:
+    "
+"skipped","TestCase.test_member.test_put_manager_label_status_13","1","
+    变更标签状态
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_post_add_admin_user_again_04","670","
+    添加重复用户
+    :param login: login 预制登录信息 获取授权authorization:
+    :return:
+    "
+"passed","TestCase.test_admin.test_get_role_tree_17","616","
+    根据角色获取权限
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_member.test_del_manager_label_by_id_14","1","
+    删除标签信息(逻辑删除)
+    :param
+    :return:
+    "
+"skipped","TestCase.test_member.test_post_member_select_01","0","
+    查询会员列表
+    :param
+    :return:
+    "
+"skipped","TestCase.test_login.TestLogin.test_login[xiaohuang]","1","
+        登录验证获取授权
+        "
+"passed","TestCase.test_admin.test_put_modify_menu_12","608","
+    修改菜单
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_member.test_get_manager_level_17","1","
+    查询等级列表接口
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_post_add_admin_user_03","686","
+    添加新用户
+    :param login: login 预制登录信息 获取授权authorization:
+    :return:
+    "
+"passed","TestCase.test_admin.test_get_dict_page_25","598","
+    获取字典列表
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_member.test_put_member_status_03","0","
+    变更会员状态
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_get_admin_user_delete","908","
+    根据user_id删除用户
+    :param login:
+    :return:
+    "
+"passed","TestCase.test_admin.test_get_admin_user_page_02","555","
+    获取用户管理页面信息
+    :param login 预制登录信息 获取授权authorization:
+    :return:
+    "
+"skipped","TestCase.test_member.test_post_manager_level_16","1","
+    创建等级信息
+    :param
+    :return:
+    "
+"skipped","TestCase.test_member.test_get_manager_label_by_id_10","1","
+    查询标签详情
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_put_modify_role_16","690","
+    修改角色信息
+    :param login:
+    :return:
+    "
+"passed","TestCase.test_admin.test_get_role_list_08","566","
+    根据部门获取角色列表
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_login.TestLogin.test_login[xiaozi]","1","
+        登录验证获取授权
+        "
+"skipped","TestCase.test_member.test_get_manager_level_15","0","
+    查询等级列表接口
+    :param
+    :return:
+    "
+"skipped","TestCase.test_member.test_del_manager_label_by_id_12","0","
+    删除标签信息(逻辑删除)
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_put_dept_23","702","
+    修改部门信息
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_login.TestLogin.test_login[xiaolv]","1","
+        登录验证获取授权
+        "
+"passed","TestCase.test_admin.test_get_admin_user_info_01","563","
+    获取用户权限列表
+    :param login: 预制登录信息 获取授权authorization:
+    :return:
+    "
+"passed","TestCase.test_admin.test_post_dept_22","664","
+    添加新部门
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_product_service.test_get_admin_dict_info_01[monetary_unit]","1","
+    获取数据字典信息
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_put_dict_27","685","
+    修改字典
+    :param login:
+    :return:
+    "
+"passed","TestCase.test_admin.test_get_admin_menu_all_tree_09","613","
+    获取查看菜单
+    :param login:
+    :return:
+    "
+"passed","TestCase.test_admin.test_put_admin_user_modify_userinfo_07","754","
+    修改用户test1手机号并查询数据库
+    :param login 预制登录信息 获取授权authorization:
+    :return:
+    "
+"passed","TestCase.test_admin.test_put_role_menu_18","598","
+    更新角色权限
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_product_service.test_get_admin_dict_info_01[risk_level]","1","
+    获取数据字典信息
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_get_role_role_page_15","584","
+    添加角色
+    :param login:
+    :return:
+    "
+"passed","TestCase.test_admin.test_delete_role_20","641","
+    删除角色信息
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_member.test_post_manager_label_08","1","
+    创建标签信息
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_get_dept_tree_21","596","
+    获取部门树
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_product_service.test_get_admin_dict_info_01[transaction_state]","0","
+    获取数据字典信息
+    :param
+    :return:
+    "
+"skipped","TestCase.test_login.TestLogin.test_login[xiaohong]","1","
+        登录验证获取授权
+        "
+"passed","TestCase.test_admin.test_get_admin_user_page_by_username_05","559","
+    根据username获取用户管理页面信息
+    :param login 预制登录信息 获取授权authorization:
+    :return:
+    "
+"passed","TestCase.test_admin.test_post_add_menu_10","610","
+    添加菜单
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_product_service.test_get_admin_dict_info_01[surplus_quota]","0","
+    获取数据字典信息
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_post_add_role_14","624","
+    添加角色
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_product_service.test_get_admin_dict_info_01[interest_mode]","1","
+    获取数据字典信息
+    :param
+    :return:
+    "
+"skipped","TestCase.test_login.TestLogin.test_login[xiaohei]","1","
+        登录验证获取授权
+        "
+"skipped","TestCase.test_member.test_post_member_batch_status_07","1","
+    批量更新会员状态
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_del_dept_24","653","
+    删除部门
+    :param login:
+    :return:
+    "
+"passed","TestCase.test_admin.test_del_dict_28","657","
+    删除字典
+    :param login:
+    :return:
+    "
+"passed","TestCase.test_admin.test_get_admin_menu_by_id_11","573","
+    根据menu_id获取查看菜单
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_member.test_put_manager_label_11","1","
+    更新标签信息
+    :param
+    :return:
+    "
+"skipped","TestCase.test_member.test_get_member_by_id_02","1","
+    查询会员列表
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_put_admin_user_modify_phone_06","595","
+    修改用户test1手机号并查询数据库
+    :param login 预制登录信息 获取授权authorization:
+    :return:
+    "
+"skipped","TestCase.test_member.test_post_member_batch_05","0","
+    单次给会员打标签
+    :param
+    :return:
+    "
+"skipped","TestCase.test_product_service.test_get_admin_dict_info_01[pay_time]","1","
+    获取数据字典信息
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_delete_del_menu_13","619","
+    删除菜单
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_member.test_get_manager_label_09","0","
+    查询标签列表
+    :param
+    :return:
+    "
+"skipped","TestCase.test_member.test_get_manager_level_by_id_18","0","
+    根据id查询等级详情接口
+    :param
+    :return:
+    "
+"skipped","TestCase.test_login.TestLogin.test_login[xiaocheng]","1","
+        登录验证获取授权
+        "
+"skipped","TestCase.test_product_service.test_get_admin_dict_info_01[rule_symbol]","1","
+    获取数据字典信息
+    :param
+    :return:
+    "
+"passed","TestCase.test_admin.test_get_role_tree_again_19","589","
+    修改权限后再次根据角色获取权限
+    :param login:
+    :return:
+    "
+"skipped","TestCase.test_product_service.test_get_admin_dict_info_01[deposit_type]","1","
+    获取数据字典信息
+    :param
+    :return:
+    "
+"skipped","TestCase.test_member.test_post_member_batch_level_06","1","
+    批量更新会员等级
+    :param
+    :return:
+    "
+"skipped","TestCase.test_login.TestLogin.test_login[xiaobai]","0","
+        登录验证获取授权
+        "
+"passed","TestCase.test_admin.test_post_dict_26","691","
+    添加字典
+    :param login:
+    :return:
+    "

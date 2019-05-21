@@ -1,0 +1,283 @@
+{
+  "uid" : "3613487682c50399",
+  "name" : "test_admin.test_put_dict_27",
+  "fullName" : "TestCase.test_admin.test_put_dict_27",
+  "historyId" : "862d479614c13ec6f1dc39271f6b1bf7",
+  "time" : {
+    "start" : 1558403288583,
+    "stop" : 1558403289268,
+    "duration" : 685
+  },
+  "description" : "\n    修改字典\n    :param login:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>修改字典\n:param login:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "修改字典",
+      "time" : {
+        "start" : 1558403288583,
+        "stop" : 1558403289149,
+        "duration" : 566
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "请求内容",
+        "time" : {
+          "start" : 1558403288606,
+          "stop" : 1558403289149,
+          "duration" : 543
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "method:PUT",
+          "time" : {
+            "start" : 1558403288606,
+            "stop" : 1558403288606,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "url:http://gateway.bicai365.com/admin/dict",
+          "time" : {
+            "start" : 1558403288606,
+            "stop" : 1558403288606,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "headers:{'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoibWFkZSBieSBiaWNhaSIsInVzZXJfbmFtZSI6ImFkbWluIiwic2NvcGUiOlsic2VydmVyIl0sImV4cCI6MTU1ODQ0NjMyOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJqdGkiOiIxYjJjYzljMi0wZGFkLTRhYjgtODdiZC0zZTE5MTU5ZjYzODMiLCJjbGllbnRfaWQiOiJiaWNhaSJ9.e_z5XuWeMSGGEn2xuZmFmc9HGiroJmAooCxW2KSXeWA', 'origin': 'http://manager.bicai365.com', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36', 'content-type': 'application/json', 'accept': '*/*'}",
+          "time" : {
+            "start" : 1558403288815,
+            "stop" : 1558403288815,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "payload:{'id': 602, 'type': 'log_type', 'value': '4', 'label': 'aad', 'description': '自动化测试123', 'sort': 1, 'delFlag': 0}",
+          "time" : {
+            "start" : 1558403288815,
+            "stop" : 1558403289149,
+            "duration" : 334
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "响应报文:",
+        "time" : {
+          "start" : 1558403289149,
+          "stop" : 1558403289149,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "act_results:{\"success\":true}",
+          "time" : {
+            "start" : 1558403289149,
+            "stop" : 1558403289149,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "断言success对比",
+      "time" : {
+        "start" : 1558403289149,
+        "stop" : 1558403289181,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "预期结果:True与实际结果True做对比",
+        "time" : {
+          "start" : 1558403289181,
+          "stop" : 1558403289181,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "修改字典后查询数据库,断言是否查询出数据",
+      "time" : {
+        "start" : 1558403289181,
+        "stop" : 1558403289268,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "预期结果:log_type与实际结果log_type做对比",
+        "time" : {
+          "start" : 1558403289244,
+          "stop" : 1558403289244,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "预期结果:0与实际结果0做对比",
+        "time" : {
+          "start" : 1558403289268,
+          "stop" : 1558403289268,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "219606da7adb873e",
+      "name" : "Captured stdout setup",
+      "source" : "219606da7adb873e.txt",
+      "type" : "text/plain",
+      "size" : 107
+    }, {
+      "uid" : "34af23d700421d9e",
+      "name" : "Captured log call",
+      "source" : "34af23d700421d9e.txt",
+      "type" : "text/plain",
+      "size" : 1700
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Admin_Dict"
+  }, {
+    "name" : "feature",
+    "value" : "修改字典"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "xuchendeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "2510-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_admin.test_put_dict_27"
+  }, {
+    "name" : "package",
+    "value" : "TestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3613487682c50399.json",
+  "parameterValues" : [ ]
+}

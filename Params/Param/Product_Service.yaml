@@ -1,0 +1,9 @@
+
+---
+name: get_dict_type
+# 用户登录
+url: /admin/dict/type
+method: GET
+check: {
+        "success":"true"
+       }

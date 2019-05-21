@@ -1,0 +1,68 @@
+{
+  "uid" : "a39f2f433ffc164d",
+  "name" : "test_member.test_get_manager_label_by_id_10",
+  "fullName" : "TestCase.test_member.test_get_manager_label_by_id_10",
+  "historyId" : "a8a962f6b40e49fc141c84b40ecd2247",
+  "time" : {
+    "start" : 1558403290863,
+    "stop" : 1558403290864,
+    "duration" : 1
+  },
+  "description" : "\n    查询标签详情\n    :param\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>查询标签详情\n:param\n:return:\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+  "statusTrace" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin_Dict'), ('feature', 'Admin_Menu'), ('feature', 'Admin_Role'), ('feature', 'Admin_User').",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Admin_Member_Label"
+  }, {
+    "name" : "feature",
+    "value" : "查询标签详情"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "xuchendeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "2510-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_member.test_get_manager_label_by_id_10"
+  }, {
+    "name" : "package",
+    "value" : "TestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a39f2f433ffc164d.json",
+  "parameterValues" : [ ]
+}

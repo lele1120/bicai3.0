@@ -1,0 +1,1233 @@
+{
+  "7699f72ffe6bc5ab37c13a73a1788096" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d667ebe18022a58",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290860,
+        "stop" : 1558403290861,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8e35e522b3fb73a2cd994c8bdcacfc01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0b72e1393d50ab1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290857,
+        "stop" : 1558403290858,
+        "duration" : 1
+      }
+    } ]
+  },
+  "6ac195c6e390d21ec106c92a953d5a4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "947e7b00698569b1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290862,
+        "stop" : 1558403290862,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3d662cca0c4bf117e0b276adb499c635" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e91a1231e7fdf175",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403287891,
+        "stop" : 1558403288582,
+        "duration" : 691
+      }
+    } ]
+  },
+  "a8ebfd2d66b66e89f25f204cae6dd89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c38a67fccfd7274f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403283440,
+        "stop" : 1558403284029,
+        "duration" : 589
+      }
+    } ]
+  },
+  "555fe21577a89519ec933d56db5c33e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ee48932964b0b5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403275964,
+        "stop" : 1558403276718,
+        "duration" : 754
+      }
+    } ]
+  },
+  "7ca137c915022ec0d39d27e90ba90a33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e1960a7fc3cc939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403279699,
+        "stop" : 1558403280318,
+        "duration" : 619
+      }
+    } ]
+  },
+  "e3d2d8a758c244ea945190a9fe8dacfa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3bd353396f460d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403285935,
+        "stop" : 1558403286637,
+        "duration" : 702
+      }
+    } ]
+  },
+  "347ed64d444b63584e4cfc3aaaf4379f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89b60fc5b32f255c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290856,
+        "stop" : 1558403290856,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8aecdb16c4e5d3ce2f16bbc81773f146" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e768304766068763",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290843,
+        "stop" : 1558403290844,
+        "duration" : 1
+      }
+    } ]
+  },
+  "554e7c601e0247a920afc9a9cacc2488" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a6d4bc77425b1bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403275366,
+        "stop" : 1558403275961,
+        "duration" : 595
+      }
+    } ]
+  },
+  "dc4c4fd8b24adbc67bdb02d7d55ac2ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfd2f5ccb83b794d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290868,
+        "stop" : 1558403290869,
+        "duration" : 1
+      }
+    } ]
+  },
+  "31879e603f5660b6fae288d0f974dd32" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "929b4bfd15f0d270",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403286638,
+        "stop" : 1558403287291,
+        "duration" : 653
+      }
+    } ]
+  },
+  "f98a22804d3664a4fa731ebd96fe6fe9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acddfabfc4b0494d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290872,
+        "stop" : 1558403290873,
+        "duration" : 1
+      }
+    } ]
+  },
+  "899fd2a704f0b38b1fb4665fb132d89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfe0f88316a3cabe",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290848,
+        "stop" : 1558403290849,
+        "duration" : 1
+      }
+    } ]
+  },
+  "701a193ed98de2a639a9ae5fbdf89d5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94ac76c795e0daef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403285270,
+        "stop" : 1558403285934,
+        "duration" : 664
+      }
+    } ]
+  },
+  "4438a93355c6258d8c1da685643d954f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2d73495465506b3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290879,
+        "stop" : 1558403290879,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cc172f79f2dc3177c6db4bf04a56b8b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41805e00608f1bf",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290876,
+        "stop" : 1558403290877,
+        "duration" : 1
+      }
+    } ]
+  },
+  "684c0c6341058c6936b5011b72938b38" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf06fc3cff6d36e2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290854,
+        "stop" : 1558403290855,
+        "duration" : 1
+      }
+    } ]
+  },
+  "b13485a177572d9717b9298630883956" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2464c2971009ed75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403274135,
+        "stop" : 1558403274805,
+        "duration" : 670
+      }
+    } ]
+  },
+  "c8455767f77d4403f637ace45d48dbf4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13b81acd5ad09d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403274806,
+        "stop" : 1558403275365,
+        "duration" : 559
+      }
+    } ]
+  },
+  "5aaa6cb6e91573caebe3f2914a49ba61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b25bdaf346e31acb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403277287,
+        "stop" : 1558403277900,
+        "duration" : 613
+      }
+    } ]
+  },
+  "9c8af86ae746a1fc0552819b83bff217" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77d67f84a0be302f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290864,
+        "stop" : 1558403290865,
+        "duration" : 1
+      }
+    } ]
+  },
+  "825382d2bec43e72146a2f698c85260a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f854bbc3c7162239",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290870,
+        "stop" : 1558403290870,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d019bce1b69501b4f661bf4190a6de0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79dffb26cb63c1c1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290847,
+        "stop" : 1558403290847,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d9e818a8b65ffe0abd6768d03f59f7da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2edf83f440349783",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290871,
+        "stop" : 1558403290872,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f410a7986f607ed05611cb949f149b97" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18ccdaa355a7c1c9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290853,
+        "stop" : 1558403290853,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a7ed8cf8a4b85043a539623426109055" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e9e8c0cc0057006",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290851,
+        "stop" : 1558403290852,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9c776bea376551dfcb1ce0f300a22fbf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51f8d3e9a70219bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403289269,
+        "stop" : 1558403289926,
+        "duration" : 657
+      }
+    } ]
+  },
+  "8f995201ca1d3e10b175f0372fb9a112" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7529f05a5687b76",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290838,
+        "stop" : 1558403290839,
+        "duration" : 1
+      }
+    } ]
+  },
+  "fdab4a6316ec69c743731c6aa31c1ad8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "515fb4d4381dcd4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403289927,
+        "stop" : 1558403290835,
+        "duration" : 908
+      }
+    } ]
+  },
+  "256670147956290826a9e9fe9345e6d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc26439978473b65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403276720,
+        "stop" : 1558403277286,
+        "duration" : 566
+      }
+    } ]
+  },
+  "77f763d3070a79827674b9c351abf5ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9d623737743790f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403280320,
+        "stop" : 1558403280944,
+        "duration" : 624
+      }
+    } ]
+  },
+  "ad2d766ecdfcefb23c0d16f822b3b361" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2dd1244748869dbe",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290850,
+        "stop" : 1558403290850,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2b6d9e3ba750b250c3f7dfb0dee18145" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d588e4b3a5850268",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403278515,
+        "stop" : 1558403279088,
+        "duration" : 573
+      }
+    } ]
+  },
+  "bcf90b52f1eae4f92757fbdfab230fea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7fbb53e6642fc83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403273447,
+        "stop" : 1558403274133,
+        "duration" : 686
+      }
+    } ]
+  },
+  "188740dd4132daf3ddb886b61c200fc2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73b8343e79ed7aa2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290875,
+        "stop" : 1558403290876,
+        "duration" : 1
+      }
+    } ]
+  },
+  "cb03117098055b85a0994e699aee54ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17449acf9e80132a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290840,
+        "stop" : 1558403290841,
+        "duration" : 1
+      }
+    } ]
+  },
+  "5b8a741304ed8f3e5dc7ac83010d49e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9cdf26ab40f53cb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403284031,
+        "stop" : 1558403284672,
+        "duration" : 641
+      }
+    } ]
+  },
+  "ef5b9b31c68854e120fa32c0501cd755" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3849f0c8606f59c0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290874,
+        "stop" : 1558403290874,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c556f1918126d9d186e921debc873c5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "758ffd9ade56a811",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403282841,
+        "stop" : 1558403283439,
+        "duration" : 598
+      }
+    } ]
+  },
+  "7a6c677053005d9606e6541acf3e9112" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28696088d9cd9254",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403279089,
+        "stop" : 1558403279697,
+        "duration" : 608
+      }
+    } ]
+  },
+  "fdb3c2e091d136404cf8f0df1e6dbfb6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96a77b34c2e1edb3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290880,
+        "stop" : 1558403290880,
+        "duration" : 0
+      }
+    } ]
+  },
+  "bfa705bd3fc662adc2bd4ca721d32035" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7aeefdd17a3f8426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403280946,
+        "stop" : 1558403281530,
+        "duration" : 584
+      }
+    } ]
+  },
+  "f88d0bbd3f5df4afe821acc086350cde" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6e4306dc24b7822",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403277902,
+        "stop" : 1558403278512,
+        "duration" : 610
+      }
+    } ]
+  },
+  "fcaa392225d97d59585460756ef18dac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c72343b49fb0f8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403284673,
+        "stop" : 1558403285269,
+        "duration" : 596
+      }
+    } ]
+  },
+  "4ec71ce35953ce642d730b050e0a7985" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18f39056ee02ccec",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290881,
+        "stop" : 1558403290882,
+        "duration" : 1
+      }
+    } ]
+  },
+  "5884ea7eebb56fd9caae579939c3fd1c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87dc6a314b19c8a6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290877,
+        "stop" : 1558403290878,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f99e5f2ce8d032fc3cdbeb83ac9c200f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55d6b5c006cd2f56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403281531,
+        "stop" : 1558403282221,
+        "duration" : 690
+      }
+    } ]
+  },
+  "862d479614c13ec6f1dc39271f6b1bf7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3613487682c50399",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403288583,
+        "stop" : 1558403289268,
+        "duration" : 685
+      }
+    } ]
+  },
+  "d66b3eefa6f0870751b4329bc4fc3081" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47634963c47e9a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403282222,
+        "stop" : 1558403282838,
+        "duration" : 616
+      }
+    } ]
+  },
+  "bd1f60fdf6a2207f25466845b300106f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b0ae53882dbaea5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290867,
+        "stop" : 1558403290868,
+        "duration" : 1
+      }
+    } ]
+  },
+  "fe19009ddc11fd3e493cf63b95ed66ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ff2cd50f56a3b10",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290866,
+        "stop" : 1558403290866,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1a8f3b526161f0889ddcd6e70fb5a14e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a990eb2c30cb18ae",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290884,
+        "stop" : 1558403290885,
+        "duration" : 1
+      }
+    } ]
+  },
+  "3440038ed8dfda1381b46f06d693c691" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b0103f81e904f3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403287292,
+        "stop" : 1558403287890,
+        "duration" : 598
+      }
+    } ]
+  },
+  "4b66d4782fefc522dcd53b968cfa7f87" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d78040dab2e742c4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290882,
+        "stop" : 1558403290883,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f256e2b0f4df223fbf3cbec0490e606b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7c0a5c63106943a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403272320,
+        "stop" : 1558403272883,
+        "duration" : 563
+      }
+    } ]
+  },
+  "86acf52e8f2751b86cc1068434c45d6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93f80ebdeeaa2ac7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290842,
+        "stop" : 1558403290843,
+        "duration" : 1
+      }
+    } ]
+  },
+  "3a22fcb0c3766484e929acb245001f61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df66b453e616a230",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290858,
+        "stop" : 1558403290859,
+        "duration" : 1
+      }
+    } ]
+  },
+  "cedad465903bbb65f3fe72d66e2cf702" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d90ada713d13dc25",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290845,
+        "stop" : 1558403290846,
+        "duration" : 1
+      }
+    } ]
+  },
+  "a8a962f6b40e49fc141c84b40ecd2247" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a39f2f433ffc164d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290863,
+        "stop" : 1558403290864,
+        "duration" : 1
+      }
+    } ]
+  },
+  "828e7772694f4209f59d2e410664c49e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d66ead9529b4476",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558403290883,
+        "stop" : 1558403290884,
+        "duration" : 1
+      }
+    } ]
+  },
+  "92e4484bbf02e49f7e1b07055629b391" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5626cbe44e544f41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558403272890,
+        "stop" : 1558403273445,
+        "duration" : 555
+      }
+    } ]
+  }
+}
