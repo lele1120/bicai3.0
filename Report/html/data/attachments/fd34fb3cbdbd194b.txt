@@ -1,5 +1,0 @@
-
------------------
-function    : test_get_role_tree_again_19
-time        : Tue May 21 09:48:03 2019
------------------

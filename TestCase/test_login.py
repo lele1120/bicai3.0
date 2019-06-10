@@ -50,5 +50,3 @@ class TestLogin:
         #     assert response_dicts['license'] == exp_results('login')['license']
 
         Consts.RESULT_LIST.append('True')
-
-

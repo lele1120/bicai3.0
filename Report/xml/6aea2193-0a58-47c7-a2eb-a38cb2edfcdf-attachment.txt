@@ -1,5 +1,0 @@
-
------------------
-function    : test_get_admin_user_info_01
-time        : Tue May 21 09:47:52 2019
------------------

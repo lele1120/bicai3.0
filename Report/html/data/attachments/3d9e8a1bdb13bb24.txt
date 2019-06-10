@@ -1,5 +1,0 @@
-
------------------
-function    : test_get_dept_tree_21
-time        : Tue May 21 09:48:04 2019
------------------

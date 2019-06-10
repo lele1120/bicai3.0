@@ -1,5 +1,0 @@
-
------------------
-function    : test_get_admin_menu_by_id_11
-time        : Tue May 21 09:47:58 2019
------------------

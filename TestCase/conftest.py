@@ -10,12 +10,19 @@ from Common import mysql_module
 
 mysql_opt = mysql_module.MySqlModule()
 req = request_module.RequestModule()
-username = ["xiaohuang", "xiaohong", "xiaolv", "xiaozi", "xiaohei", "xiaobai", "xiaocheng"]
-phone_num = ["13922290999", "13933390999", "13944490999", "13955590999", "13966690999", "13977790999",
-             "13988890999"]
+username = [
+    "xiaohuang", "xiaohong", "xiaolv", "xiaozi", "xiaohei", "xiaobai",
+    "xiaocheng"
+]
+phone_num = [
+    "13922290999", "13933390999", "13944490999", "13955590999", "13966690999",
+    "13977790999", "13988890999"
+]
 
-type_name = ["monetary_unit", "rule_symbol", "transaction_state", "surplus_quota", "risk_level",
-             "deposit_type", "interest_mode", "pay_time"]
+type_name = [
+    "monetary_unit", "rule_symbol", "transaction_state", "surplus_quota",
+    "risk_level", "deposit_type", "interest_mode", "pay_time"
+]
 
 
 @pytest.fixture(params=type_name)
@@ -41,12 +48,13 @@ def data_operation():
     with pytest.allure.step("预制测试数据"):
         for i in range(username.__len__()):
             sql_insert = "INSERT INTO sys_user VALUES ( 0, '%s', '{bcrypt}$2a$10$XQgkulIVN0UdDRQXGNISfOBQmxwBBv.XQ75Fq8NPVmBePYIbqxu4W', NULL, '%s', NULL, 3, '2018-08-06 14:44:42', '2018-12-29 10:18:09', '0' )" % (
-            str(username[i]), str(phone_num[i]))
+                str(username[i]), str(phone_num[i]))
             mysql_opt.data_write(sql_insert)
     yield
     with pytest.allure.step("预制数据销毁"):
         for i in range(username.__len__()):
-            sql_del = "DELETE FROM sys_user WHERE username = '%s' ;" % username[i]
+            sql_del = "DELETE FROM sys_user WHERE username = '%s' ;" % username[
+                i]
             mysql_opt.data_write(sql_del)
 
 
@@ -70,8 +78,9 @@ def login():
     预制登录数据
     """
     with pytest.allure.step("预制登录数据获取授权"):
-        response_dicts =req.start_request("login")
-        authorization = response_dicts['token_type'].capitalize() + ' ' + response_dicts['access_token']
+        response_dicts = req.start_request("login")
+        authorization = response_dicts['token_type'].capitalize(
+        ) + ' ' + response_dicts['access_token']
         return authorization
 
 
@@ -83,20 +92,17 @@ def delete_data():
     yield
     with pytest.allure.step("数据回收"):
 
-        mysql_opt.data_write("DELETE FROM sys_menu WHERE menu_id = '%s' ;" % menu_id)
+        mysql_opt.data_write("DELETE FROM sys_menu WHERE menu_id = '%s' ;" %
+                             menu_id)
 
-        mysql_opt.data_write("DELETE FROM sys_user WHERE user_id = '%s' ;" % user_id)
+        mysql_opt.data_write("DELETE FROM sys_user WHERE user_id = '%s' ;" %
+                             user_id)
 
-        mysql_opt.data_write("DELETE FROM sys_role WHERE role_id = '%s' ;" % role_id)
+        mysql_opt.data_write("DELETE FROM sys_role WHERE role_id = '%s' ;" %
+                             role_id)
 
-        mysql_opt.data_write("DELETE FROM sys_dict WHERE id = '%s' ;" % dict_id)
+        mysql_opt.data_write("DELETE FROM sys_dict WHERE id = '%s' ;" %
+                             dict_id)
 
-        mysql_opt.data_write("DELETE FROM sys_dept WHERE dept_id = '%s' ;" % dept_id)
-
-
-
-
-
-
-
-
+        mysql_opt.data_write("DELETE FROM sys_dept WHERE dept_id = '%s' ;" %
+                             dept_id)

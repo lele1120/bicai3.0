@@ -1,5 +1,0 @@
-
------------------
-function    : test_get_role_list_08
-time        : Tue May 21 09:47:56 2019
------------------

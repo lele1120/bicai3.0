@@ -1,5 +1,0 @@
-
------------------
-function    : test_get_admin_menu_all_tree_09
-time        : Tue May 21 09:47:57 2019
------------------

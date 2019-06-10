@@ -7,7 +7,8 @@ import yaml
 from Common import log_module
 
 log = log_module.MyLog()
-path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
+path_dir = str(
+    os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
 
 
 def get_value(key_name):
@@ -17,7 +18,7 @@ def get_value(key_name):
     :return:
     """
     log.info('解析yaml, Path:' + path_dir + '/Params/Param/Basics')
-    yamlPath = path_dir+'/Params/Param/Basics.yaml'
+    yamlPath = path_dir + '/Params/Param/Basics.yaml'
     f = open(yamlPath, 'r', encoding='utf-8')
     y = yaml.load_all(f)
     try:
@@ -36,7 +37,7 @@ def exp_results(key_name):
     :return:
     """
     log.info('解析yaml, Path:' + path_dir + '/Params/Param/Basics')
-    yamlPath = path_dir+'/Params/Param/Basics.yaml'
+    yamlPath = path_dir + '/Params/Param/Basics.yaml'
     f = open(yamlPath, 'r', encoding='utf-8')
     y = yaml.load_all(f)
     try:
@@ -50,7 +51,3 @@ def exp_results(key_name):
 
 if __name__ == '__main__':
     print(json.dumps(get_value('login')['data']))
-
-
-
-

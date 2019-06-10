@@ -1,5 +1,0 @@
-
------------------
-function    : test_get_admin_user_delete
-time        : Tue May 21 09:48:09 2019
------------------

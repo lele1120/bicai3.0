@@ -1,5 +1,0 @@
-
------------------
-function    : test_put_admin_user_modify_userinfo_07
-time        : Tue May 21 09:47:55 2019
------------------

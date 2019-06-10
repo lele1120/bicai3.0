@@ -1,5 +1,0 @@
-
------------------
-function    : test_get_dict_page_25
-time        : Tue May 21 09:48:07 2019
------------------
