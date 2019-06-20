@@ -50,4 +50,4 @@ def exp_results(key_name):
 
 
 if __name__ == '__main__':
-    print(json.dumps(get_value('login')['data']))
+    print(get_value('login')['url'])

@@ -38,7 +38,8 @@ class Config:
     VALUE_PASSWORD = "password"
 
     # path
-    path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
+    path_dir = str(
+        os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
 
     def __init__(self):
         """
@@ -48,48 +49,77 @@ class Config:
         self.config = configparser.ConfigParser()
         self.log = log_module.MyLog()
         self.run_path = Config.path_dir
-        self.conf_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.ini')
-        self.xml_report_path = Config.path_dir+'/Report/xml'
-        self.html_report_path = Config.path_dir+'/Report/html'
+        self.conf_path = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)), 'config.ini')
+        self.xml_report_path = Config.path_dir + '/Report/xml'
+        self.html_report_path = Config.path_dir + '/Report/html'
 
         if not os.path.exists(self.conf_path):
             raise FileNotFoundError("请确保配置文件存在！")
 
         self.config.read(self.conf_path, encoding='utf-8')
 
-        self.tester_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_TESTER)
-        self.environment_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_ENVIRONMENT)
-        self.versionCode_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_VERSION_CODE)
+        self.tester_debug = self.get_conf(Config.TITLE_DEBUG,
+                                          Config.VALUE_TESTER)
+        self.environment_debug = self.get_conf(Config.TITLE_DEBUG,
+                                               Config.VALUE_ENVIRONMENT)
+        self.versionCode_debug = self.get_conf(Config.TITLE_DEBUG,
+                                               Config.VALUE_VERSION_CODE)
         self.host_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_HOST)
-        self.loginHost_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_LOGIN_HOST)
-        self.loginHost_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_LOGIN_HOST)
+        self.loginHost_debug = self.get_conf(Config.TITLE_DEBUG,
+                                             Config.VALUE_LOGIN_HOST)
+        self.loginHost_debug = self.get_conf(Config.TITLE_DEBUG,
+                                             Config.VALUE_LOGIN_HOST)
 
-        self.mysqlHost_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_MYSQL_HOST)
-        self.mysqlUser_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_MYSQL_USER)
-        self.mysqlPassword_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_MYSQL_PASSWORD)
-        self.mysqlPort_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_MYSQL_PORT)
-        self.mysqlCharset_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_MYSQL_CHARSET)
-        self.mysqlCharset_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_MYSQL_CHARSET)
-        self.mysqlDB_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_MYSQL_DB)
+        self.mysqlHost_debug = self.get_conf(Config.TITLE_DEBUG,
+                                             Config.VALUE_MYSQL_HOST)
+        self.mysqlUser_debug = self.get_conf(Config.TITLE_DEBUG,
+                                             Config.VALUE_MYSQL_USER)
+        self.mysqlPassword_debug = self.get_conf(Config.TITLE_DEBUG,
+                                                 Config.VALUE_MYSQL_PASSWORD)
+        self.mysqlPort_debug = self.get_conf(Config.TITLE_DEBUG,
+                                             Config.VALUE_MYSQL_PORT)
+        self.mysqlCharset_debug = self.get_conf(Config.TITLE_DEBUG,
+                                                Config.VALUE_MYSQL_CHARSET)
+        self.mysqlCharset_debug = self.get_conf(Config.TITLE_DEBUG,
+                                                Config.VALUE_MYSQL_CHARSET)
+        self.mysqlDB_debug = self.get_conf(Config.TITLE_DEBUG,
+                                           Config.VALUE_MYSQL_DB)
 
-        self.tester_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_TESTER)
-        self.environment_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_ENVIRONMENT)
-        self.versionCode_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_VERSION_CODE)
-        self.host_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_HOST)
-        self.loginHost_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_LOGIN_HOST)
-        self.mysqlHost_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_MYSQL_HOST)
-        self.mysqlUser_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_MYSQL_USER)
-        self.mysqlPassword_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_MYSQL_PASSWORD)
-        self.mysqlPort_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_MYSQL_PORT)
-        self.mysqlCharset_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_MYSQL_CHARSET)
-        self.mysqlCharset_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_MYSQL_CHARSET)
-        self.mysqlDB_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_MYSQL_DB)
+        self.tester_release = self.get_conf(Config.TITLE_RELEASE,
+                                            Config.VALUE_TESTER)
+        self.environment_release = self.get_conf(Config.TITLE_RELEASE,
+                                                 Config.VALUE_ENVIRONMENT)
+        self.versionCode_release = self.get_conf(Config.TITLE_RELEASE,
+                                                 Config.VALUE_VERSION_CODE)
+        self.host_release = self.get_conf(Config.TITLE_RELEASE,
+                                          Config.VALUE_HOST)
+        self.loginHost_release = self.get_conf(Config.TITLE_RELEASE,
+                                               Config.VALUE_LOGIN_HOST)
+        self.mysqlHost_release = self.get_conf(Config.TITLE_RELEASE,
+                                               Config.VALUE_MYSQL_HOST)
+        self.mysqlUser_release = self.get_conf(Config.TITLE_RELEASE,
+                                               Config.VALUE_MYSQL_USER)
+        self.mysqlPassword_release = self.get_conf(Config.TITLE_RELEASE,
+                                                   Config.VALUE_MYSQL_PASSWORD)
+        self.mysqlPort_release = self.get_conf(Config.TITLE_RELEASE,
+                                               Config.VALUE_MYSQL_PORT)
+        self.mysqlCharset_release = self.get_conf(Config.TITLE_RELEASE,
+                                                  Config.VALUE_MYSQL_CHARSET)
+        self.mysqlCharset_release = self.get_conf(Config.TITLE_RELEASE,
+                                                  Config.VALUE_MYSQL_CHARSET)
+        self.mysqlDB_release = self.get_conf(Config.TITLE_RELEASE,
+                                             Config.VALUE_MYSQL_DB)
 
-        self.smtpserver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SMTP_SERVER)
+        self.smtpserver = self.get_conf(Config.TITLE_EMAIL,
+                                        Config.VALUE_SMTP_SERVER)
         self.sender = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SENDER)
-        self.receiver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_RECEIVER)
-        self.username = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_USERNAME)
-        self.password = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_PASSWORD)
+        self.receiver = self.get_conf(Config.TITLE_EMAIL,
+                                      Config.VALUE_RECEIVER)
+        self.username = self.get_conf(Config.TITLE_EMAIL,
+                                      Config.VALUE_USERNAME)
+        self.password = self.get_conf(Config.TITLE_EMAIL,
+                                      Config.VALUE_PASSWORD)
 
     def get_conf(self, title, value):
         """

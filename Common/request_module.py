@@ -2,8 +2,6 @@
 # @Time    : 2019/3/20 6:03 AM
 # @Author  : XuChen
 # @File    : request_module.py
-
-
 """
 封装request
 
@@ -21,7 +19,6 @@ import allure
 
 
 class RequestModule:
-
     def __init__(self):
         """
         :param env:环境遍历：测试环境debug，生产环境release
@@ -39,14 +36,24 @@ class RequestModule:
             for j in dict_parm['payload']:
                 if i == j:
                     dict_parm['payload'][j] = kwargs[i]
-        headers = {'authorization': "Basic YmljYWk6YmkkY2FpJnNlY3JldCEj",
-                     'user-agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36",
-                     'content-type': "application/x-www-form-urlencoded",
-                    }
-        response = requests.request("POST", url=self.get_evn_url + dict_parm['url'], data=dict_parm['payload'],
-                                          headers=headers)
+        headers = {
+            'authorization': "Basic YmljYWk6QmljYWkzNjU=",
+            'origin': "http://manager.bicai365.com",
+            'user-agent':
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36",
+            'content-type': "application/x-www-form-urlencoded",
+            'accept': "*/*",
+            'cache-control': "no-cache",
+            'postman-token': "6db8f158-30c1-6a85-093c-7c7ffc88284b"
+        }
+        response = requests.request("POST",
+                                    url=self.get_evn_url + dict_parm['url'],
+                                    data=dict_parm['payload'],
+                                    headers=headers)
+        # return response
         response_dicts = json.loads(response.text)
-        authorization = response_dicts['token_type'].capitalize() + ' ' + response_dicts['access_token']
+        authorization = response_dicts['token_type'].capitalize(
+        ) + ' ' + response_dicts['access_token']
         return authorization
 
     def get_web_header(self):
@@ -55,22 +62,16 @@ class RequestModule:
         :return:
         """
         response_authorization = self.login_request()
+
         headers = {
-            "authorization": str(response_authorization),
-            "origin": "http://manager.bicai365.com",
-            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
-            "content-type": "application/json",
-            "accept": "*/*",
-            # "cache-control": "no-cache"
+            'authorization': str(response_authorization),
+            'origin': "http://manager.bicai365.com",
+            'user-agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36",
+            'content-type': "application/json;charset=UTF-8",
+            'accept': "*/*",
+            'cache-control': "no-cache",
+            'postman-token': "a2336e2d-770c-81bc-919a-5192d95a912e"
         }
-        # headers = {
-        #         'authorization': str(response_authorization),
-        #         'origin': "http://manager.bicai365.com",
-        #         'user-agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
-        #         'accept': "*/*",
-        #         'cache-control': "no-cache",
-        #         'postman-token': "46a35157-4915-6dbf-7c76-311e0c0a41cb"
-        #         }
         return headers
 
     def start_request(self, key_name, payload=None, **kwargs):
@@ -105,59 +106,79 @@ class RequestModule:
                 with allure.step("请求内容"):
                     with allure.step("method:" + dict_parm['method']):
                         pass
-                    with allure.step("url:" + self.get_evn_url + str(dict_parm['url'])):
+                    with allure.step("url:" + self.get_evn_url +
+                                     str(dict_parm['url'])):
                         pass
-                    with allure.step("headers:" + json.dumps(self.get_web_header())):
+                    with allure.step("headers:" +
+                                     json.dumps(self.get_web_header())):
                         pass
                     if 'payload' in dict_parm:
-                        with allure.step("payload:" + str(json.loads(dict_parm['payload']))):
-                            response =requests.request("POST", url=self.get_evn_url + dict_parm['url'],
-                                                       data=dict_parm['payload'], headers=self.get_web_header())
+                        with allure.step(
+                                "payload:" +
+                                str(json.loads(dict_parm['payload']))):
+                            response = requests.request(
+                                "POST",
+                                url=self.get_evn_url + dict_parm['url'],
+                                data=dict_parm['payload'],
+                                headers=self.get_web_header())
                     else:
                         with allure.step("payload为空"):
-                            response = requests.post(url=self.get_evn_url + dict_parm['url'],
-                                                     headers=self.get_web_header())
+                            response = requests.post(
+                                url=self.get_evn_url + dict_parm['url'],
+                                headers=self.get_web_header())
             elif dict_parm['method'] == 'PUT':
                 with allure.step("请求内容"):
                     with allure.step("method:" + dict_parm['method']):
                         pass
-                    with allure.step("url:" + self.get_evn_url + str(dict_parm['url'])):
+                    with allure.step("url:" + self.get_evn_url +
+                                     str(dict_parm['url'])):
                         pass
                     with allure.step("headers:" + str(self.get_web_header())):
                         pass
 
-                    with allure.step("payload:" + str(json.loads(dict_parm['payload']))):
-                        response = requests.request("PUT", url=self.get_evn_url + dict_parm['url'],
-                                                    data=dict_parm['payload'], headers=self.get_web_header())
+                    with allure.step("payload:" +
+                                     str(json.loads(dict_parm['payload']))):
+                        response = requests.request(
+                            "PUT",
+                            url=self.get_evn_url + dict_parm['url'],
+                            data=dict_parm['payload'],
+                            headers=self.get_web_header())
 
             elif dict_parm['method'] == 'GET':
                 with allure.step("请求内容"):
                     with allure.step("method:" + dict_parm['method']):
                         pass
-                    with allure.step("url:" + self.get_evn_url + str(dict_parm['url'])):
+                    with allure.step("url:" + self.get_evn_url +
+                                     str(dict_parm['url'])):
                         pass
                     with allure.step("headers:" + str(self.get_web_header())):
                         pass
                     if 'payload' in dict_parm:
-                        with allure.step("payload:" + str(dict_parm['payload'])):
-                            response = requests.get(url=self.get_evn_url + dict_parm['url'], params=dict_parm['payload']
-                                                    ,headers=self.get_web_header())
+                        with allure.step("payload:" +
+                                         str(dict_parm['payload'])):
+                            response = requests.get(
+                                url=self.get_evn_url + dict_parm['url'],
+                                params=dict_parm['payload'],
+                                headers=self.get_web_header())
                     else:
                         with allure.step("payload为空"):
-                            response = requests.get(url=self.get_evn_url + dict_parm['url'],
-                                                     headers=self.get_web_header())
+                            response = requests.get(
+                                url=self.get_evn_url + dict_parm['url'],
+                                headers=self.get_web_header())
 
         except requests.RequestException as e:
-            print('%s%s' % ('RequestException url: ', self.get_evn_url + dict_parm['url']))
+            print('%s%s' % ('RequestException url: ',
+                            self.get_evn_url + dict_parm['url']))
             print(e)
             return ()
 
         except Exception as e:
-            print('%s%s' % ('Exception url: ', self.get_evn_url + dict_parm['url']))
+            print('%s%s' %
+                  ('Exception url: ', self.get_evn_url + dict_parm['url']))
             print(e)
             return ()
 
-        time_consuming = response.elapsed.microseconds/1000
+        time_consuming = response.elapsed.microseconds / 1000
         time_total = response.elapsed.total_seconds()
 
         Common.Consts.STRESS_LIST.append(time_consuming)
@@ -191,29 +212,41 @@ class RequestModule:
             with allure.step("请求内容"):
                 with allure.step("method:" + dict_parm['method']):
                     pass
-                with allure.step("url:" + self.get_evn_url + str(dict_parm['url']) + "/" + str(key)):
+                with allure.step("url:" + self.get_evn_url +
+                                 str(dict_parm['url']) + "/" + str(key)):
                     pass
                 with allure.step("headers:" + str(self.get_web_header())):
                     pass
                 with allure.step("payload为空"):
                     if key2 is None:
-                        response =requests.request("DELETE", url=self.get_evn_url + dict_parm['url'] + "/" + str(key),
-                                                headers=self.get_web_header())
+                        response = requests.request(
+                            "DELETE",
+                            url=self.get_evn_url + dict_parm['url'] + "/" +
+                            str(key),
+                            headers=self.get_web_header())
                     elif key2 is not None:
-                        with allure.step("url:" + self.get_evn_url + dict_parm['url'] + "/" + str(key) + "/" + str(key2)):
-                            response =requests.request("DELETE", url=self.get_evn_url + dict_parm['url'] + "/" + str(key) + "/" + str(key2), headers=self.get_web_header())
+                        with allure.step("url:" + self.get_evn_url +
+                                         dict_parm['url'] + "/" + str(key) +
+                                         "/" + str(key2)):
+                            response = requests.request(
+                                "DELETE",
+                                url=self.get_evn_url + dict_parm['url'] + "/" +
+                                str(key) + "/" + str(key2),
+                                headers=self.get_web_header())
 
         except requests.RequestException as e:
-            print('%s%s' % ('RequestException url: ', self.get_evn_url + dict_parm['url'] + "/" + key))
+            print('%s%s' % ('RequestException url: ',
+                            self.get_evn_url + dict_parm['url'] + "/" + key))
             print(e)
             return ()
 
         except Exception as e:
-            print('%s%s' % ('Exception url: ', self.get_evn_url + dict_parm['url'] + "/" + key))
+            print('%s%s' % ('Exception url: ',
+                            self.get_evn_url + dict_parm['url'] + "/" + key))
             print(e)
             return ()
 
-        time_consuming = response.elapsed.microseconds/1000
+        time_consuming = response.elapsed.microseconds / 1000
         time_total = response.elapsed.total_seconds()
 
         Common.Consts.STRESS_LIST.append(time_consuming)
@@ -247,25 +280,32 @@ class RequestModule:
             with allure.step("请求内容"):
                 with allure.step("method:" + str(dict_parm['method'])):
                     pass
-                with allure.step("url:" + self.get_evn_url + dict_parm['url'] + "/" + str(key)):
+                with allure.step("url:" + self.get_evn_url + dict_parm['url'] +
+                                 "/" + str(key)):
                     pass
-                with allure.step("headers:" + json.dumps(self.get_web_header())):
+                with allure.step("headers:" +
+                                 json.dumps(self.get_web_header())):
                     pass
                 with allure.step("payload为空"):
-                    response =requests.request("GET", url=self.get_evn_url + dict_parm['url'] + "/" + str(key),
-                                            headers=self.get_web_header())
+                    response = requests.request("GET",
+                                                url=self.get_evn_url +
+                                                dict_parm['url'] + "/" +
+                                                str(key),
+                                                headers=self.get_web_header())
 
         except requests.RequestException as e:
-            print('%s%s' % ('RequestException url: ', self.get_evn_url + dict_parm['url'] + "/" + key))
+            print('%s%s' % ('RequestException url: ',
+                            self.get_evn_url + dict_parm['url'] + "/" + key))
             print(e)
             return ()
 
         except Exception as e:
-            print('%s%s' % ('Exception url: ', self.get_evn_url + dict_parm['url'] + "/" + key))
+            print('%s%s' % ('Exception url: ',
+                            self.get_evn_url + dict_parm['url'] + "/" + key))
             print(e)
             return ()
 
-        time_consuming = response.elapsed.microseconds/1000
+        time_consuming = response.elapsed.microseconds / 1000
         time_total = response.elapsed.total_seconds()
 
         Common.Consts.STRESS_LIST.append(time_consuming)
@@ -315,30 +355,37 @@ class RequestModule:
             with allure.step("请求内容"):
                 with allure.step("method:" + dict_parm['method']):
                     pass
-                with allure.step("url:" + self.get_evn_url + str(dict_parm['url'])):
+                with allure.step("url:" + self.get_evn_url +
+                                 str(dict_parm['url'])):
                     pass
                 with allure.step("headers:" + str(self.get_web_header())):
                     pass
                 if 'payload' in dict_parm:
                     with allure.step("payload:" + str(dict_parm['payload'])):
-                        response =requests.request("PUT", url=self.get_evn_url + dict_parm['url'],
-                                                   params=dict_parm['payload'], headers=self.get_web_header())
+                        response = requests.request(
+                            "PUT",
+                            url=self.get_evn_url + dict_parm['url'],
+                            params=dict_parm['payload'],
+                            headers=self.get_web_header())
                 else:
                     with allure.step("payload为空"):
-                        response = requests.post(url=self.get_evn_url + dict_parm['url'],
+                        response = requests.post(url=self.get_evn_url +
+                                                 dict_parm['url'],
                                                  headers=self.get_web_header())
 
         except requests.RequestException as e:
-            print('%s%s' % ('RequestException url: ', self.get_evn_url + dict_parm['url']))
+            print('%s%s' % ('RequestException url: ',
+                            self.get_evn_url + dict_parm['url']))
             print(e)
             return ()
 
         except Exception as e:
-            print('%s%s' % ('Exception url: ', self.get_evn_url + dict_parm['url']))
+            print('%s%s' %
+                  ('Exception url: ', self.get_evn_url + dict_parm['url']))
             print(e)
             return ()
 
-        time_consuming = response.elapsed.microseconds/1000
+        time_consuming = response.elapsed.microseconds / 1000
         time_total = response.elapsed.total_seconds()
 
         Common.Consts.STRESS_LIST.append(time_consuming)

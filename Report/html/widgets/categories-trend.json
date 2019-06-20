@@ -1,6 +1,25 @@
 [ {
   "data" : { }
 }, {
+  "buildOrder" : 536,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/536/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 3
+  }
+}, {
+  "buildOrder" : 535,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/535/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 3
+  }
+}, {
+  "buildOrder" : 534,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
   "buildOrder" : 533,
   "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/533/allure",
   "reportName" : "AllureReport",
@@ -100,21 +119,6 @@
 }, {
   "buildOrder" : 518,
   "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/518/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 517,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/517/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 516,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/516/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 515,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/515/allure",
   "reportName" : "AllureReport",
   "data" : { }
 } ]

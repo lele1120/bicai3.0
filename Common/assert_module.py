@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # Time   : 2019/3/19 9:10 PM
 # Author : XuChen
-
-
 """
 封装Assert方法
 
@@ -27,11 +25,13 @@ class AssertModule:
         """
         try:
             assert code == expected_code
-            print("预期结果:"+str(expected_code))
-            print("实际结果:"+str(code))
+            print("预期结果:" + str(expected_code))
+            print("实际结果:" + str(code))
             return True
         except:
-            self.log.error("statusCode error, expected_code is %s, statusCode is %s " % (expected_code, code))
+            self.log.error(
+                "statusCode error, expected_code is %s, statusCode is %s " %
+                (expected_code, code))
             Consts.ASSERT_FAIL_LIST.append('fail')
 
             raise
@@ -50,7 +50,9 @@ class AssertModule:
             return True
 
         except:
-            self.log.error("Response body msg != expected_msg, expected_msg is %s, body_msg is %s" % (expected_msg, body_msg))
+            self.log.error(
+                "Response body msg != expected_msg, expected_msg is %s, body_msg is %s"
+                % (expected_msg, body_msg))
             Consts.ASSERT_FAIL_LIST.append('fail')
 
             raise
@@ -69,7 +71,9 @@ class AssertModule:
             return True
 
         except:
-            self.log.error("Response body Does not contain expected_msg, expected_msg is %s" % expected_msg)
+            self.log.error(
+                "Response body Does not contain expected_msg, expected_msg is %s"
+                % expected_msg)
             Consts.ASSERT_FAIL_LIST.append('fail')
 
             raise
@@ -82,12 +86,15 @@ class AssertModule:
         :return:
         """
         try:
-            with allure.step("预期结果:" + str(expected_msg) + "与实际结果" + str(body) + "做对比"):
+            with allure.step("预期结果:" + str(expected_msg) + "与实际结果" +
+                             str(body) + "做对比"):
                 assert body == expected_msg
                 return True
 
         except:
-            self.log.error("Response body != expected_msg, expected_msg is %s, body is %s" % (expected_msg, body))
+            self.log.error(
+                "Response body != expected_msg, expected_msg is %s, body is %s"
+                % (expected_msg, body))
             Consts.ASSERT_FAIL_LIST.append('fail')
 
             raise
@@ -104,7 +111,9 @@ class AssertModule:
             return True
 
         except:
-            self.log.error("Response time > expected_time, expected_time is %s, time is %s" % (expected_time, time))
+            self.log.error(
+                "Response time > expected_time, expected_time is %s, time is %s"
+                % (expected_time, time))
             Consts.ASSERT_FAIL_LIST.append('fail')
 
             raise
@@ -118,11 +127,13 @@ class AssertModule:
         """
         try:
             assert actual_results == expected_results
-            print("预期结果:"+str(expected_results))
-            print("实际结果:"+str(actual_results))
+            print("预期结果:" + str(expected_results))
+            print("实际结果:" + str(actual_results))
             return True
         except:
-            self.log.error("query results error, expected_results is %s, actual_results is %s " % (actual_results, expected_results))
+            self.log.error(
+                "query results error, expected_results is %s, actual_results is %s "
+                % (actual_results, expected_results))
             Consts.ASSERT_FAIL_LIST.append('fail')
 
     def assert_not_in_results(self, actual_results, expected_results):
@@ -134,9 +145,11 @@ class AssertModule:
         """
         try:
             assert actual_results is not expected_results
-            print("预期结果:"+str(expected_results))
-            print("实际结果:"+str(actual_results))
+            print("预期结果:" + str(expected_results))
+            print("实际结果:" + str(actual_results))
             return True
         except:
-            self.log.error("query results error, expected_results is %s, actual_results is %s " % (actual_results, expected_results))
+            self.log.error(
+                "query results error, expected_results is %s, actual_results is %s "
+                % (actual_results, expected_results))
             Consts.ASSERT_FAIL_LIST.append('fail')

@@ -20,7 +20,7 @@ if __name__ == '__main__':
     # 定义测试集
     # allure_list = '--allure_features=Admin_Member'
     allure_list = '--allure_features=Admin_User,Admin_Menu,Admin_Role,Admin_Dept,Admin_Dict'
-    args = ['-q', '--maxfail=20', '--alluredir', xml_report_path, allure_list]
+    args = ['-q', '--maxfail=30', '--alluredir', xml_report_path, allure_list]
     log.info('执行用例集为：%s' % allure_list)
     pytest.main(args)
     cmd = 'allure generate %s -o %s  --clean' % (xml_report_path,

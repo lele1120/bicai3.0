@@ -4,6 +4,30 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 536,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/536/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 6,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 535,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/535/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 534,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 63,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 533,
   "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/533/allure",
   "reportName" : "AllureReport",
@@ -126,30 +150,6 @@
 }, {
   "buildOrder" : 518,
   "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/518/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 61,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 517,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/517/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 61,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 516,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/516/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 61,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 515,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/515/allure",
   "reportName" : "AllureReport",
   "data" : {
     "run" : 61,

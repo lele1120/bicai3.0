@@ -49,13 +49,12 @@ def data_operation():
         for i in range(username.__len__()):
             sql_insert = "INSERT INTO sys_user VALUES ( 0, '%s', '{bcrypt}$2a$10$XQgkulIVN0UdDRQXGNISfOBQmxwBBv.XQ75Fq8NPVmBePYIbqxu4W', NULL, '%s', NULL, 3, '2018-08-06 14:44:42', '2018-12-29 10:18:09', '0' )" % (
                 str(username[i]), str(phone_num[i]))
-            mysql_opt.data_write(sql_insert)
+            mysql_opt.data_write(sql_insert, 'bicai_admin')
     yield
     with pytest.allure.step("预制数据销毁"):
         for i in range(username.__len__()):
-            sql_del = "DELETE FROM sys_user WHERE username = '%s' ;" % username[
-                i]
-            mysql_opt.data_write(sql_del)
+            sql_del = "DELETE FROM sys_user WHERE username = '%s' ;" % username[i]
+            mysql_opt.data_write(sql_del, 'bicai_admin')
 
 
 @pytest.fixture(scope="function", autouse=True)

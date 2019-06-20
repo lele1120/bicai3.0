@@ -8,6 +8,42 @@
     "total" : 63
   }
 }, {
+  "buildOrder" : 536,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/536/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 3,
+    "unknown" : 0,
+    "total" : 6
+  }
+}, {
+  "buildOrder" : 535,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/535/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 3
+  }
+}, {
+  "buildOrder" : 534,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 34,
+    "passed" : 29,
+    "unknown" : 0,
+    "total" : 63
+  }
+}, {
   "buildOrder" : 533,
   "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/533/allure",
   "reportName" : "AllureReport",
@@ -190,42 +226,6 @@
 }, {
   "buildOrder" : 518,
   "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/518/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "failed" : 0,
-    "broken" : 0,
-    "skipped" : 60,
-    "passed" : 1,
-    "unknown" : 0,
-    "total" : 61
-  }
-}, {
-  "buildOrder" : 517,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/517/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "failed" : 0,
-    "broken" : 0,
-    "skipped" : 60,
-    "passed" : 1,
-    "unknown" : 0,
-    "total" : 61
-  }
-}, {
-  "buildOrder" : 516,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/516/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "failed" : 0,
-    "broken" : 0,
-    "skipped" : 60,
-    "passed" : 1,
-    "unknown" : 0,
-    "total" : 61
-  }
-}, {
-  "buildOrder" : 515,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/515/allure",
   "reportName" : "AllureReport",
   "data" : {
     "failed" : 0,

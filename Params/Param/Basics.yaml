@@ -6,7 +6,7 @@ url: /auth/oauth/token
 method: POST
 payload: {"grant_type": "password", "password": "123456", "scope": "server", "username": "admin"}
 check: {
-        "scope":"server", "license":"made by bicai"
+        "scope":"server", "license":"madeby  bicai"
        }
 
 ---
@@ -43,7 +43,8 @@ name: add_admin_user
 # 1.2添加用户
 url: /admin/user
 method: POST
-payload: "{\"username\":\"test1\",\"deptId\":4,\"roles\":[38],\"phone\":\"13911111111\",\"delFlag\":\"0\",\"newpassword1\":\"123456\"}"
+#payload: "{\"username\":\"test1\",\"deptId\":4,\"roles\":[38],\"phone\":\"13911111111\",\"delFlag\":\"0\",\"newpassword1\":\"123456\"}"
+payload: "{\"username\":\"test1\",\"deptId\":4,\"roles\":[38],\"phone\":\"13911111111\",\"lockFlag\":\"0\",\"password\":\"123456\"}"
 check: {
         "success": true,
         "code":"B_USER_OR_MOBILE_EXISTS",
@@ -151,7 +152,8 @@ check: {
 name: add_role
 # 3.2 添加角色
 url: /admin/role
-payload: "{\"roleName\":\"我的自动化测试\",\"roleCode\":\"auto_test\",\"roleDesc\":\"自动化测试用\",\"deptName\":\"比财\",\"roleDeptId\":1}"
+#payload: "{\"roleName\":\"我的自动化测试\",\"roleCode\":\"auto_test\",\"roleDesc\":\"自动化测试用\",\"deptName\":\"比财\",\"roleDeptId\":1}"
+payload: "{\"roleName\":\"我的自动化测试\",\"roleCode\":\"auto_test\",\"roleDesc\":\"自动化测试用\",\"roleDeptId\":1}"
 method: POST
 check: {
         "success": true

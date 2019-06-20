@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # Time   : 2019/3/19 9:10 PM
 # Author : XuChen
-
-
 """
 封装发送邮件的方法
 
@@ -19,7 +17,6 @@ from Conf.Config import Config
 
 
 class SendMail:
-
     def __init__(self):
         self.config = Config()
         self.log = log_module.MyLog()
@@ -28,7 +25,7 @@ class SendMail:
         msg = MIMEMultipart()
         test_body = Consts.TEST_LIST
         result_body = Consts.RESULT_LIST
-        error_number = test_body.__len__()-result_body.__len__()
+        error_number = test_body.__len__() - result_body.__len__()
         body = 'Hi，all\n本次比财3.0后台接口自动化测试报告如下：\n本次测试运行：' + str(test_body.__len__()) + '个测试用例 \n运行结果通过：' \
                + str(result_body.__len__()) + '个测试用例 \n未通过的测试用例：' + str(error_number) + '个'
         mail_body = MIMEText(body, _subtype='plain', _charset='utf-8')
@@ -36,7 +33,9 @@ class SendMail:
         if error_number == 0:
             msg['Subject'] = Header("比财3.0后台接口自动化测试报告_全部通过" + tm, 'utf-8')
         else:
-            msg['Subject'] = Header("比财3.0后台接口自动化测试报告"+"_未通过用例" + str(error_number) + '个_' + tm, 'utf-8')
+            msg['Subject'] = Header(
+                "比财3.0后台接口自动化测试报告" + "_未通过用例" + str(error_number) + '个_' + tm,
+                'utf-8')
         msg['From'] = self.config.sender
         receivers = self.config.receiver
         toclause = receivers.split(',')

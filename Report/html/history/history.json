@@ -3,18 +3,28 @@
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
-      "skipped" : 83,
+      "skipped" : 84,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 84
+      "total" : 85
     },
     "items" : [ {
-      "uid" : "1edacdab9e2ef289",
+      "uid" : "a205ba222e10a5a5",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099307,
-        "stop" : 1560153099308,
+        "start" : 1561016781773,
+        "stop" : 1561016781774,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3f9bcccc59bc694d",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/3f9bcccc59bc694d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044416,
+        "stop" : 1558420044417,
         "duration" : 1
       }
     }, {
@@ -47,34 +57,34 @@
         "stop" : 1554685740577,
         "duration" : 0
       }
-    }, {
-      "uid" : "3404f979ce2423d",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/3404f979ce2423d",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440575,
-        "stop" : 1554685440575,
-        "duration" : 0
-      }
     } ]
   },
   "8e35e522b3fb73a2cd994c8bdcacfc01" : {
     "statistic" : {
       "failed" : 2,
       "broken" : 0,
-      "skipped" : 88,
+      "skipped" : 89,
       "passed" : 10,
       "unknown" : 0,
-      "total" : 100
+      "total" : 101
     },
     "items" : [ {
-      "uid" : "78b4251e3f24f2eb",
+      "uid" : "bc96418fc98dfdc3",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099303,
-        "stop" : 1560153099304,
+        "start" : 1561016781771,
+        "stop" : 1561016781771,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "46440fc4bb0bc37",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/46440fc4bb0bc37",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044413,
+        "stop" : 1558420044414,
         "duration" : 1
       }
     }, {
@@ -107,34 +117,34 @@
         "stop" : 1554685740575,
         "duration" : 0
       }
-    }, {
-      "uid" : "48b51035485ca497",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/48b51035485ca497",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440572,
-        "stop" : 1554685440573,
-        "duration" : 1
-      }
     } ]
   },
   "6ac195c6e390d21ec106c92a953d5a4c" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 45,
+      "skipped" : 46,
       "passed" : 37,
       "unknown" : 0,
-      "total" : 82
+      "total" : 83
     },
     "items" : [ {
-      "uid" : "bcb5c2ee397cebc",
+      "uid" : "8477cd3e5e1585fb",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099309,
-        "stop" : 1560153099310,
+        "start" : 1561016781775,
+        "stop" : 1561016781775,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f7aa80519ad91b14",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/f7aa80519ad91b14",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044417,
+        "stop" : 1558420044418,
         "duration" : 1
       }
     }, {
@@ -167,16 +177,6 @@
         "stop" : 1554685740579,
         "duration" : 1
       }
-    }, {
-      "uid" : "7dd2dd4d9a625c36",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/7dd2dd4d9a625c36",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440576,
-        "stop" : 1554685440577,
-        "duration" : 1
-      }
     } ]
   },
   "e99978f672b3d7d25f2b37e08279cc0a" : {
@@ -205,17 +205,26 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 170,
-      "passed" : 337,
+      "passed" : 338,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "ac85c2e800d93a80",
+      "uid" : "542eb26ba168ceab",
       "status" : "passed",
       "time" : {
-        "start" : 1560153096375,
-        "stop" : 1560153097053,
-        "duration" : 678
+        "start" : 1561016779865,
+        "stop" : 1561016780274,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "89fd6bfc6dd0d1e3",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/89fd6bfc6dd0d1e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420041349,
+        "stop" : 1558420042041,
+        "duration" : 692
       }
     }, {
       "uid" : "138d236d9f05e4b0",
@@ -247,16 +256,6 @@
         "stop" : 1554685740557,
         "duration" : 0
       }
-    }, {
-      "uid" : "cef80c3b320b1b1",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/cef80c3b320b1b1",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440554,
-        "stop" : 1554685440554,
-        "duration" : 0
-      }
     } ]
   },
   "a8ebfd2d66b66e89f25f204cae6dd89" : {
@@ -264,17 +263,26 @@
       "failed" : 29,
       "broken" : 11,
       "skipped" : 168,
-      "passed" : 312,
+      "passed" : 313,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "5e69f97b1471c34e",
+      "uid" : "5dc5e06cbc53ca67",
       "status" : "passed",
       "time" : {
-        "start" : 1560153091921,
-        "stop" : 1560153092508,
-        "duration" : 587
+        "start" : 1561016777285,
+        "stop" : 1561016777616,
+        "duration" : 331
+      }
+    }, {
+      "uid" : "3ca8d3660d0a17fa",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/3ca8d3660d0a17fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420036907,
+        "stop" : 1558420037486,
+        "duration" : 579
       }
     }, {
       "uid" : "f0756341d6137451",
@@ -306,16 +314,6 @@
         "stop" : 1554685740549,
         "duration" : 0
       }
-    }, {
-      "uid" : "49fa1bbc6e2405da",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/49fa1bbc6e2405da",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440546,
-        "stop" : 1554685440546,
-        "duration" : 0
-      }
     } ]
   },
   "555fe21577a89519ec933d56db5c33e7" : {
@@ -323,16 +321,25 @@
       "failed" : 18,
       "broken" : 11,
       "skipped" : 170,
-      "passed" : 321,
+      "passed" : 322,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "96e3b6de04d32e75",
+      "uid" : "b2029f121fddc7c0",
       "status" : "passed",
       "time" : {
-        "start" : 1560153084456,
-        "stop" : 1560153085210,
+        "start" : 1561016773269,
+        "stop" : 1561016773569,
+        "duration" : 300
+      }
+    }, {
+      "uid" : "4d81b96b3dc39936",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/4d81b96b3dc39936",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420029484,
+        "stop" : 1558420030238,
         "duration" : 754
       }
     }, {
@@ -365,16 +372,6 @@
         "stop" : 1554685740536,
         "duration" : 1
       }
-    }, {
-      "uid" : "53af2c0a4b647f88",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/53af2c0a4b647f88",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440532,
-        "stop" : 1554685440533,
-        "duration" : 1
-      }
     } ]
   },
   "d7316c86240cf12addb39c5f8b8aea87" : {
@@ -403,17 +400,26 @@
       "failed" : 21,
       "broken" : 0,
       "skipped" : 170,
-      "passed" : 317,
+      "passed" : 318,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "7b8b1378db5a04b2",
+      "uid" : "bf7d2411324519b2",
       "status" : "passed",
       "time" : {
-        "start" : 1560153094440,
-        "stop" : 1560153095129,
-        "duration" : 689
+        "start" : 1561016778708,
+        "stop" : 1561016779127,
+        "duration" : 419
+      }
+    }, {
+      "uid" : "431022825981297f",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/431022825981297f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420039390,
+        "stop" : 1558420040082,
+        "duration" : 692
       }
     }, {
       "uid" : "c9b1eb38c16bffe9",
@@ -445,16 +451,6 @@
         "stop" : 1554685740554,
         "duration" : 1
       }
-    }, {
-      "uid" : "db062ca4c54bdd29",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/db062ca4c54bdd29",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440550,
-        "stop" : 1554685440551,
-        "duration" : 1
-      }
     } ]
   },
   "7ca137c915022ec0d39d27e90ba90a33" : {
@@ -462,17 +458,26 @@
       "failed" : 14,
       "broken" : 11,
       "skipped" : 170,
-      "passed" : 325,
+      "passed" : 326,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "a4560cf49f947cd8",
+      "uid" : "a5785850472c914a",
       "status" : "passed",
       "time" : {
-        "start" : 1560153088184,
-        "stop" : 1560153088800,
-        "duration" : 616
+        "start" : 1561016775171,
+        "stop" : 1561016775513,
+        "duration" : 342
+      }
+    }, {
+      "uid" : "f0ab0b64d39a46ea",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/f0ab0b64d39a46ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420033186,
+        "stop" : 1558420033804,
+        "duration" : 618
       }
     }, {
       "uid" : "6d7c901b6b93816b",
@@ -504,34 +509,34 @@
         "stop" : 1554685740543,
         "duration" : 1
       }
-    }, {
-      "uid" : "80f9c458557daa8e",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/80f9c458557daa8e",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440539,
-        "stop" : 1554685440539,
-        "duration" : 0
-      }
     } ]
   },
   "8aecdb16c4e5d3ce2f16bbc81773f146" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 506,
+      "skipped" : 507,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "b96527f5448e6a92",
+      "uid" : "206edba6dc6f9de5",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099283,
-        "stop" : 1560153099284,
+        "start" : 1561016781758,
+        "stop" : 1561016781759,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1e15fbffbe4de11",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/1e15fbffbe4de11",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044400,
+        "stop" : 1558420044401,
         "duration" : 1
       }
     }, {
@@ -564,34 +569,34 @@
         "stop" : 1554685740565,
         "duration" : 1
       }
-    }, {
-      "uid" : "68f903ff69e8a95b",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/68f903ff69e8a95b",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440562,
-        "stop" : 1554685440563,
-        "duration" : 1
-      }
     } ]
   },
   "347ed64d444b63584e4cfc3aaaf4379f" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
-      "skipped" : 99,
+      "skipped" : 100,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 100
+      "total" : 101
     },
     "items" : [ {
-      "uid" : "98b8f6db54465bd8",
+      "uid" : "5f6c699d8febd2b5",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099301,
-        "stop" : 1560153099302,
+        "start" : 1561016781770,
+        "stop" : 1561016781770,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "42e1d3f3050952d0",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/42e1d3f3050952d0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044412,
+        "stop" : 1558420044413,
         "duration" : 1
       }
     }, {
@@ -623,16 +628,6 @@
         "start" : 1554685740574,
         "stop" : 1554685740574,
         "duration" : 0
-      }
-    }, {
-      "uid" : "e7ca3c5d09a3252d",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/e7ca3c5d09a3252d",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440571,
-        "stop" : 1554685440572,
-        "duration" : 1
       }
     } ]
   },
@@ -699,20 +694,39 @@
   },
   "554e7c601e0247a920afc9a9cacc2488" : {
     "statistic" : {
-      "failed" : 16,
+      "failed" : 17,
       "broken" : 11,
       "skipped" : 171,
-      "passed" : 322,
+      "passed" : 323,
       "unknown" : 0,
-      "total" : 520
+      "total" : 522
     },
     "items" : [ {
-      "uid" : "25b3c372a13c7bd6",
+      "uid" : "e904d5669e0d269c",
       "status" : "passed",
       "time" : {
-        "start" : 1560153083849,
-        "stop" : 1560153084453,
-        "duration" : 604
+        "start" : 1561016772935,
+        "stop" : 1561016773266,
+        "duration" : 331
+      }
+    }, {
+      "uid" : "99bfd4338fbdfa28",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/536/allure/#testresult/99bfd4338fbdfa28",
+      "status" : "failed",
+      "statusDetails" : "NameError: name 'user_id' is not defined",
+      "time" : {
+        "start" : 1560995580843,
+        "stop" : 1560995580856,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "cc1c5e821f190bc3",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/cc1c5e821f190bc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420028866,
+        "stop" : 1558420029482,
+        "duration" : 616
       }
     }, {
       "uid" : "e98706a6afd6bbeb",
@@ -734,45 +748,35 @@
         "stop" : 1554686040582,
         "duration" : 1
       }
-    }, {
-      "uid" : "af794e94d138d6c4",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/531/allure/#testresult/af794e94d138d6c4",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685740534,
-        "stop" : 1554685740535,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "a8d47fabc50ea424",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/a8d47fabc50ea424",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440531,
-        "stop" : 1554685440532,
-        "duration" : 1
-      }
     } ]
   },
   "dc4c4fd8b24adbc67bdb02d7d55ac2ce" : {
     "statistic" : {
       "failed" : 3,
       "broken" : 0,
-      "skipped" : 45,
+      "skipped" : 46,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 50
+      "total" : 51
     },
     "items" : [ {
-      "uid" : "1eab57612e824586",
+      "uid" : "52a5c44e15bb8001",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099319,
-        "stop" : 1560153099320,
-        "duration" : 1
+        "start" : 1561016781781,
+        "stop" : 1561016781781,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1b2511a99055ee60",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/1b2511a99055ee60",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044424,
+        "stop" : 1558420044424,
+        "duration" : 0
       }
     }, {
       "uid" : "5ad82401293b7d29",
@@ -804,16 +808,6 @@
         "stop" : 1554685740584,
         "duration" : 1
       }
-    }, {
-      "uid" : "50debab0bd1e2d5e",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/50debab0bd1e2d5e",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440581,
-        "stop" : 1554685440582,
-        "duration" : 1
-      }
     } ]
   },
   "31879e603f5660b6fae288d0f974dd32" : {
@@ -821,17 +815,26 @@
       "failed" : 13,
       "broken" : 0,
       "skipped" : 170,
-      "passed" : 325,
+      "passed" : 326,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "39ebca60701e6d2e",
+      "uid" : "58a89b643d928afe",
       "status" : "passed",
       "time" : {
-        "start" : 1560153095130,
-        "stop" : 1560153095783,
-        "duration" : 653
+        "start" : 1561016779128,
+        "stop" : 1561016779520,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "8a6627cb28f6fd9d",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/8a6627cb28f6fd9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420040083,
+        "stop" : 1558420040744,
+        "duration" : 661
       }
     }, {
       "uid" : "ccebaca5658c03f9",
@@ -861,16 +864,6 @@
       "time" : {
         "start" : 1554685740554,
         "stop" : 1554685740555,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "36e23500d3a60cef",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/36e23500d3a60cef",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440551,
-        "stop" : 1554685440552,
         "duration" : 1
       }
     } ]
@@ -940,18 +933,28 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 27,
       "unknown" : 0,
-      "total" : 28
+      "total" : 29
     },
     "items" : [ {
-      "uid" : "828eeb48f4acd2a",
+      "uid" : "e9b47683592866a3",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099324,
-        "stop" : 1560153099325,
+        "start" : 1561016781785,
+        "stop" : 1561016781785,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2add4f0c1e77df2d",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/2add4f0c1e77df2d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044427,
+        "stop" : 1558420044428,
         "duration" : 1
       }
     }, {
@@ -981,34 +984,35 @@
         "stop" : 1554685741266,
         "duration" : 679
       }
-    }, {
-      "uid" : "2e955d6ed3c99ac6",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/2e955d6ed3c99ac6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1554685440585,
-        "stop" : 1554685441261,
-        "duration" : 676
-      }
     } ]
   },
   "899fd2a704f0b38b1fb4665fb132d89" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 506,
+      "skipped" : 507,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "2d03c086b1230584",
+      "uid" : "3b06d07ad929f452",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099289,
-        "stop" : 1560153099290,
-        "duration" : 1
+        "start" : 1561016781763,
+        "stop" : 1561016781763,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6523a64ff8929563",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/6523a64ff8929563",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044405,
+        "stop" : 1558420044405,
+        "duration" : 0
       }
     }, {
       "uid" : "6227c8348dec37a5",
@@ -1040,16 +1044,6 @@
         "stop" : 1554685740569,
         "duration" : 1
       }
-    }, {
-      "uid" : "fcab623de81dcc46",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/fcab623de81dcc46",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440565,
-        "stop" : 1554685440566,
-        "duration" : 1
-      }
     } ]
   },
   "701a193ed98de2a639a9ae5fbdf89d5d" : {
@@ -1057,17 +1051,26 @@
       "failed" : 13,
       "broken" : 0,
       "skipped" : 170,
-      "passed" : 325,
+      "passed" : 326,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "e8afd1b7d5c8bbdf",
+      "uid" : "dd3c9797aee4eeb6",
       "status" : "passed",
       "time" : {
-        "start" : 1560153093746,
-        "stop" : 1560153094439,
-        "duration" : 693
+        "start" : 1561016778304,
+        "stop" : 1561016778707,
+        "duration" : 403
+      }
+    }, {
+      "uid" : "33cd2b48909f12b1",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/33cd2b48909f12b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420038712,
+        "stop" : 1558420039389,
+        "duration" : 677
       }
     }, {
       "uid" : "1d9e09378021d357",
@@ -1099,34 +1102,34 @@
         "stop" : 1554685740553,
         "duration" : 1
       }
-    }, {
-      "uid" : "c0a852d71680924a",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/c0a852d71680924a",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440549,
-        "stop" : 1554685440549,
-        "duration" : 0
-      }
     } ]
   },
   "4438a93355c6258d8c1da685643d954f" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 157,
+      "skipped" : 158,
       "passed" : 25,
       "unknown" : 0,
-      "total" : 182
+      "total" : 183
     },
     "items" : [ {
-      "uid" : "4b7a4b8b0e48300d",
+      "uid" : "b49856394fc6e3ec",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099332,
-        "stop" : 1560153099333,
+        "start" : 1561016781791,
+        "stop" : 1561016781791,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "927aae43696adbe9",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/927aae43696adbe9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044433,
+        "stop" : 1558420044434,
         "duration" : 1
       }
     }, {
@@ -1159,35 +1162,35 @@
         "stop" : 1554685742730,
         "duration" : 0
       }
-    }, {
-      "uid" : "ba6c321b024ff656",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/ba6c321b024ff656",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685442611,
-        "stop" : 1554685442612,
-        "duration" : 1
-      }
     } ]
   },
   "cc172f79f2dc3177c6db4bf04a56b8b2" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 157,
+      "skipped" : 158,
       "passed" : 25,
       "unknown" : 0,
-      "total" : 182
+      "total" : 183
     },
     "items" : [ {
-      "uid" : "2122072d7513dbcf",
+      "uid" : "ee12defd84259f5f",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099329,
-        "stop" : 1560153099329,
-        "duration" : 0
+        "start" : 1561016781788,
+        "stop" : 1561016781789,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7aaa5e7955e791d0",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/7aaa5e7955e791d0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044431,
+        "stop" : 1558420044432,
+        "duration" : 1
       }
     }, {
       "uid" : "a462d254a53cfa03",
@@ -1219,35 +1222,35 @@
         "stop" : 1554685742728,
         "duration" : 0
       }
-    }, {
-      "uid" : "a1c43b374781955e",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/a1c43b374781955e",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685442609,
-        "stop" : 1554685442609,
-        "duration" : 0
-      }
     } ]
   },
   "684c0c6341058c6936b5011b72938b38" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
-      "skipped" : 99,
+      "skipped" : 100,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 100
+      "total" : 101
     },
     "items" : [ {
-      "uid" : "c6c67d4e482a7953",
+      "uid" : "6a72b580d1ecea1e",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099298,
-        "stop" : 1560153099300,
-        "duration" : 2
+        "start" : 1561016781768,
+        "stop" : 1561016781769,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d4c108d419167ccf",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/d4c108d419167ccf",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044411,
+        "stop" : 1558420044411,
+        "duration" : 0
       }
     }, {
       "uid" : "d62fe7bd67a372d4",
@@ -1279,34 +1282,43 @@
         "stop" : 1554685740573,
         "duration" : 1
       }
-    }, {
-      "uid" : "e9689cccf53791cc",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/e9689cccf53791cc",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440570,
-        "stop" : 1554685440571,
-        "duration" : 1
-      }
     } ]
   },
   "b13485a177572d9717b9298630883956" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 11,
       "skipped" : 171,
-      "passed" : 336,
+      "passed" : 337,
       "unknown" : 0,
-      "total" : 520
+      "total" : 522
     },
     "items" : [ {
-      "uid" : "7c1c34171440e21e",
+      "uid" : "d34f8e6a550eceeb",
       "status" : "passed",
       "time" : {
-        "start" : 1560153082626,
-        "stop" : 1560153083289,
-        "duration" : 663
+        "start" : 1561016772248,
+        "stop" : 1561016772645,
+        "duration" : 397
+      }
+    }, {
+      "uid" : "15409aa1e02e384d",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/536/allure/#testresult/15409aa1e02e384d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: ",
+      "time" : {
+        "start" : 1560995578495,
+        "stop" : 1560995579350,
+        "duration" : 855
+      }
+    }, {
+      "uid" : "164a84b1cd759aa7",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/164a84b1cd759aa7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420027613,
+        "stop" : 1558420028286,
+        "duration" : 673
       }
     }, {
       "uid" : "a8ceb811a2846e86",
@@ -1327,26 +1339,6 @@
         "start" : 1554686040579,
         "stop" : 1554686040579,
         "duration" : 0
-      }
-    }, {
-      "uid" : "5b4fe36e4133d99c",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/531/allure/#testresult/5b4fe36e4133d99c",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685740532,
-        "stop" : 1554685740532,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "5b9178924e912c3c",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/5b9178924e912c3c",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440528,
-        "stop" : 1554685440529,
-        "duration" : 1
       }
     } ]
   },
@@ -1417,17 +1409,35 @@
       "failed" : 1,
       "broken" : 11,
       "skipped" : 171,
-      "passed" : 337,
+      "passed" : 339,
       "unknown" : 0,
-      "total" : 520
+      "total" : 522
     },
     "items" : [ {
-      "uid" : "d1234222cecd46a4",
+      "uid" : "56fdfd6c906173ee",
       "status" : "passed",
       "time" : {
-        "start" : 1560153083290,
-        "stop" : 1560153083847,
-        "duration" : 557
+        "start" : 1561016772647,
+        "stop" : 1561016772934,
+        "duration" : 287
+      }
+    }, {
+      "uid" : "e6fc43fb4240a101",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/536/allure/#testresult/e6fc43fb4240a101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560995579352,
+        "stop" : 1560995580841,
+        "duration" : 1489
+      }
+    }, {
+      "uid" : "a6f9dd07330f2524",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/a6f9dd07330f2524",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420028288,
+        "stop" : 1558420028864,
+        "duration" : 576
       }
     }, {
       "uid" : "87268aba5cb8ad5f",
@@ -1449,26 +1459,6 @@
         "stop" : 1554686040580,
         "duration" : 0
       }
-    }, {
-      "uid" : "62a47a978b77a23c",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/531/allure/#testresult/62a47a978b77a23c",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685740533,
-        "stop" : 1554685740533,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "a8517138f9033dbe",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/a8517138f9033dbe",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440529,
-        "stop" : 1554685440531,
-        "duration" : 2
-      }
     } ]
   },
   "5aaa6cb6e91573caebe3f2914a49ba61" : {
@@ -1476,17 +1466,26 @@
       "failed" : 1,
       "broken" : 11,
       "skipped" : 170,
-      "passed" : 338,
+      "passed" : 339,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "14c76cbf5e144928",
+      "uid" : "c5e47f5823236e12",
       "status" : "passed",
       "time" : {
-        "start" : 1560153085778,
-        "stop" : 1560153086357,
-        "duration" : 579
+        "start" : 1561016773867,
+        "stop" : 1561016774190,
+        "duration" : 323
+      }
+    }, {
+      "uid" : "b0677f7a54bf5acb",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/b0677f7a54bf5acb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420030816,
+        "stop" : 1558420031394,
+        "duration" : 578
       }
     }, {
       "uid" : "4fc3cf15018db4a4",
@@ -1518,34 +1517,34 @@
         "stop" : 1554685740538,
         "duration" : 0
       }
-    }, {
-      "uid" : "1fd5f9a38ef588c1",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/1fd5f9a38ef588c1",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440534,
-        "stop" : 1554685440535,
-        "duration" : 1
-      }
     } ]
   },
   "9c8af86ae746a1fc0552819b83bff217" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
-      "skipped" : 45,
+      "skipped" : 46,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 54
+      "total" : 55
     },
     "items" : [ {
-      "uid" : "8ba338b95457710c",
+      "uid" : "c0d36cb012b084c0",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099312,
-        "stop" : 1560153099313,
+        "start" : 1561016781777,
+        "stop" : 1561016781778,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a2b4ddc3a786ffd1",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/a2b4ddc3a786ffd1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044420,
+        "stop" : 1558420044421,
         "duration" : 1
       }
     }, {
@@ -1578,34 +1577,34 @@
         "stop" : 1554685740581,
         "duration" : 1
       }
-    }, {
-      "uid" : "8bc1788e632f728a",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/8bc1788e632f728a",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440578,
-        "stop" : 1554685440579,
-        "duration" : 1
-      }
     } ]
   },
   "825382d2bec43e72146a2f698c85260a" : {
     "statistic" : {
       "failed" : 3,
       "broken" : 0,
-      "skipped" : 21,
+      "skipped" : 22,
       "passed" : 20,
       "unknown" : 0,
-      "total" : 44
+      "total" : 45
     },
     "items" : [ {
-      "uid" : "582937a8c86d81d3",
+      "uid" : "f1c2d70657901a54",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099320,
-        "stop" : 1560153099321,
+        "start" : 1561016781782,
+        "stop" : 1561016781783,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8087506b4a525485",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/8087506b4a525485",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044425,
+        "stop" : 1558420044426,
         "duration" : 1
       }
     }, {
@@ -1636,16 +1635,6 @@
       "time" : {
         "start" : 1554685740585,
         "stop" : 1554685740585,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "5265773ab476a245",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/5265773ab476a245",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440583,
-        "stop" : 1554685440583,
         "duration" : 0
       }
     } ]
@@ -1715,18 +1704,28 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 506,
+      "skipped" : 507,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "26570997fb3912c2",
+      "uid" : "5d0b98fc1040132b",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099287,
-        "stop" : 1560153099288,
+        "start" : 1561016781761,
+        "stop" : 1561016781762,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "26f5192f9674d528",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/26f5192f9674d528",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044403,
+        "stop" : 1558420044404,
         "duration" : 1
       }
     }, {
@@ -1759,34 +1758,34 @@
         "stop" : 1554685740567,
         "duration" : 0
       }
-    }, {
-      "uid" : "f70dbd73800a17fe",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/f70dbd73800a17fe",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440564,
-        "stop" : 1554685440565,
-        "duration" : 1
-      }
     } ]
   },
   "d9e818a8b65ffe0abd6768d03f59f7da" : {
     "statistic" : {
       "failed" : 10,
       "broken" : 0,
-      "skipped" : 21,
+      "skipped" : 22,
       "passed" : 12,
       "unknown" : 0,
-      "total" : 43
+      "total" : 44
     },
     "items" : [ {
-      "uid" : "7d48e9d60f5bfa8f",
+      "uid" : "dd01dd7f9ace5a1f",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099322,
-        "stop" : 1560153099323,
+        "start" : 1561016781783,
+        "stop" : 1561016781784,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4ebac95134892ae6",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/4ebac95134892ae6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044426,
+        "stop" : 1558420044427,
         "duration" : 1
       }
     }, {
@@ -1817,16 +1816,6 @@
       "time" : {
         "start" : 1554685740586,
         "stop" : 1554685740586,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "8e5bea0dfe6c20a8",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/8e5bea0dfe6c20a8",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440584,
-        "stop" : 1554685440584,
         "duration" : 0
       }
     } ]
@@ -1917,19 +1906,29 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 105,
+      "skipped" : 106,
       "passed" : 10,
       "unknown" : 0,
-      "total" : 115
+      "total" : 116
     },
     "items" : [ {
-      "uid" : "b54ba89c3a188510",
+      "uid" : "25abcab1aa36799f",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099295,
-        "stop" : 1560153099297,
-        "duration" : 2
+        "start" : 1561016781767,
+        "stop" : 1561016781768,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ae4d7d83be3ea161",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/ae4d7d83be3ea161",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044409,
+        "stop" : 1558420044410,
+        "duration" : 1
       }
     }, {
       "uid" : "3cd747a19b0ef27d",
@@ -1961,34 +1960,34 @@
         "stop" : 1554685740572,
         "duration" : 1
       }
-    }, {
-      "uid" : "13ecdc63368b207f",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/13ecdc63368b207f",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440569,
-        "stop" : 1554685440569,
-        "duration" : 0
-      }
     } ]
   },
   "a7ed8cf8a4b85043a539623426109055" : {
     "statistic" : {
       "failed" : 12,
       "broken" : 0,
-      "skipped" : 99,
+      "skipped" : 100,
       "passed" : 18,
       "unknown" : 0,
-      "total" : 129
+      "total" : 130
     },
     "items" : [ {
-      "uid" : "ebe01c3374a1c929",
+      "uid" : "d122c33526f213e3",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099293,
-        "stop" : 1560153099294,
+        "start" : 1561016781765,
+        "stop" : 1561016781766,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6fb8f5c05a3094a",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/6fb8f5c05a3094a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044408,
+        "stop" : 1558420044409,
         "duration" : 1
       }
     }, {
@@ -2021,16 +2020,6 @@
         "stop" : 1554685740571,
         "duration" : 1
       }
-    }, {
-      "uid" : "268c18390bfbe28f",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/268c18390bfbe28f",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440568,
-        "stop" : 1554685440568,
-        "duration" : 0
-      }
     } ]
   },
   "9c776bea376551dfcb1ce0f300a22fbf" : {
@@ -2038,17 +2027,26 @@
       "failed" : 13,
       "broken" : 0,
       "skipped" : 170,
-      "passed" : 325,
+      "passed" : 326,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "6c6c1fcba1c87315",
+      "uid" : "1507e21f61c07cdc",
       "status" : "passed",
       "time" : {
-        "start" : 1560153097728,
-        "stop" : 1560153098385,
-        "duration" : 657
+        "start" : 1561016780701,
+        "stop" : 1561016781100,
+        "duration" : 399
+      }
+    }, {
+      "uid" : "cab8b00c05ee7baf",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/cab8b00c05ee7baf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420042736,
+        "stop" : 1558420043410,
+        "duration" : 674
       }
     }, {
       "uid" : "86b49530148d6dce",
@@ -2080,35 +2078,35 @@
         "stop" : 1554685740559,
         "duration" : 0
       }
-    }, {
-      "uid" : "d844f1901b051623",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/d844f1901b051623",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440556,
-        "stop" : 1554685440556,
-        "duration" : 0
-      }
     } ]
   },
   "8f995201ca1d3e10b175f0372fb9a112" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 506,
+      "skipped" : 507,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "d18217afcbc950d9",
+      "uid" : "61689f3f7a2a162e",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099277,
-        "stop" : 1560153099278,
+        "start" : 1561016781753,
+        "stop" : 1561016781754,
         "duration" : 1
+      }
+    }, {
+      "uid" : "5a1e23954be9066",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/5a1e23954be9066",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044394,
+        "stop" : 1558420044396,
+        "duration" : 2
       }
     }, {
       "uid" : "82cc2278d34d69c2",
@@ -2138,16 +2136,6 @@
       "time" : {
         "start" : 1554685740561,
         "stop" : 1554685740562,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "f4cb992efff6c87f",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/f4cb992efff6c87f",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440558,
-        "stop" : 1554685440559,
         "duration" : 1
       }
     } ]
@@ -2218,17 +2206,26 @@
       "failed" : 15,
       "broken" : 0,
       "skipped" : 170,
-      "passed" : 322,
+      "passed" : 323,
       "unknown" : 0,
-      "total" : 507
+      "total" : 508
     },
     "items" : [ {
-      "uid" : "bf976342046d57b6",
+      "uid" : "9653e8bd21c34659",
       "status" : "passed",
       "time" : {
-        "start" : 1560153098386,
-        "stop" : 1560153099274,
-        "duration" : 888
+        "start" : 1561016781102,
+        "stop" : 1561016781751,
+        "duration" : 649
+      }
+    }, {
+      "uid" : "7c302795f26c4ae8",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/7c302795f26c4ae8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420043411,
+        "stop" : 1558420044392,
+        "duration" : 981
       }
     }, {
       "uid" : "c893e2cf3b2a5307",
@@ -2260,16 +2257,6 @@
         "stop" : 1554685740561,
         "duration" : 1
       }
-    }, {
-      "uid" : "e353eed39cdff64a",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/e353eed39cdff64a",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440557,
-        "stop" : 1554685440558,
-        "duration" : 1
-      }
     } ]
   },
   "256670147956290826a9e9fe9345e6d8" : {
@@ -2277,17 +2264,26 @@
       "failed" : 1,
       "broken" : 11,
       "skipped" : 170,
-      "passed" : 338,
+      "passed" : 339,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "6b3b53e3d41e9d52",
+      "uid" : "b0548614d51a2df9",
       "status" : "passed",
       "time" : {
-        "start" : 1560153085211,
-        "stop" : 1560153085777,
-        "duration" : 566
+        "start" : 1561016773570,
+        "stop" : 1561016773866,
+        "duration" : 296
+      }
+    }, {
+      "uid" : "ca7461fea31fcca4",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/ca7461fea31fcca4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420030240,
+        "stop" : 1558420030815,
+        "duration" : 575
       }
     }, {
       "uid" : "dbeb88eaa8d915d3",
@@ -2319,16 +2315,6 @@
         "stop" : 1554685740537,
         "duration" : 1
       }
-    }, {
-      "uid" : "a46ea5019d1023b2",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/a46ea5019d1023b2",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440533,
-        "stop" : 1554685440534,
-        "duration" : 1
-      }
     } ]
   },
   "77f763d3070a79827674b9c351abf5ac" : {
@@ -2336,17 +2322,26 @@
       "failed" : 16,
       "broken" : 11,
       "skipped" : 168,
-      "passed" : 325,
+      "passed" : 326,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "791997fbbec1c300",
+      "uid" : "2a14ae663401363f",
       "status" : "passed",
       "time" : {
-        "start" : 1560153088802,
-        "stop" : 1560153089423,
-        "duration" : 621
+        "start" : 1561016775515,
+        "stop" : 1561016775856,
+        "duration" : 341
+      }
+    }, {
+      "uid" : "c9ef879273feb60d",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/c9ef879273feb60d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420033806,
+        "stop" : 1558420034450,
+        "duration" : 644
       }
     }, {
       "uid" : "e3423de2281c42c1",
@@ -2378,34 +2373,34 @@
         "stop" : 1554685740544,
         "duration" : 1
       }
-    }, {
-      "uid" : "fba83b1acd255cc0",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/fba83b1acd255cc0",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440540,
-        "stop" : 1554685440541,
-        "duration" : 1
-      }
     } ]
   },
   "ad2d766ecdfcefb23c0d16f822b3b361" : {
     "statistic" : {
       "failed" : 9,
       "broken" : 0,
-      "skipped" : 99,
+      "skipped" : 100,
       "passed" : 29,
       "unknown" : 0,
-      "total" : 137
+      "total" : 138
     },
     "items" : [ {
-      "uid" : "72c8c367081db794",
+      "uid" : "74e14ce3a1f7ce04",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099291,
-        "stop" : 1560153099292,
+        "start" : 1561016781764,
+        "stop" : 1561016781765,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9843ac76a73d3c14",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/9843ac76a73d3c14",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044406,
+        "stop" : 1558420044407,
         "duration" : 1
       }
     }, {
@@ -2438,16 +2433,6 @@
         "stop" : 1554685740570,
         "duration" : 1
       }
-    }, {
-      "uid" : "847087a5b1c1c564",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/847087a5b1c1c564",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440567,
-        "stop" : 1554685440567,
-        "duration" : 0
-      }
     } ]
   },
   "2b6d9e3ba750b250c3f7dfb0dee18145" : {
@@ -2455,17 +2440,26 @@
       "failed" : 14,
       "broken" : 11,
       "skipped" : 170,
-      "passed" : 325,
+      "passed" : 326,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "604ae091e2a5ff7b",
+      "uid" : "a98fd5203d4fccbf",
       "status" : "passed",
       "time" : {
-        "start" : 1560153086997,
-        "stop" : 1560153087565,
-        "duration" : 568
+        "start" : 1561016774524,
+        "stop" : 1561016774823,
+        "duration" : 299
+      }
+    }, {
+      "uid" : "ff5e46ae579b2f9b",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/ff5e46ae579b2f9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420032010,
+        "stop" : 1558420032571,
+        "duration" : 561
       }
     }, {
       "uid" : "8ec5fc9deaf9d38f",
@@ -2497,34 +2491,53 @@
         "stop" : 1554685740541,
         "duration" : 1
       }
-    }, {
-      "uid" : "4cb3af264df5a3d9",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/4cb3af264df5a3d9",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440537,
-        "stop" : 1554685440537,
-        "duration" : 0
-      }
     } ]
   },
   "bcf90b52f1eae4f92757fbdfab230fea" : {
     "statistic" : {
-      "failed" : 16,
+      "failed" : 18,
       "broken" : 11,
       "skipped" : 171,
-      "passed" : 322,
+      "passed" : 323,
       "unknown" : 0,
-      "total" : 520
+      "total" : 523
     },
     "items" : [ {
-      "uid" : "a47b63e854718241",
+      "uid" : "4cf0de3c6fc986bb",
       "status" : "passed",
       "time" : {
-        "start" : 1560153081933,
-        "stop" : 1560153082624,
-        "duration" : 691
+        "start" : 1561016771819,
+        "stop" : 1561016772246,
+        "duration" : 427
+      }
+    }, {
+      "uid" : "25224427f1c41cbf",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/536/allure/#testresult/25224427f1c41cbf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: ",
+      "time" : {
+        "start" : 1560995576698,
+        "stop" : 1560995578494,
+        "duration" : 1796
+      }
+    }, {
+      "uid" : "5fc5030c8288e7f0",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/535/allure/#testresult/5fc5030c8288e7f0",
+      "status" : "failed",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1560994060760,
+        "stop" : 1560994060806,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "fc822c3c3a1e8f96",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/fc822c3c3a1e8f96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420026923,
+        "stop" : 1558420027611,
+        "duration" : 688
       }
     }, {
       "uid" : "ad799d7d75c8d360",
@@ -2536,55 +2549,35 @@
         "stop" : 1554686340550,
         "duration" : 1
       }
-    }, {
-      "uid" : "db985bfa4bc1cb85",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/532/allure/#testresult/db985bfa4bc1cb85",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554686040578,
-        "stop" : 1554686040578,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "76c37ba621376425",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/531/allure/#testresult/76c37ba621376425",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685740530,
-        "stop" : 1554685740531,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "ac0a52fd8e3e97de",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/ac0a52fd8e3e97de",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440527,
-        "stop" : 1554685440528,
-        "duration" : 1
-      }
     } ]
   },
   "188740dd4132daf3ddb886b61c200fc2" : {
     "statistic" : {
       "failed" : 10,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
-      "uid" : "76f0fa0a0b17c858",
+      "uid" : "6d498b635d2246e8",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099327,
-        "stop" : 1560153099328,
+        "start" : 1561016781787,
+        "stop" : 1561016781788,
         "duration" : 1
+      }
+    }, {
+      "uid" : "4b782a5a8e0de7d6",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/4b782a5a8e0de7d6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044430,
+        "stop" : 1558420044430,
+        "duration" : 0
       }
     }, {
       "uid" : "eee793463593a14c",
@@ -2615,16 +2608,6 @@
         "start" : 1554685741978,
         "stop" : 1554685742726,
         "duration" : 748
-      }
-    }, {
-      "uid" : "d6ca247b51daed36",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/d6ca247b51daed36",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: ",
-      "time" : {
-        "start" : 1554685441912,
-        "stop" : 1554685442608,
-        "duration" : 696
       }
     } ]
   },
@@ -2693,18 +2676,28 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 506,
+      "skipped" : 507,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "f13477d2df1a7ebd",
+      "uid" : "1da29772dfa02f9a",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099279,
-        "stop" : 1560153099280,
+        "start" : 1561016781755,
+        "stop" : 1561016781756,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "29f20c0dda820057",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/29f20c0dda820057",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044397,
+        "stop" : 1558420044398,
         "duration" : 1
       }
     }, {
@@ -2737,16 +2730,6 @@
         "stop" : 1554685740563,
         "duration" : 1
       }
-    }, {
-      "uid" : "a88293d5a0f8d714",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/a88293d5a0f8d714",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440560,
-        "stop" : 1554685440560,
-        "duration" : 0
-      }
     } ]
   },
   "9d5a5022e2dfb0ec56ab82c07c5f90d7" : {
@@ -2775,17 +2758,26 @@
       "failed" : 15,
       "broken" : 11,
       "skipped" : 168,
-      "passed" : 326,
+      "passed" : 327,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "c15c2e06b6069e5b",
+      "uid" : "14cbdac8ca235359",
       "status" : "passed",
       "time" : {
-        "start" : 1560153092509,
-        "stop" : 1560153093149,
-        "duration" : 640
+        "start" : 1561016777617,
+        "stop" : 1561016777991,
+        "duration" : 374
+      }
+    }, {
+      "uid" : "511492f661f89b7a",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/511492f661f89b7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420037487,
+        "stop" : 1558420038124,
+        "duration" : 637
       }
     }, {
       "uid" : "99d075cd5f74177d",
@@ -2817,16 +2809,6 @@
         "stop" : 1554685740550,
         "duration" : 0
       }
-    }, {
-      "uid" : "717f0c401ea630c9",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/717f0c401ea630c9",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440547,
-        "stop" : 1554685440547,
-        "duration" : 0
-      }
     } ]
   },
   "c556f1918126d9d186e921debc873c5c" : {
@@ -2834,17 +2816,26 @@
       "failed" : 25,
       "broken" : 11,
       "skipped" : 163,
-      "passed" : 321,
+      "passed" : 322,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "171232290e5d7671",
+      "uid" : "19afdbc21a8fca4b",
       "status" : "passed",
       "time" : {
-        "start" : 1560153091322,
-        "stop" : 1560153091920,
-        "duration" : 598
+        "start" : 1561016776955,
+        "stop" : 1561016777283,
+        "duration" : 328
+      }
+    }, {
+      "uid" : "ca45ae547a972367",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/ca45ae547a972367",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420036321,
+        "stop" : 1558420036906,
+        "duration" : 585
       }
     }, {
       "uid" : "692e8686a369e76d",
@@ -2876,35 +2867,35 @@
         "stop" : 1554685740548,
         "duration" : 0
       }
-    }, {
-      "uid" : "55f1203c304d84c3",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/55f1203c304d84c3",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440544,
-        "stop" : 1554685440545,
-        "duration" : 1
-      }
     } ]
   },
   "ef5b9b31c68854e120fa32c0501cd755" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 12,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
-      "uid" : "5cb15cfb5041591f",
+      "uid" : "24427318308a68f1",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099325,
-        "stop" : 1560153099326,
-        "duration" : 1
+        "start" : 1561016781786,
+        "stop" : 1561016781786,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "55820f9f477a0842",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/55820f9f477a0842",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044429,
+        "stop" : 1558420044429,
+        "duration" : 0
       }
     }, {
       "uid" : "a8dd3edd8a820167",
@@ -2932,15 +2923,6 @@
         "start" : 1554685741268,
         "stop" : 1554685741977,
         "duration" : 709
-      }
-    }, {
-      "uid" : "a71d45d571ddfd4",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/a71d45d571ddfd4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1554685441263,
-        "stop" : 1554685441911,
-        "duration" : 648
       }
     } ]
   },
@@ -3010,17 +2992,26 @@
       "failed" : 14,
       "broken" : 11,
       "skipped" : 170,
-      "passed" : 325,
+      "passed" : 326,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "472dd035e83213e1",
+      "uid" : "eeb5492b4ddfb511",
       "status" : "passed",
       "time" : {
-        "start" : 1560153087566,
-        "stop" : 1560153088182,
-        "duration" : 616
+        "start" : 1561016774825,
+        "stop" : 1561016775169,
+        "duration" : 344
+      }
+    }, {
+      "uid" : "1b671b99269df4e8",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/1b671b99269df4e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420032573,
+        "stop" : 1558420033183,
+        "duration" : 610
       }
     }, {
       "uid" : "755ca78d40011445",
@@ -3052,35 +3043,35 @@
         "stop" : 1554685740542,
         "duration" : 1
       }
-    }, {
-      "uid" : "9f2ef622ecd76c16",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/9f2ef622ecd76c16",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440538,
-        "stop" : 1554685440538,
-        "duration" : 0
-      }
     } ]
   },
   "fdb3c2e091d136404cf8f0df1e6dbfb6" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 157,
+      "skipped" : 158,
       "passed" : 25,
       "unknown" : 0,
-      "total" : 182
+      "total" : 183
     },
     "items" : [ {
-      "uid" : "59db5bdae361a82a",
+      "uid" : "8e33b447529ccfa3",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099335,
-        "stop" : 1560153099336,
+        "start" : 1561016781792,
+        "stop" : 1561016781793,
         "duration" : 1
+      }
+    }, {
+      "uid" : "19874836f2592ed7",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/19874836f2592ed7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044435,
+        "stop" : 1558420044435,
+        "duration" : 0
       }
     }, {
       "uid" : "530e73133fadc7f",
@@ -3112,16 +3103,6 @@
         "stop" : 1554685742732,
         "duration" : 1
       }
-    }, {
-      "uid" : "4bef3309762fd12a",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/4bef3309762fd12a",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685442613,
-        "stop" : 1554685442613,
-        "duration" : 0
-      }
     } ]
   },
   "bfa705bd3fc662adc2bd4ca721d32035" : {
@@ -3129,17 +3110,26 @@
       "failed" : 1,
       "broken" : 11,
       "skipped" : 168,
-      "passed" : 340,
+      "passed" : 341,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "67666e4d38b335a3",
+      "uid" : "21556fe42e4976ca",
       "status" : "passed",
       "time" : {
-        "start" : 1560153089426,
-        "stop" : 1560153090013,
-        "duration" : 587
+        "start" : 1561016775858,
+        "stop" : 1561016776183,
+        "duration" : 325
+      }
+    }, {
+      "uid" : "ca7b33706e6cf7da",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/ca7b33706e6cf7da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420034453,
+        "stop" : 1558420035038,
+        "duration" : 585
       }
     }, {
       "uid" : "e8ab4716490decf7",
@@ -3169,16 +3159,6 @@
       "time" : {
         "start" : 1554685740544,
         "stop" : 1554685740545,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "559762369f042402",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/559762369f042402",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440541,
-        "stop" : 1554685440542,
         "duration" : 1
       }
     } ]
@@ -3249,17 +3229,26 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 170,
-      "passed" : 338,
+      "passed" : 339,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "601254cf14df047",
+      "uid" : "c80977e55b3aa07d",
       "status" : "passed",
       "time" : {
-        "start" : 1560153093150,
-        "stop" : 1560153093745,
-        "duration" : 595
+        "start" : 1561016777992,
+        "stop" : 1561016778302,
+        "duration" : 310
+      }
+    }, {
+      "uid" : "1b74671535864284",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/1b74671535864284",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420038126,
+        "stop" : 1558420038710,
+        "duration" : 584
       }
     }, {
       "uid" : "b0a604494fd35052",
@@ -3291,16 +3280,6 @@
         "stop" : 1554685740552,
         "duration" : 1
       }
-    }, {
-      "uid" : "34e14f3fe0ec3eab",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/34e14f3fe0ec3eab",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440548,
-        "stop" : 1554685440548,
-        "duration" : 0
-      }
     } ]
   },
   "f88d0bbd3f5df4afe821acc086350cde" : {
@@ -3308,17 +3287,26 @@
       "failed" : 14,
       "broken" : 11,
       "skipped" : 170,
-      "passed" : 325,
+      "passed" : 326,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "239869814aabdf2c",
+      "uid" : "bcb762a89a59f8ec",
       "status" : "passed",
       "time" : {
-        "start" : 1560153086359,
-        "stop" : 1560153086996,
-        "duration" : 637
+        "start" : 1561016774191,
+        "stop" : 1561016774522,
+        "duration" : 331
+      }
+    }, {
+      "uid" : "f3f6bbea2ea2e5e3",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/f3f6bbea2ea2e5e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420031396,
+        "stop" : 1558420032008,
+        "duration" : 612
       }
     }, {
       "uid" : "1675b4e9b98366bc",
@@ -3350,35 +3338,35 @@
         "stop" : 1554685740539,
         "duration" : 0
       }
-    }, {
-      "uid" : "8120ca9e9ebedb13",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/8120ca9e9ebedb13",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440536,
-        "stop" : 1554685440536,
-        "duration" : 0
-      }
     } ]
   },
   "4ec71ce35953ce642d730b050e0a7985" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 157,
+      "skipped" : 158,
       "passed" : 25,
       "unknown" : 0,
-      "total" : 182
+      "total" : 183
     },
     "items" : [ {
-      "uid" : "e88d9be0a0032ced",
+      "uid" : "9c4edfb151745529",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099337,
-        "stop" : 1560153099338,
+        "start" : 1561016781793,
+        "stop" : 1561016781794,
         "duration" : 1
+      }
+    }, {
+      "uid" : "de82e96a0dbbdd8c",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/de82e96a0dbbdd8c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044436,
+        "stop" : 1558420044436,
+        "duration" : 0
       }
     }, {
       "uid" : "c8babb0263a5aa95",
@@ -3410,16 +3398,6 @@
         "stop" : 1554685742733,
         "duration" : 1
       }
-    }, {
-      "uid" : "8714cb82661e281d",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/8714cb82661e281d",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685442614,
-        "stop" : 1554685442615,
-        "duration" : 1
-      }
     } ]
   },
   "8d370c73d5e73d47c587c1b1c70cd3c0" : {
@@ -3447,18 +3425,28 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 157,
+      "skipped" : 158,
       "passed" : 25,
       "unknown" : 0,
-      "total" : 182
+      "total" : 183
     },
     "items" : [ {
-      "uid" : "ff84471252e8b4eb",
+      "uid" : "4001cc8b8c4e8e35",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099330,
-        "stop" : 1560153099331,
+        "start" : 1561016781789,
+        "stop" : 1561016781790,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "24ca39f3beab8fe9",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/24ca39f3beab8fe9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044432,
+        "stop" : 1558420044433,
         "duration" : 1
       }
     }, {
@@ -3491,16 +3479,6 @@
         "stop" : 1554685742729,
         "duration" : 0
       }
-    }, {
-      "uid" : "748f7da500f1b8fa",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/748f7da500f1b8fa",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685442610,
-        "stop" : 1554685442611,
-        "duration" : 1
-      }
     } ]
   },
   "eb47507b3ccf783384680da271e08c25" : {
@@ -3529,17 +3507,26 @@
       "failed" : 26,
       "broken" : 11,
       "skipped" : 168,
-      "passed" : 315,
+      "passed" : 316,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "79e0010b82117696",
+      "uid" : "1158e1a47f4bb636",
       "status" : "passed",
       "time" : {
-        "start" : 1560153090015,
-        "stop" : 1560153090700,
-        "duration" : 685
+        "start" : 1561016776184,
+        "stop" : 1561016776602,
+        "duration" : 418
+      }
+    }, {
+      "uid" : "159e9983b471c0d9",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/159e9983b471c0d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420035039,
+        "stop" : 1558420035708,
+        "duration" : 669
       }
     }, {
       "uid" : "dc7fcfbd36b19919",
@@ -3571,16 +3558,6 @@
         "stop" : 1554685740546,
         "duration" : 1
       }
-    }, {
-      "uid" : "c93e31281d25364a",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/c93e31281d25364a",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440542,
-        "stop" : 1554685440543,
-        "duration" : 1
-      }
     } ]
   },
   "43a088c9c93f094f044c598b9341866f" : {
@@ -3608,17 +3585,26 @@
       "failed" : 13,
       "broken" : 0,
       "skipped" : 170,
-      "passed" : 325,
+      "passed" : 326,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "4d7616ff2c52803d",
+      "uid" : "ad6b37fe0f007d6e",
       "status" : "passed",
       "time" : {
-        "start" : 1560153097055,
-        "stop" : 1560153097727,
-        "duration" : 672
+        "start" : 1561016780275,
+        "stop" : 1561016780699,
+        "duration" : 424
+      }
+    }, {
+      "uid" : "39f7c6df565b7d83",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/39f7c6df565b7d83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420042042,
+        "stop" : 1558420042735,
+        "duration" : 693
       }
     }, {
       "uid" : "4885b04683146ceb",
@@ -3650,16 +3636,6 @@
         "stop" : 1554685740558,
         "duration" : 0
       }
-    }, {
-      "uid" : "1fd011f03ab0cb65",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/1fd011f03ab0cb65",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440555,
-        "stop" : 1554685440555,
-        "duration" : 0
-      }
     } ]
   },
   "d66b3eefa6f0870751b4329bc4fc3081" : {
@@ -3667,17 +3643,26 @@
       "failed" : 26,
       "broken" : 11,
       "skipped" : 168,
-      "passed" : 315,
+      "passed" : 316,
       "unknown" : 0,
-      "total" : 520
+      "total" : 521
     },
     "items" : [ {
-      "uid" : "30ef8704fd3778e5",
+      "uid" : "63b90c05298a30eb",
       "status" : "passed",
       "time" : {
-        "start" : 1560153090701,
-        "stop" : 1560153091320,
-        "duration" : 619
+        "start" : 1561016776603,
+        "stop" : 1561016776952,
+        "duration" : 349
+      }
+    }, {
+      "uid" : "94a221b2606f1fef",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/94a221b2606f1fef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420035710,
+        "stop" : 1558420036319,
+        "duration" : 609
       }
     }, {
       "uid" : "a1c2ee3d5f78dacd",
@@ -3709,35 +3694,35 @@
         "stop" : 1554685740547,
         "duration" : 0
       }
-    }, {
-      "uid" : "beed7dd03efab5ba",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/beed7dd03efab5ba",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440543,
-        "stop" : 1554685440544,
-        "duration" : 1
-      }
     } ]
   },
   "bd1f60fdf6a2207f25466845b300106f" : {
     "statistic" : {
       "failed" : 3,
       "broken" : 0,
-      "skipped" : 45,
+      "skipped" : 46,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 51
+      "total" : 52
     },
     "items" : [ {
-      "uid" : "3665b5f3742bc77f",
+      "uid" : "6e51448d5f5302ab",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099316,
-        "stop" : 1560153099318,
-        "duration" : 2
+        "start" : 1561016781780,
+        "stop" : 1561016781780,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a5c2ccb52762cb46",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/a5c2ccb52762cb46",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044423,
+        "stop" : 1558420044423,
+        "duration" : 0
       }
     }, {
       "uid" : "b00558f901413eb",
@@ -3767,16 +3752,6 @@
       "time" : {
         "start" : 1554685740582,
         "stop" : 1554685740583,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "2a1ae952b214b729",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/2a1ae952b214b729",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440580,
-        "stop" : 1554685440581,
         "duration" : 1
       }
     } ]
@@ -3846,18 +3821,28 @@
     "statistic" : {
       "failed" : 3,
       "broken" : 0,
-      "skipped" : 45,
+      "skipped" : 46,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 51
+      "total" : 52
     },
     "items" : [ {
-      "uid" : "33552cffdff5b481",
+      "uid" : "4a545afaad0b1578",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099314,
-        "stop" : 1560153099315,
+        "start" : 1561016781778,
+        "stop" : 1561016781779,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f038278781f50730",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/f038278781f50730",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044421,
+        "stop" : 1558420044422,
         "duration" : 1
       }
     }, {
@@ -3890,34 +3875,34 @@
         "stop" : 1554685740582,
         "duration" : 1
       }
-    }, {
-      "uid" : "62bc505657acee41",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/62bc505657acee41",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440579,
-        "stop" : 1554685440580,
-        "duration" : 1
-      }
     } ]
   },
   "1a8f3b526161f0889ddcd6e70fb5a14e" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 157,
+      "skipped" : 158,
       "passed" : 25,
       "unknown" : 0,
-      "total" : 182
+      "total" : 183
     },
     "items" : [ {
-      "uid" : "f196febaa1395b5f",
+      "uid" : "4c56c4c762f2d17",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099342,
-        "stop" : 1560153099343,
+        "start" : 1561016781797,
+        "stop" : 1561016781797,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2977797d092c4566",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/2977797d092c4566",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044439,
+        "stop" : 1558420044440,
         "duration" : 1
       }
     }, {
@@ -3950,16 +3935,6 @@
         "stop" : 1554685742737,
         "duration" : 1
       }
-    }, {
-      "uid" : "d2f966ab7e5896ab",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/d2f966ab7e5896ab",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685442618,
-        "stop" : 1554685442618,
-        "duration" : 0
-      }
     } ]
   },
   "3440038ed8dfda1381b46f06d693c691" : {
@@ -3967,17 +3942,26 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 170,
-      "passed" : 338,
+      "passed" : 339,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "a2d9e6d2a7e91469",
+      "uid" : "5a0853bb9e7d6c9e",
       "status" : "passed",
       "time" : {
-        "start" : 1560153095784,
-        "stop" : 1560153096374,
-        "duration" : 590
+        "start" : 1561016779521,
+        "stop" : 1561016779864,
+        "duration" : 343
+      }
+    }, {
+      "uid" : "dfb62880ec4f2a0",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/dfb62880ec4f2a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420040745,
+        "stop" : 1558420041347,
+        "duration" : 602
       }
     }, {
       "uid" : "aa76f8aa92e41daf",
@@ -4009,16 +3993,6 @@
         "stop" : 1554685740556,
         "duration" : 1
       }
-    }, {
-      "uid" : "ca5ccc892ea35537",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/ca5ccc892ea35537",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440552,
-        "stop" : 1554685440553,
-        "duration" : 1
-      }
     } ]
   },
   "4b656d5eee4b35128db228248368693c" : {
@@ -4044,20 +4018,48 @@
   },
   "f256e2b0f4df223fbf3cbec0490e606b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 11,
       "skipped" : 170,
-      "passed" : 338,
+      "passed" : 340,
       "unknown" : 0,
-      "total" : 520
+      "total" : 523
     },
     "items" : [ {
-      "uid" : "7edc6a59c66fc50c",
+      "uid" : "981d0b6975e22fe3",
       "status" : "passed",
       "time" : {
-        "start" : 1560153080822,
-        "stop" : 1560153081376,
-        "duration" : 554
+        "start" : 1561016771228,
+        "stop" : 1561016771525,
+        "duration" : 297
+      }
+    }, {
+      "uid" : "98f96a6c6d938fd8",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/536/allure/#testresult/98f96a6c6d938fd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560995573973,
+        "stop" : 1560995575956,
+        "duration" : 1983
+      }
+    }, {
+      "uid" : "b01e4e1e15639de1",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/535/allure/#testresult/b01e4e1e15639de1",
+      "status" : "failed",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1560994060610,
+        "stop" : 1560994060716,
+        "duration" : 106
+      }
+    }, {
+      "uid" : "6f7e53e40580c9c5",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/6f7e53e40580c9c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420025790,
+        "stop" : 1558420026355,
+        "duration" : 565
       }
     }, {
       "uid" : "5e31728259d3ac4f",
@@ -4069,55 +4071,35 @@
         "stop" : 1554686340547,
         "duration" : 1
       }
-    }, {
-      "uid" : "6d0d45a1ffbcead2",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/532/allure/#testresult/6d0d45a1ffbcead2",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554686040574,
-        "stop" : 1554686040575,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "5c1c79029c4b10f9",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/531/allure/#testresult/5c1c79029c4b10f9",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685740527,
-        "stop" : 1554685740528,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "283e95aa1c3dcad1",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/283e95aa1c3dcad1",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440524,
-        "stop" : 1554685440525,
-        "duration" : 1
-      }
     } ]
   },
   "4b66d4782fefc522dcd53b968cfa7f87" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 157,
+      "skipped" : 158,
       "passed" : 25,
       "unknown" : 0,
-      "total" : 182
+      "total" : 183
     },
     "items" : [ {
-      "uid" : "ddc56f1517311b3c",
+      "uid" : "6281fcb5d7071c6c",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099339,
-        "stop" : 1560153099340,
+        "start" : 1561016781794,
+        "stop" : 1561016781795,
         "duration" : 1
+      }
+    }, {
+      "uid" : "e452de466ce3fc06",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/e452de466ce3fc06",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044437,
+        "stop" : 1558420044437,
+        "duration" : 0
       }
     }, {
       "uid" : "1bb4242d9481fb41",
@@ -4149,34 +4131,34 @@
         "stop" : 1554685742735,
         "duration" : 1
       }
-    }, {
-      "uid" : "c4190d24c519634b",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/c4190d24c519634b",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685442616,
-        "stop" : 1554685442616,
-        "duration" : 0
-      }
     } ]
   },
   "86acf52e8f2751b86cc1068434c45d6c" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 506,
+      "skipped" : 507,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "7caa1f0bd3c8af70",
+      "uid" : "81af1568a5b755be",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099281,
-        "stop" : 1560153099282,
+        "start" : 1561016781757,
+        "stop" : 1561016781758,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ffe815fccd14a040",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/ffe815fccd14a040",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044398,
+        "stop" : 1558420044399,
         "duration" : 1
       }
     }, {
@@ -4208,16 +4190,6 @@
         "start" : 1554685740563,
         "stop" : 1554685740564,
         "duration" : 1
-      }
-    }, {
-      "uid" : "752a56b8637f5700",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/752a56b8637f5700",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440561,
-        "stop" : 1554685440561,
-        "duration" : 0
       }
     } ]
   },
@@ -4327,18 +4299,28 @@
     "statistic" : {
       "failed" : 2,
       "broken" : 0,
-      "skipped" : 88,
+      "skipped" : 89,
       "passed" : 10,
       "unknown" : 0,
-      "total" : 100
+      "total" : 101
     },
     "items" : [ {
-      "uid" : "2d1fa951d1361208",
+      "uid" : "fde40a9606d5d7c3",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099305,
-        "stop" : 1560153099306,
+        "start" : 1561016781772,
+        "stop" : 1561016781773,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4eda716f69e66ec2",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/4eda716f69e66ec2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044415,
+        "stop" : 1558420044416,
         "duration" : 1
       }
     }, {
@@ -4371,35 +4353,35 @@
         "stop" : 1554685740576,
         "duration" : 0
       }
-    }, {
-      "uid" : "608b79686ef76695",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/608b79686ef76695",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440573,
-        "stop" : 1554685440574,
-        "duration" : 1
-      }
     } ]
   },
   "cedad465903bbb65f3fe72d66e2cf702" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 506,
+      "skipped" : 507,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 508
+      "total" : 509
     },
     "items" : [ {
-      "uid" : "59076d6e79e5eaeb",
+      "uid" : "a22ff4c80daa7503",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099285,
-        "stop" : 1560153099286,
+        "start" : 1561016781760,
+        "stop" : 1561016781761,
         "duration" : 1
+      }
+    }, {
+      "uid" : "61995e188471892e",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/61995e188471892e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044402,
+        "stop" : 1558420044402,
+        "duration" : 0
       }
     }, {
       "uid" : "9ca04119fdabebc9",
@@ -4430,16 +4412,6 @@
         "start" : 1554685740566,
         "stop" : 1554685740566,
         "duration" : 0
-      }
-    }, {
-      "uid" : "e0c5ed7a60842352",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/e0c5ed7a60842352",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440563,
-        "stop" : 1554685440564,
-        "duration" : 1
       }
     } ]
   },
@@ -4529,19 +4501,29 @@
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
-      "skipped" : 45,
+      "skipped" : 46,
       "passed" : 11,
       "unknown" : 0,
-      "total" : 57
+      "total" : 58
     },
     "items" : [ {
-      "uid" : "a374f4413c710511",
+      "uid" : "5f0e36f3f73140dc",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099311,
-        "stop" : 1560153099312,
-        "duration" : 1
+        "start" : 1561016781776,
+        "stop" : 1561016781776,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7b776fa9aafdab8c",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/7b776fa9aafdab8c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044419,
+        "stop" : 1558420044419,
+        "duration" : 0
       }
     }, {
       "uid" : "b7e2da0a372cf244",
@@ -4573,35 +4555,35 @@
         "stop" : 1554685740580,
         "duration" : 1
       }
-    }, {
-      "uid" : "d6fe9505df4071a2",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/d6fe9505df4071a2",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440577,
-        "stop" : 1554685440578,
-        "duration" : 1
-      }
     } ]
   },
   "828e7772694f4209f59d2e410664c49e" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 157,
+      "skipped" : 158,
       "passed" : 25,
       "unknown" : 0,
-      "total" : 182
+      "total" : 183
     },
     "items" : [ {
-      "uid" : "cd8a98fa1429098e",
+      "uid" : "5c31de52de8e0816",
       "status" : "skipped",
       "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
       "time" : {
-        "start" : 1560153099340,
-        "stop" : 1560153099341,
-        "duration" : 1
+        "start" : 1561016781796,
+        "stop" : 1561016781796,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "31dac6413259ecf8",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/31dac6413259ecf8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Dept'), ('feature', 'Admin...",
+      "time" : {
+        "start" : 1558420044438,
+        "stop" : 1558420044438,
+        "duration" : 0
       }
     }, {
       "uid" : "be33d1b58e19a6bd",
@@ -4633,34 +4615,52 @@
         "stop" : 1554685742736,
         "duration" : 1
       }
-    }, {
-      "uid" : "a906d0378a0cc6ba",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/a906d0378a0cc6ba",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685442617,
-        "stop" : 1554685442617,
-        "duration" : 0
-      }
     } ]
   },
   "92e4484bbf02e49f7e1b07055629b391" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 11,
       "skipped" : 171,
-      "passed" : 337,
+      "passed" : 339,
       "unknown" : 0,
-      "total" : 520
+      "total" : 523
     },
     "items" : [ {
-      "uid" : "7ae50829247d0ef6",
+      "uid" : "f32cad9e99ddceaa",
       "status" : "passed",
       "time" : {
-        "start" : 1560153081378,
-        "stop" : 1560153081932,
-        "duration" : 554
+        "start" : 1561016771527,
+        "stop" : 1561016771817,
+        "duration" : 290
+      }
+    }, {
+      "uid" : "9fd1789e1e508e08",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/536/allure/#testresult/9fd1789e1e508e08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560995575958,
+        "stop" : 1560995576696,
+        "duration" : 738
+      }
+    }, {
+      "uid" : "5ed9aa9038192490",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/535/allure/#testresult/5ed9aa9038192490",
+      "status" : "failed",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1560994060719,
+        "stop" : 1560994060759,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "fc46b3b721d54362",
+      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure/#testresult/fc46b3b721d54362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558420026361,
+        "stop" : 1558420026921,
+        "duration" : 560
       }
     }, {
       "uid" : "16f9edbdc67e7c40",
@@ -4671,36 +4671,6 @@
         "start" : 1554686340548,
         "stop" : 1554686340549,
         "duration" : 1
-      }
-    }, {
-      "uid" : "d818599dc1284165",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/532/allure/#testresult/d818599dc1284165",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554686040576,
-        "stop" : 1554686040577,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "92b7e0ee1f841793",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/531/allure/#testresult/92b7e0ee1f841793",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685740529,
-        "stop" : 1554685740530,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "46fd90c4d71ceff2",
-      "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/530/allure/#testresult/46fd90c4d71ceff2",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Not suitable with selected labels: ('feature', 'Admin_Member_Level1').",
-      "time" : {
-        "start" : 1554685440526,
-        "stop" : 1554685440526,
-        "duration" : 0
       }
     } ]
   }

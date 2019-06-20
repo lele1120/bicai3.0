@@ -1,6 +1,27 @@
 [ {
   "data" : {
-    "duration" : 18521
+    "duration" : 10569
+  }
+}, {
+  "buildOrder" : 536,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/536/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 6883
+  }
+}, {
+  "buildOrder" : 535,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/535/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 196
+  }
+}, {
+  "buildOrder" : 534,
+  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/534/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 18650
   }
 }, {
   "buildOrder" : 533,
@@ -113,26 +134,5 @@
   "reportName" : "AllureReport",
   "data" : {
     "duration" : 700
-  }
-}, {
-  "buildOrder" : 517,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/517/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 705
-  }
-}, {
-  "buildOrder" : 516,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/516/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 738
-  }
-}, {
-  "buildOrder" : 515,
-  "reportUrl" : "http://autotest.bicai365.com/job/BICAI_API_MANAGER3_AUTOTEST/515/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 719
   }
 } ]
